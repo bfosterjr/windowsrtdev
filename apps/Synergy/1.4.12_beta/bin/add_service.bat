@@ -1,0 +1,1 @@
+sc create Synergy binpath=c:\synergy\synergyd.exe type=own start=demand

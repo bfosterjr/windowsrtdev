@@ -1,0 +1,8 @@
+These binaries were distributed freely by Microsoft in its Hardware Certification Kit and still contain the original Perl5 licensing agreement.
+
+Perl and its core modules are distributable (and re-distributable) under several a variety of open source licensing options.
+I've chosen to publish the Perl binaries here under GPLv1 - specifically section 3c. 
+I have received no information regarding the location of the source code. 
+I can only presume this came from the Perl 5.12.4 development repository (http://dev.perl.org/)
+
+If anyone feels I have violated any licensing agreement, I will happily remove the binaries.
