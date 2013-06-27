@@ -1,0 +1,2 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(C:\temp\SDL-1.2.15\VisualC\ARM\Release\SDL.dll) does not match the Linker's OutputFile property value (C:\temp\SDL-1.2.15\VisualC\SDL\Release\SDL.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  SDL.vcxproj -> C:\temp\SDL-1.2.15\VisualC\ARM\Release\SDL.dll

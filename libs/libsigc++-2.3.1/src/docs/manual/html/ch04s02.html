@@ -1,0 +1,12 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>Retyping</title><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"><link rel="home" href="index.html" title="libsigc++"><link rel="up" href="ch04.html" title="Chapter 4. Advanced topics"><link rel="prev" href="ch04.html" title="Chapter 4. Advanced topics"><link rel="next" href="ch05.html" title="Chapter 5. Reference"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">Retyping</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="ch04.html">Prev</a> </td><th width="60%" align="center">Chapter 4. Advanced topics</th><td width="20%" align="right"> <a accesskey="n" href="ch05.html">Next</a></td></tr></table><hr></div><div class="sect1" title="Retyping"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="id2989005"></a>Retyping</h2></div></div></div><p>A similar topic is retyping. Perhaps you have a signal that takes an <code class="literal">int</code>, but
+	you want to connect a function that takes a <code class="literal">double</code>.</p><p>This can be achieved with the <code class="literal">sigc::retype</code> template. <code class="literal">retype</code> has template arguments
+	just like <code class="literal">sigc::signal</code> - return value, signal types.</p><p>It's a function template that takes a <code class="literal">sigc::slot</code>, and returns a <code class="literal">sigc::slot</code>. eg.</p><pre class="programlisting">
+void dostuff(double foo)
+{
+}
+
+sigc::signal&lt;void,int&gt; asignal;
+
+asignal.connect(  sigc::retype&lt;void, int&gt;( slot(&amp;dostuff) )  );
+</pre><p>If you only want to change the return type, you can use <code class="literal">sigc::retype_return</code>.
+	<code class="literal">retype_return</code> needs only one template argument.</p></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="ch04.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="ch04.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="ch05.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">Chapter 4. Advanced topics </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> Chapter 5. Reference</td></tr></table></div></body></html>

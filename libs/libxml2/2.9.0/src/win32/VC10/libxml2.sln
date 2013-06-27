@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libxml2", "libxml2.vcxproj", "{1D6039F6-5078-416F-A3AF-A36EFC7E6A1C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "runsuite", "runsuite.vcxproj", "{D841B4F7-C277-49CB-B379-8B1801C8EE35}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug DLL|ARM = Debug DLL|ARM
+		Debug DLL|Win32 = Debug DLL|Win32
+		Debug|ARM = Debug|ARM
+		Debug|Win32 = Debug|Win32
+		Release DLL|ARM = Release DLL|ARM
+		Release DLL|Win32 = Release DLL|Win32
+		Release|ARM = Release|ARM
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D6039F6-5078-416F-A3AF-A36EFC7E6A1C}.Debug DLL|ARM.ActiveCfg = Debug DLL|ARM
+		{1D6039F6-5078-416F-A3AF-A36EFC7E6A1C}.Debug DLL|ARM.Build.0 = Debug DLL|ARM
+		{1D6039F6-5078-416F-A3AF-A36EFC7E6A1C}.Debug DLL|Win32.ActiveCfg = Debug|Win32
+		{1D6039F6-5078-416F-A3AF-A36EFC7E6A1C}.Debug DLL|Win32.Build.0 = Debug|Win32
+		{1D6039F6-5078-416F-A3AF-A36EFC7E6A1C}.Debug|ARM.ActiveCfg = Debug|ARM
+		{1D6039F6-5078-416F-A3AF-A36EFC7E6A1C}.Debug|ARM.Build.0 = Debug|ARM
+		{1D6039F6-5078-416F-A3AF-A36EFC7E6A1C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1D6039F6-5078-416F-A3AF-A36EFC7E6A1C}.Debug|Win32.Build.0 = Debug|Win32
+		{1D6039F6-5078-416F-A3AF-A36EFC7E6A1C}.Release DLL|ARM.ActiveCfg = Release DLL|ARM
+		{1D6039F6-5078-416F-A3AF-A36EFC7E6A1C}.Release DLL|ARM.Build.0 = Release DLL|ARM
+		{1D6039F6-5078-416F-A3AF-A36EFC7E6A1C}.Release DLL|Win32.ActiveCfg = Release|Win32
+		{1D6039F6-5078-416F-A3AF-A36EFC7E6A1C}.Release DLL|Win32.Build.0 = Release|Win32
+		{1D6039F6-5078-416F-A3AF-A36EFC7E6A1C}.Release|ARM.ActiveCfg = Release|ARM
+		{1D6039F6-5078-416F-A3AF-A36EFC7E6A1C}.Release|ARM.Build.0 = Release|ARM
+		{1D6039F6-5078-416F-A3AF-A36EFC7E6A1C}.Release|Win32.ActiveCfg = Release|Win32
+		{1D6039F6-5078-416F-A3AF-A36EFC7E6A1C}.Release|Win32.Build.0 = Release|Win32
+		{D841B4F7-C277-49CB-B379-8B1801C8EE35}.Debug DLL|ARM.ActiveCfg = Debug|ARM
+		{D841B4F7-C277-49CB-B379-8B1801C8EE35}.Debug DLL|ARM.Build.0 = Debug|ARM
+		{D841B4F7-C277-49CB-B379-8B1801C8EE35}.Debug DLL|Win32.ActiveCfg = Debug|Win32
+		{D841B4F7-C277-49CB-B379-8B1801C8EE35}.Debug DLL|Win32.Build.0 = Debug|Win32
+		{D841B4F7-C277-49CB-B379-8B1801C8EE35}.Debug|ARM.ActiveCfg = Debug|ARM
+		{D841B4F7-C277-49CB-B379-8B1801C8EE35}.Debug|ARM.Build.0 = Debug|ARM
+		{D841B4F7-C277-49CB-B379-8B1801C8EE35}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D841B4F7-C277-49CB-B379-8B1801C8EE35}.Debug|Win32.Build.0 = Debug|Win32
+		{D841B4F7-C277-49CB-B379-8B1801C8EE35}.Release DLL|ARM.ActiveCfg = Release|ARM
+		{D841B4F7-C277-49CB-B379-8B1801C8EE35}.Release DLL|ARM.Build.0 = Release|ARM
+		{D841B4F7-C277-49CB-B379-8B1801C8EE35}.Release DLL|Win32.ActiveCfg = Release|Win32
+		{D841B4F7-C277-49CB-B379-8B1801C8EE35}.Release DLL|Win32.Build.0 = Release|Win32
+		{D841B4F7-C277-49CB-B379-8B1801C8EE35}.Release|ARM.ActiveCfg = Release|ARM
+		{D841B4F7-C277-49CB-B379-8B1801C8EE35}.Release|ARM.Build.0 = Release|ARM
+		{D841B4F7-C277-49CB-B379-8B1801C8EE35}.Release|Win32.ActiveCfg = Release|Win32
+		{D841B4F7-C277-49CB-B379-8B1801C8EE35}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

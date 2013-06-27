@@ -1,0 +1,4 @@
+From a Visual Studio ARM cross tools command prompt..
+
+nmake -f builds\win32\w32-vcc.mak
+

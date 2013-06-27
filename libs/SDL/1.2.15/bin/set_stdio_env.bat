@@ -1,0 +1,1 @@
+set SDL_STDIO_REDIRECT=1

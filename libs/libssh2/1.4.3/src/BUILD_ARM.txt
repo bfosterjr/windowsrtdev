@@ -1,0 +1,3 @@
+Be sure to build OpenSSL first to generate the correct include headers first.
+
+Open up the solution in win32.. should build clean on all configurations

@@ -1,0 +1,37 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>Signals with parameters</title><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"><link rel="home" href="index.html" title="libsigc++"><link rel="up" href="ch02.html" title="Chapter 2. Connecting your code to signals"><link rel="prev" href="ch02s02.html" title="Using a member function"><link rel="next" href="ch02s04.html" title="Disconnecting"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">Signals with parameters</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="ch02s02.html">Prev</a> </td><th width="60%" align="center">Chapter 2. Connecting your code to signals</th><td width="20%" align="right"> <a accesskey="n" href="ch02s04.html">Next</a></td></tr></table><hr></div><div class="sect1" title="Signals with parameters"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="id2982989"></a>Signals with parameters</h2></div></div></div><p>Functions taking no parameters and returning void are quite useful,
+	especially when they're members of classes that can store unlimited amounts of
+	safely typed data, but they're not sufficient for everything.</p><p>What if aliens don't land in the carpark, but somewhere else? Let's modify
+	the example so that the callback function takes a <code class="literal">std::string</code> with the location
+	in which aliens were detected.</p><p>I change my class to:</p><pre class="programlisting">
+class AlienDetector
+{
+public:
+    AlienDetector();
+
+    void run();
+
+    sigc::signal&lt;void, std::string&gt; signal_detected;	// changed
+};
+</pre><p>The only line I had to change was the signal line (in <code class="literal">run()</code> I need to change
+	my code to supply the argument when I emit the signal too, but that's not shown
+	here).</p><p>The name of the type is '<code class="literal">sigc::signal</code>'. The template parameters are the return type, then the argument types.</p><p>The types in the function signature are in the same order as the template
+	parameters, eg:</p><pre class="programlisting">
+sigc::signal&lt;void,         std::string&gt;
+              void function(std::string foo);
+</pre><p>So now you can update your alerter (for simplicity, lets go back to the
+		free-standing function version):</p><pre class="programlisting">
+void warn_people(std::string where)
+{
+    cout &lt;&lt; "There are aliens in " &lt;&lt; where &lt;&lt; "!" &lt;&lt; endl;
+}
+
+int main()
+{
+    AlienDetector mydetector;
+    mydetector.signal_detected.connect( sigc::ptr_fun(warn_people) );
+
+    mydetector.run();
+
+    return 0;
+}
+</pre><p>Easy.</p></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="ch02s02.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="ch02.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="ch02s04.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">Using a member function </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> Disconnecting</td></tr></table></div></body></html>

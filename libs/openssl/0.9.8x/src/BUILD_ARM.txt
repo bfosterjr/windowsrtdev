@@ -1,0 +1,5 @@
+From a VS2012 ARM Cross Tools Command promt run the following:
+
+perl Configure VC-ARM
+.\ms\do_arm.bat
+nmake -f ms\ntdll.mak

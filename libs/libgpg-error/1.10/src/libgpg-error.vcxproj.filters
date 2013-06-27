@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="mkw32errmap.map.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\strsource.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\strerror.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\code-to-errno.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\code-from-errno.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\w32-gettext.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="err-sources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="err-sources-sym.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="err-codes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="err-codes-sym.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="errnos-sym.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="code-to-errno.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gpg-error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="code-from-errno.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+    <CustomBuild Include="CMakeFiles\65aae1751d3c664d0ac1f18e56c28427\gpg-error.def.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\65aae1751d3c664d0ac1f18e56c28427\err-sources.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\65aae1751d3c664d0ac1f18e56c28427\err-sources-sym.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\65aae1751d3c664d0ac1f18e56c28427\err-codes.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\65aae1751d3c664d0ac1f18e56c28427\err-codes-sym.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\65aae1751d3c664d0ac1f18e56c28427\errnos-sym.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\65aae1751d3c664d0ac1f18e56c28427\code-to-errno.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\65aae1751d3c664d0ac1f18e56c28427\gpg-error.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\65aae1751d3c664d0ac1f18e56c28427\code-from-errno.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F02E0229-90FB-41E7-A287-F21465A63BAA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A711DCE9-9595-4BA8-B8E1-849C9453EA04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B1878D88-4FC1-432F-AEF7-F14C3561147A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

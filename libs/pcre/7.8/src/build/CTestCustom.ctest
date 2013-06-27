@@ -1,0 +1,4 @@
+# This is a generated file.
+SET(ENV{srcdir} C:/svn/windowsrtdev/libs/pcre/7.8/src)
+SET(ENV{pcregrep} C:/svn/windowsrtdev/libs/pcre/7.8/src/build/DEBUG/pcregrep.exe)
+SET(ENV{pcretest} C:/svn/windowsrtdev/libs/pcre/7.8/src/build/DEBUG/pcretest.exe)

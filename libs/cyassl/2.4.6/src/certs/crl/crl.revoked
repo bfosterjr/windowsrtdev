@@ -1,0 +1,41 @@
+Certificate Revocation List (CRL):
+        Version 2 (0x1)
+    Signature Algorithm: sha1WithRSAEncryption
+        Issuer: /C=US/ST=Montana/L=Bozeman/O=Sawtooth/OU=Consulting/CN=www.yassl.com/emailAddress=info@yassl.com
+        Last Update: Nov 29 19:30:37 2012 GMT
+        Next Update: Mar 29 19:30:37 2013 GMT
+        CRL extensions:
+            X509v3 CRL Number: 
+                66
+Revoked Certificates:
+    Serial Number: 02
+        Revocation Date: Nov 29 19:30:37 2012 GMT
+    Signature Algorithm: sha1WithRSAEncryption
+         7b:31:66:09:32:85:95:85:95:a7:27:ac:a7:b3:fa:69:0e:0c:
+         ee:19:1f:05:57:10:8d:17:1f:c6:43:c1:d5:16:89:dd:3f:35:
+         4e:45:87:1e:7f:65:e6:c9:eb:0e:81:c6:82:42:46:e9:26:d7:
+         26:a0:b6:fa:9a:4b:ce:fc:1c:7b:a4:e4:57:1c:a1:79:75:71:
+         6a:de:27:60:35:23:6d:65:a2:3f:a3:b4:17:1d:42:c8:fa:4b:
+         df:70:8b:55:34:ef:b3:9e:e2:c4:f2:f7:f0:14:c6:0a:74:29:
+         fa:22:76:f0:a8:67:14:c4:7a:44:3c:80:ac:9c:e0:b7:7b:05:
+         bc:18:94:47:6c:a8:3f:a5:36:09:33:59:92:9b:a4:26:72:0a:
+         34:9c:06:f1:ae:b7:1a:82:c7:59:d4:66:15:32:ab:65:69:55:
+         e8:d3:87:92:2a:46:7b:6e:59:73:5e:16:7c:cc:e8:c2:3d:c9:
+         c3:96:63:2c:c4:4d:7a:52:5d:df:d5:31:fc:52:5b:3e:3a:df:
+         08:43:0d:35:41:32:09:67:41:77:01:8f:76:e2:0f:80:5b:c5:
+         cf:8f:ea:ea:d1:d3:9c:a9:9c:55:27:eb:ba:e1:da:35:d4:0b:
+         0e:bf:e6:f1:f7:37:34:15:51:e4:75:37:ca:a9:71:8f:c6:9c:
+         a2:9d:5a:f8
+-----BEGIN X509 CRL-----
+MIICADCB6QIBATANBgkqhkiG9w0BAQUFADCBkDELMAkGA1UEBhMCVVMxEDAOBgNV
+BAgTB01vbnRhbmExEDAOBgNVBAcTB0JvemVtYW4xETAPBgNVBAoTCFNhd3Rvb3Ro
+MRMwEQYDVQQLEwpDb25zdWx0aW5nMRYwFAYDVQQDEw13d3cueWFzc2wuY29tMR0w
+GwYJKoZIhvcNAQkBFg5pbmZvQHlhc3NsLmNvbRcNMTIxMTI5MTkzMDM3WhcNMTMw
+MzI5MTkzMDM3WjAUMBICAQIXDTEyMTEyOTE5MzAzN1qgDjAMMAoGA1UdFAQDAgFC
+MA0GCSqGSIb3DQEBBQUAA4IBAQB7MWYJMoWVhZWnJ6yns/ppDgzuGR8FVxCNFx/G
+Q8HVFondPzVORYcef2XmyesOgcaCQkbpJtcmoLb6mkvO/Bx7pORXHKF5dXFq3idg
+NSNtZaI/o7QXHULI+kvfcItVNO+znuLE8vfwFMYKdCn6InbwqGcUxHpEPICsnOC3
+ewW8GJRHbKg/pTYJM1mSm6Qmcgo0nAbxrrcagsdZ1GYVMqtlaVXo04eSKkZ7bllz
+XhZ8zOjCPcnDlmMsxE16Ul3f1TH8Uls+Ot8IQw01QTIJZ0F3AY924g+AW8XPj+rq
+0dOcqZxVJ+u64do11AsOv+bx9zc0FVHkdTfKqXGPxpyinVr4
+-----END X509 CRL-----

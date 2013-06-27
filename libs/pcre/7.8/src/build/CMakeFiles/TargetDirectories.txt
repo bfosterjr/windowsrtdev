@@ -1,0 +1,10 @@
+C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/ALL_BUILD.dir
+C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/ZERO_CHECK.dir
+C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/pcre.dir
+C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/pcre_scanner_unittest.dir
+C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/pcre_stringpiece_unittest.dir
+C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/pcrecpp.dir
+C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/pcrecpp_unittest.dir
+C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/pcregrep.dir
+C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/pcreposix.dir
+C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/pcretest.dir

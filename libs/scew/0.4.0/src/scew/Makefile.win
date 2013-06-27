@@ -1,0 +1,67 @@
+# Project: scew
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = scew_private.res
+OBJ  = attribute.o element.o error.o parser.o str.o tree.o writer.o xattribute.o xerror.o xhandler.o xparser.o xprint.o $(RES)
+LINKOBJ  = attribute.o element.o error.o parser.o str.o tree.o writer.o xattribute.o xerror.o xhandler.o xparser.o xprint.o $(RES)
+LIBS =  -L"C:/libs/expat-1.95.8/lib"  
+INCS =  -I"C:/libs/expat-1.95.8/include" 
+CXXINCS =  -I"C:/libs/expat-1.95.8/include" 
+BIN  = libscew.a
+CXXFLAGS = $(CXXINCS)  
+CFLAGS = $(INCS)  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before libscew.a all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(LINKOBJ)
+	ar r $(BIN) $(LINKOBJ)
+	ranlib $(BIN)
+
+attribute.o: attribute.c
+	$(CC) -c attribute.c -o attribute.o $(CFLAGS)
+
+element.o: element.c
+	$(CC) -c element.c -o element.o $(CFLAGS)
+
+error.o: error.c
+	$(CC) -c error.c -o error.o $(CFLAGS)
+
+parser.o: parser.c
+	$(CC) -c parser.c -o parser.o $(CFLAGS)
+
+str.o: str.c
+	$(CC) -c str.c -o str.o $(CFLAGS)
+
+tree.o: tree.c
+	$(CC) -c tree.c -o tree.o $(CFLAGS)
+
+writer.o: writer.c
+	$(CC) -c writer.c -o writer.o $(CFLAGS)
+
+xattribute.o: xattribute.c
+	$(CC) -c xattribute.c -o xattribute.o $(CFLAGS)
+
+xerror.o: xerror.c
+	$(CC) -c xerror.c -o xerror.o $(CFLAGS)
+
+xhandler.o: xhandler.c
+	$(CC) -c xhandler.c -o xhandler.o $(CFLAGS)
+
+xparser.o: xparser.c
+	$(CC) -c xparser.c -o xparser.o $(CFLAGS)
+
+xprint.o: xprint.c
+	$(CC) -c xprint.c -o xprint.o $(CFLAGS)
+
+scew_private.res: scew_private.rc 
+	$(WINDRES) -i scew_private.rc --input-format=rc -o scew_private.res -O coff 

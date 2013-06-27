@@ -1,0 +1,23 @@
+Aaron Reeves 
+<Aaron.Reeves@colostate.edu>
+June 14, 2006
+
+To compile a static version of the SCEW library with GCC under MinGW:
+
+- Expat is required: a Windows version of Expat is available from http://sourceforge.net/projects/expat.
+
+- Rename the file "Makefile.win" (in the "scew" directory) to "Makefile".
+
+- Adjust LIBS and INCS in "Makefile" to reflect the correct locations for Expat on your system.
+
+- Run make.  This will produce the library file "libscew.a".
+
+ - To use SCEW in your application, you simply include the SCEW header file
+like:
+
+  #include <scew/scew.h>
+
+Alternatively, the ./configure script in the root directory could be used to generate the library, examples, and documentation: just remember to set the Expat library and include directories.
+
+A Dev-C++ project file (scew.dev) may also be found in the "scew" directory: please see 
+http://www.bloodshed.net/dev/index.html for more information about the Dev-C++ IDE.

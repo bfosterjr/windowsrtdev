@@ -1,0 +1,24 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>Chapter 1. Introduction</title><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"><link rel="home" href="index.html" title="libsigc++"><link rel="up" href="index.html" title="libsigc++"><link rel="prev" href="index.html" title="libsigc++"><link rel="next" href="ch02.html" title="Chapter 2. Connecting your code to signals"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">Chapter 1. Introduction</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="index.html">Prev</a> </td><th width="60%" align="center"> </th><td width="20%" align="right"> <a accesskey="n" href="ch02.html">Next</a></td></tr></table><hr></div><div class="chapter" title="Chapter 1. Introduction"><div class="titlepage"><div><div><h2 class="title"><a name="sec-introduction"></a>Chapter 1. Introduction</h2></div></div></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt><span class="sect1"><a href="ch01.html#id2992370">Motivation</a></span></dt></dl></div><div class="sect1" title="Motivation"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="id2992370"></a>Motivation</h2></div></div></div><p>There are many situations in which it is desirable to decouple code that
+	detects an event, and the code that deals with it. This is especially common in
+	GUI programming, where a toolkit might provide user interface elements such as
+	clickable buttons but, being a generic toolkit, doesn't know how an individual
+	application using that toolkit should handle the user clicking on it.</p><p>In C the callbacks are generally handled by the application calling a
+	'register' function and passing a pointer to a function and a <code class="literal">void *</code>
+	argument, eg.</p><pre class="programlisting">
+void clicked(void *data);
+
+button * okbutton = create_button("ok");
+static char somedata[] = "This is some data I want the clicked() function to have";
+
+register_click_handler(okbutton, clicked, somedata);
+</pre><p>When clicked, the toolkit will call <code class="literal">clicked()</code> with the data pointer passed
+	to the <code class="literal">register_click_handler</code> function.</p><p>This works in C, but is not typesafe. There is no compile-time way of
+	ensuring that <code class="literal">clicked()</code> isn't expecting a struct of some sort instead of a
+	<code class="literal">char *</code>.</p><p>As C++ programmers, we want type safety. We also want to be able to use
+	things other than free-standing functions as callbacks.</p><p>libsigc++ provides the concept of a slot, which holds a reference to one of
+	the things that can be used as a callback:
+	</p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem">A free-standing function as in the example</li><li class="listitem">A functor objects that defines operator()</li><li class="listitem">A pointer-to-a-member-function and an instance of an object on which to invoke it (the
+	        object should inherit from <code class="literal">sigc::trackable</code>)</li></ul></div><p>All of which can take different numbers and types of arguments.</p><p>To make it easier to construct these, libsigc++ provides the sigc::ptr_fun() and sigc::mem_fun() functions, for creating slots from static functions and member functions, respectively. They return
+	a generic <code class="literal">signal::slot</code> type that can be invoked with <code class="literal">emit()</code> or <code class="literal">operator()</code>.</p><p>For the other side of the fence, libsigc++ provides <code class="literal">signal</code>s, to which the
+	client can attach <code class="literal">slot</code>s. When the <code class="literal">signal</code> is emitted, all the connected
+	<code class="literal">slot</code>s are called.</p></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="index.html">Prev</a> </td><td width="20%" align="center"> </td><td width="40%" align="right"> <a accesskey="n" href="ch02.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">libsigc++ </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> Chapter 2. Connecting your code to signals</td></tr></table></div></body></html>

@@ -1,0 +1,521 @@
+The system is: Windows - 6.2 - x86
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60315.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: CompilerIdC, Configuration: Debug Win32 ------
+Build started 6/26/2013 10:18:45 PM.
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  CMakeCCompilerId.c
+Link:
+  CompilerIdC.vcxproj -> C:\svn\windowsrtdev\libs\pcre\7.8\src\build\CMakeFiles\2.8.10.2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.lastbuildstate".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.54
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/2.8.10.2/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60315.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: CompilerIdCXX, Configuration: Debug Win32 ------
+Build started 6/26/2013 10:18:48 PM.
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  CMakeCXXCompilerId.cpp
+Link:
+  CompilerIdCXX.vcxproj -> C:\svn\windowsrtdev\libs\pcre\7.8\src\build\CMakeFiles\2.8.10.2\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.lastbuildstate".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.34
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/2.8.10.2/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1282600462
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60315.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: cmTryCompileExec1282600462, Configuration: Debug ARM ------
+Build started 6/26/2013 10:18:51 PM.
+PrepareForBuild:
+  Creating directory "C:\svn\windowsrtdev\libs\pcre\7.8\src\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1282600462.dir\Debug\cmTryCompileExec1282600462.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60315.1 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1282600462.dir\Debug\\" /Fd"C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1282600462.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 testCCompiler.c
+  
+  testCCompiler.c
+Link:
+  cmTryCompileExec1282600462.vcxproj -> C:\svn\windowsrtdev\libs\pcre\7.8\src\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1282600462.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1282600462.dir\Debug\cmTryCompileExec1282600462.unsuccessfulbuild".
+  Touching "cmTryCompileExec1282600462.dir\Debug\cmTryCompileExec1282600462.lastbuildstate".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.67
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2196483983
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60315.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: cmTryCompileExec2196483983, Configuration: Debug ARM ------
+Build started 6/26/2013 10:18:54 PM.
+PrepareForBuild:
+  Creating directory "C:\svn\windowsrtdev\libs\pcre\7.8\src\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2196483983.dir\Debug\cmTryCompileExec2196483983.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60315.1 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2196483983.dir\Debug\\" /Fd"C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2196483983.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  cmTryCompileExec2196483983.vcxproj -> C:\svn\windowsrtdev\libs\pcre\7.8\src\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2196483983.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2196483983.dir\Debug\cmTryCompileExec2196483983.unsuccessfulbuild".
+  Touching "cmTryCompileExec2196483983.dir\Debug\cmTryCompileExec2196483983.lastbuildstate".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.39
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec567459827
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60315.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: cmTryCompileExec567459827, Configuration: Debug ARM ------
+Build started 6/26/2013 10:18:57 PM.
+PrepareForBuild:
+  Creating directory "C:\svn\windowsrtdev\libs\pcre\7.8\src\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec567459827.dir\Debug\cmTryCompileExec567459827.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60315.1 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec567459827.dir\Debug\\" /Fd"C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec567459827.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  cmTryCompileExec567459827.vcxproj -> C:\svn\windowsrtdev\libs\pcre\7.8\src\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec567459827.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec567459827.dir\Debug\cmTryCompileExec567459827.unsuccessfulbuild".
+  Touching "cmTryCompileExec567459827.dir\Debug\cmTryCompileExec567459827.lastbuildstate".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.37
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1662739787
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60315.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: cmTryCompileExec1662739787, Configuration: Debug ARM ------
+Build started 6/26/2013 10:19:00 PM.
+PrepareForBuild:
+  Creating directory "C:\svn\windowsrtdev\libs\pcre\7.8\src\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1662739787.dir\Debug\cmTryCompileExec1662739787.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60315.1 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1662739787.dir\Debug\\" /Fd"C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1662739787.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  cmTryCompileExec1662739787.vcxproj -> C:\svn\windowsrtdev\libs\pcre\7.8\src\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1662739787.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1662739787.dir\Debug\cmTryCompileExec1662739787.unsuccessfulbuild".
+  Touching "cmTryCompileExec1662739787.dir\Debug\cmTryCompileExec1662739787.lastbuildstate".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.36
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1050878121
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60315.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: cmTryCompileExec1050878121, Configuration: Debug ARM ------
+Build started 6/26/2013 10:19:06 PM.
+PrepareForBuild:
+  Creating directory "C:\svn\windowsrtdev\libs\pcre\7.8\src\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1050878121.dir\Debug\cmTryCompileExec1050878121.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60315.1 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1050878121.dir\Debug\\" /Fd"C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1050878121.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  cmTryCompileExec1050878121.vcxproj -> C:\svn\windowsrtdev\libs\pcre\7.8\src\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1050878121.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1050878121.dir\Debug\cmTryCompileExec1050878121.unsuccessfulbuild".
+  Touching "cmTryCompileExec1050878121.dir\Debug\cmTryCompileExec1050878121.lastbuildstate".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.33
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec302324638
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60315.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: cmTryCompileExec302324638, Configuration: Debug ARM ------
+Build started 6/26/2013 10:19:09 PM.
+PrepareForBuild:
+  Creating directory "C:\svn\windowsrtdev\libs\pcre\7.8\src\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec302324638.dir\Debug\cmTryCompileExec302324638.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60315.1 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec302324638.dir\Debug\\" /Fd"C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec302324638.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  cmTryCompileExec302324638.vcxproj -> C:\svn\windowsrtdev\libs\pcre\7.8\src\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec302324638.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec302324638.dir\Debug\cmTryCompileExec302324638.unsuccessfulbuild".
+  Touching "cmTryCompileExec302324638.dir\Debug\cmTryCompileExec302324638.lastbuildstate".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.35
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file windows.h exists passed with the following output:
+Change Dir: C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1240507810
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60315.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: cmTryCompileExec1240507810, Configuration: Debug ARM ------
+Build started 6/26/2013 10:19:14 PM.
+PrepareForBuild:
+  Creating directory "C:\svn\windowsrtdev\libs\pcre\7.8\src\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1240507810.dir\Debug\cmTryCompileExec1240507810.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60315.1 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1240507810.dir\Debug\\" /Fd"C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1240507810.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  cmTryCompileExec1240507810.vcxproj -> C:\svn\windowsrtdev\libs\pcre\7.8\src\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1240507810.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1240507810.dir\Debug\cmTryCompileExec1240507810.unsuccessfulbuild".
+  Touching "cmTryCompileExec1240507810.dir\Debug\cmTryCompileExec1240507810.lastbuildstate".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.71
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3040396549
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60315.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: cmTryCompileExec3040396549, Configuration: Debug ARM ------
+Build started 6/26/2013 10:19:26 PM.
+PrepareForBuild:
+  Creating directory "C:\svn\windowsrtdev\libs\pcre\7.8\src\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3040396549.dir\Debug\cmTryCompileExec3040396549.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60315.1 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=memmove /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3040396549.dir\Debug\\" /Fd"C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3040396549.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  cmTryCompileExec3040396549.vcxproj -> C:\svn\windowsrtdev\libs\pcre\7.8\src\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3040396549.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec3040396549.dir\Debug\cmTryCompileExec3040396549.unsuccessfulbuild".
+  Touching "cmTryCompileExec3040396549.dir\Debug\cmTryCompileExec3040396549.lastbuildstate".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.35
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function strerror exists passed with the following output:
+Change Dir: C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2916592086
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60315.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: cmTryCompileExec2916592086, Configuration: Debug ARM ------
+Build started 6/26/2013 10:19:29 PM.
+PrepareForBuild:
+  Creating directory "C:\svn\windowsrtdev\libs\pcre\7.8\src\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2916592086.dir\Debug\cmTryCompileExec2916592086.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60315.1 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strerror /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2916592086.dir\Debug\\" /Fd"C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2916592086.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  cmTryCompileExec2916592086.vcxproj -> C:\svn\windowsrtdev\libs\pcre\7.8\src\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2916592086.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2916592086.dir\Debug\cmTryCompileExec2916592086.unsuccessfulbuild".
+  Touching "cmTryCompileExec2916592086.dir\Debug\cmTryCompileExec2916592086.lastbuildstate".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.34
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function _strtoi64 exists passed with the following output:
+Change Dir: C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2721822519
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60315.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: cmTryCompileExec2721822519, Configuration: Debug ARM ------
+Build started 6/26/2013 10:19:37 PM.
+PrepareForBuild:
+  Creating directory "C:\svn\windowsrtdev\libs\pcre\7.8\src\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2721822519.dir\Debug\cmTryCompileExec2721822519.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60315.1 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_strtoi64 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2721822519.dir\Debug\\" /Fd"C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2721822519.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  cmTryCompileExec2721822519.vcxproj -> C:\svn\windowsrtdev\libs\pcre\7.8\src\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2721822519.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2721822519.dir\Debug\cmTryCompileExec2721822519.unsuccessfulbuild".
+  Touching "cmTryCompileExec2721822519.dir\Debug\cmTryCompileExec2721822519.lastbuildstate".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.34
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1810315819
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60315.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: cmTryCompileExec1810315819, Configuration: Debug ARM ------
+Build started 6/26/2013 10:19:40 PM.
+PrepareForBuild:
+  Creating directory "C:\svn\windowsrtdev\libs\pcre\7.8\src\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1810315819.dir\Debug\cmTryCompileExec1810315819.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60315.1 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1810315819.dir\Debug\\" /Fd"C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1810315819.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  cmTryCompileExec1810315819.vcxproj -> C:\svn\windowsrtdev\libs\pcre\7.8\src\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1810315819.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1810315819.dir\Debug\cmTryCompileExec1810315819.unsuccessfulbuild".
+  Touching "cmTryCompileExec1810315819.dir\Debug\cmTryCompileExec1810315819.lastbuildstate".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.36
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec767113291
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60315.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: cmTryCompileExec767113291, Configuration: Debug ARM ------
+Build started 6/26/2013 10:19:43 PM.
+PrepareForBuild:
+  Creating directory "C:\svn\windowsrtdev\libs\pcre\7.8\src\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec767113291.dir\Debug\cmTryCompileExec767113291.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60315.1 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec767113291.dir\Debug\\" /Fd"C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec767113291.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  cmTryCompileExec767113291.vcxproj -> C:\svn\windowsrtdev\libs\pcre\7.8\src\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec767113291.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec767113291.dir\Debug\cmTryCompileExec767113291.unsuccessfulbuild".
+  Touching "cmTryCompileExec767113291.dir\Debug\cmTryCompileExec767113291.lastbuildstate".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.34
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining size of long long passed with the following output:
+Change Dir: C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3565894412
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60315.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: cmTryCompileExec3565894412, Configuration: Debug ARM ------
+Build started 6/26/2013 10:19:46 PM.
+PrepareForBuild:
+  Creating directory "C:\svn\windowsrtdev\libs\pcre\7.8\src\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3565894412.dir\Debug\cmTryCompileExec3565894412.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60315.1 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3565894412.dir\Debug\\" /Fd"C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3565894412.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 C:\svn\windowsrtdev\libs\pcre\7.8\src\build\CMakeFiles\CheckTypeSize\LONG_LONG.c
+  
+  LONG_LONG.c
+Link:
+  cmTryCompileExec3565894412.vcxproj -> C:\svn\windowsrtdev\libs\pcre\7.8\src\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3565894412.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec3565894412.dir\Debug\cmTryCompileExec3565894412.unsuccessfulbuild".
+  Touching "cmTryCompileExec3565894412.dir\Debug\cmTryCompileExec3565894412.lastbuildstate".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.34
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining size of unsigned long long passed with the following output:
+Change Dir: C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1813180777
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60315.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: cmTryCompileExec1813180777, Configuration: Debug ARM ------
+Build started 6/26/2013 10:19:49 PM.
+PrepareForBuild:
+  Creating directory "C:\svn\windowsrtdev\libs\pcre\7.8\src\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1813180777.dir\Debug\cmTryCompileExec1813180777.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60315.1 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1813180777.dir\Debug\\" /Fd"C:/svn/windowsrtdev/libs/pcre/7.8/src/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1813180777.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 C:\svn\windowsrtdev\libs\pcre\7.8\src\build\CMakeFiles\CheckTypeSize\UNSIGNED_LONG_LONG.c
+  
+  UNSIGNED_LONG_LONG.c
+Link:
+  cmTryCompileExec1813180777.vcxproj -> C:\svn\windowsrtdev\libs\pcre\7.8\src\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1813180777.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1813180777.dir\Debug\cmTryCompileExec1813180777.unsuccessfulbuild".
+  Touching "cmTryCompileExec1813180777.dir\Debug\cmTryCompileExec1813180777.lastbuildstate".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.33
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+

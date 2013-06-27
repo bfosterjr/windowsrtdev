@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "scew", "scew.vcxproj", "{220DDA5D-6751-4CE7-A01B-C654DA243F92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug Unicode|ARM = Debug Unicode|ARM
+		Debug Unicode|Win32 = Debug Unicode|Win32
+		Debug|ARM = Debug|ARM
+		Debug|Win32 = Debug|Win32
+		Release Unicode|ARM = Release Unicode|ARM
+		Release Unicode|Win32 = Release Unicode|Win32
+		Release|ARM = Release|ARM
+		Release|Win32 = Release|Win32
+		XMLStatic Debug Unicode|ARM = XMLStatic Debug Unicode|ARM
+		XMLStatic Debug Unicode|Win32 = XMLStatic Debug Unicode|Win32
+		XMLStatic Debug|ARM = XMLStatic Debug|ARM
+		XMLStatic Debug|Win32 = XMLStatic Debug|Win32
+		XMLStatic Release Unicode|ARM = XMLStatic Release Unicode|ARM
+		XMLStatic Release Unicode|Win32 = XMLStatic Release Unicode|Win32
+		XMLStatic Release|ARM = XMLStatic Release|ARM
+		XMLStatic Release|Win32 = XMLStatic Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.Debug Unicode|ARM.ActiveCfg = Debug Unicode|ARM
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.Debug Unicode|ARM.Build.0 = Debug Unicode|ARM
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.Debug Unicode|Win32.ActiveCfg = Debug Unicode|Win32
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.Debug Unicode|Win32.Build.0 = Debug Unicode|Win32
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.Debug Unicode|Win32.Deploy.0 = Debug Unicode|Win32
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.Debug|ARM.ActiveCfg = Debug|ARM
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.Debug|ARM.Build.0 = Debug|ARM
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.Debug|Win32.ActiveCfg = Debug|Win32
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.Debug|Win32.Build.0 = Debug|Win32
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.Debug|Win32.Deploy.0 = Debug|Win32
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.Release Unicode|ARM.ActiveCfg = Release Unicode|ARM
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.Release Unicode|ARM.Build.0 = Release Unicode|ARM
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.Release Unicode|Win32.ActiveCfg = Release Unicode|Win32
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.Release Unicode|Win32.Build.0 = Release Unicode|Win32
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.Release Unicode|Win32.Deploy.0 = Release Unicode|Win32
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.Release|ARM.ActiveCfg = Release|ARM
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.Release|ARM.Build.0 = Release|ARM
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.Release|Win32.ActiveCfg = Release|Win32
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.Release|Win32.Build.0 = Release|Win32
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.Release|Win32.Deploy.0 = Release|Win32
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.XMLStatic Debug Unicode|ARM.ActiveCfg = XMLStatic Debug Unicode|ARM
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.XMLStatic Debug Unicode|ARM.Build.0 = XMLStatic Debug Unicode|ARM
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.XMLStatic Debug Unicode|Win32.ActiveCfg = XMLStatic Debug Unicode|Win32
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.XMLStatic Debug Unicode|Win32.Build.0 = XMLStatic Debug Unicode|Win32
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.XMLStatic Debug Unicode|Win32.Deploy.0 = XMLStatic Debug Unicode|Win32
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.XMLStatic Debug|ARM.ActiveCfg = XMLStatic Debug|ARM
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.XMLStatic Debug|ARM.Build.0 = XMLStatic Debug|ARM
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.XMLStatic Debug|Win32.ActiveCfg = XMLStatic Debug|Win32
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.XMLStatic Debug|Win32.Build.0 = XMLStatic Debug|Win32
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.XMLStatic Debug|Win32.Deploy.0 = XMLStatic Debug|Win32
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.XMLStatic Release Unicode|ARM.ActiveCfg = XMLStatic Release Unicode|ARM
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.XMLStatic Release Unicode|ARM.Build.0 = XMLStatic Release Unicode|ARM
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.XMLStatic Release Unicode|Win32.ActiveCfg = XMLStatic Release Unicode|Win32
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.XMLStatic Release Unicode|Win32.Build.0 = XMLStatic Release Unicode|Win32
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.XMLStatic Release Unicode|Win32.Deploy.0 = XMLStatic Release Unicode|Win32
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.XMLStatic Release|ARM.ActiveCfg = XMLStatic Release|ARM
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.XMLStatic Release|ARM.Build.0 = XMLStatic Release|ARM
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.XMLStatic Release|Win32.ActiveCfg = XMLStatic Release|Win32
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.XMLStatic Release|Win32.Build.0 = XMLStatic Release|Win32
+		{220DDA5D-6751-4CE7-A01B-C654DA243F92}.XMLStatic Release|Win32.Deploy.0 = XMLStatic Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

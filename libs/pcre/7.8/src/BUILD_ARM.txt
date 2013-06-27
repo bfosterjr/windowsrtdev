@@ -1,0 +1,5 @@
+use cmake to generate the VS2012 solution file with ARM support by running
+
+cmake -G "Visual Studio 11 ARM"
+
+Open up the solution and build all 

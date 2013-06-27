@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/svn/windowsrtdev/libs/pcre/7.8/src/CMakeLists.txt
+  CMake does not need to re-run because C:\svn\windowsrtdev\libs\pcre\7.8\src\build\CMakeFiles\generate.stamp is up-to-date.
+  pcretest.c
+  pcretest.vcxproj -> C:\svn\windowsrtdev\libs\pcre\7.8\src\build\Release\pcretest.exe

@@ -1,0 +1,3 @@
+From VS2012 ARM Cross Tools Command Prompt
+
+nmake -f win32\Makefile.msc

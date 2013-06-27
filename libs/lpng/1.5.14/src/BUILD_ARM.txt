@@ -1,0 +1,3 @@
+Ensure that 'zlib.props' is pointing to the right zlib source directory.
+
+open up 'vstudio.sln' in vs2012... all should building cleaning. 

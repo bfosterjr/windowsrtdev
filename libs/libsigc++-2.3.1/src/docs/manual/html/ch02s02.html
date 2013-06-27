@@ -1,0 +1,26 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>Using a member function</title><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"><link rel="home" href="index.html" title="libsigc++"><link rel="up" href="ch02.html" title="Chapter 2. Connecting your code to signals"><link rel="prev" href="ch02.html" title="Chapter 2. Connecting your code to signals"><link rel="next" href="ch02s03.html" title="Signals with parameters"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">Using a member function</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="ch02.html">Prev</a> </td><th width="60%" align="center">Chapter 2. Connecting your code to signals</th><td width="20%" align="right"> <a accesskey="n" href="ch02s03.html">Next</a></td></tr></table><hr></div><div class="sect1" title="Using a member function"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="id2983719"></a>Using a member function</h2></div></div></div><p>Suppose you found a more sophisticated alien alerter class on the web,
+	such as this:</p><pre class="programlisting">
+class AlienAlerter : public sigc::trackable
+{
+public:
+    AlienAlerter(char const* servername);
+    void alert();
+private:
+    // ...
+};
+</pre><p>(Handily it derives from <code class="literal">sigc::trackable</code> already. This isn't quite so
+	unlikely as you might think; all appropriate bits of the popular gtkmm library do so,
+	for example.)</p><p>You could rewrite your code as follows:</p><pre class="programlisting">
+int main()
+{
+    AlienDetector mydetector;
+    AlienAlerter  myalerter("localhost");	// added
+    mydetector.signal_detected.connect( sigc::mem_fun(myalerter, &amp;AlienAlerter::alert) ); // changed
+
+    mydetector.run();
+
+    return 0;
+}
+</pre><p>Note that only 2 lines are different - one to create an instance of the
+	class, and the line to connect the method to the signal.</p><p>This code is in example2.cc, which can be compiled in the same way as
+	example1.cc</p></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="ch02.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="ch02.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="ch02s03.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">Chapter 2. Connecting your code to signals </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> Signals with parameters</td></tr></table></div></body></html>
