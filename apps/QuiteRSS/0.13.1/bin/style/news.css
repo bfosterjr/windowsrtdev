@@ -1,0 +1,75 @@
+/* News Style */
+/*%1 %2 %3 %4 %5 %6 %7 %8 %9 %10 %11 %12 %13 %14*/
+body {
+  overflow: auto;
+  margin: 0;
+  font-family: %1;
+  font-size: %2pt;
+  background: %7;
+}
+
+td {
+  font-family: %1;
+  font-size: %2pt;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: %9;
+  text-decoration: none;
+}
+
+.title {
+  color: %10;
+  font-family: %3;
+  font-size: %4pt;
+  text-align: %13;
+  direction: %14;
+  vertical-align: top;
+}
+.title a.unread {
+  color: %10;
+  font-weight: bold;
+}
+
+.date {
+  color: %11;
+  text-align: right;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.author {
+  color: %12;
+  text-align: %13;
+  direction: %14;
+  vertical-align: top;
+}
+
+a.enclosure {
+  color: %12;
+}
+.enclosureImg {
+  max-width: 100%;
+}
+
+.titleTable {
+  background: %8;
+  border-top: 0px solid %6;
+  border-bottom: 0px solid %6;
+  text-align: left;
+  width: 100%;
+  padding: 5px;
+}
+
+.newsTable {
+  border-top: 1px solid %6;
+  text-align: %13;
+  direction: %14;
+  width: 100%;
+  padding: 5px;
+}
