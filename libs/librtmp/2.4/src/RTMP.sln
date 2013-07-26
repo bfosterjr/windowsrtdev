@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rtmpdump", "rtmpdump\rtmpdump.vcxproj", "{1E5DA016-4103-4963-9844-2C733B75DF90}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "librtmp", "librtmp\librtmp.vcxproj", "{EC5FE4C9-53BC-4267-826D-4667207E9E24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Release|ARM = Release|ARM
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E5DA016-4103-4963-9844-2C733B75DF90}.Debug|ARM.ActiveCfg = Debug|ARM
+		{1E5DA016-4103-4963-9844-2C733B75DF90}.Debug|ARM.Build.0 = Debug|ARM
+		{1E5DA016-4103-4963-9844-2C733B75DF90}.Release|ARM.ActiveCfg = Release|ARM
+		{1E5DA016-4103-4963-9844-2C733B75DF90}.Release|ARM.Build.0 = Release|ARM
+		{EC5FE4C9-53BC-4267-826D-4667207E9E24}.Debug|ARM.ActiveCfg = Debug|ARM
+		{EC5FE4C9-53BC-4267-826D-4667207E9E24}.Debug|ARM.Build.0 = Debug|ARM
+		{EC5FE4C9-53BC-4267-826D-4667207E9E24}.Release|ARM.ActiveCfg = Release|ARM
+		{EC5FE4C9-53BC-4267-826D-4667207E9E24}.Release|ARM.Build.0 = Release|ARM
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
