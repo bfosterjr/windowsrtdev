@@ -1,0 +1,1 @@
+﻿C:\temp\apr-util-1.5.2\build\preaprutil.vcxproj(134,5): warning MSB4011: "C:\Users\blair\AppData\Local\Microsoft\MSBuild\v4.0\Microsoft.Cpp.ARM.user.props" cannot be imported again. It was already imported at "C:\temp\apr-util-1.5.2\build\preaprutil.vcxproj (119,5)". This is most likely a build authoring error. This subsequent import will be ignored. 

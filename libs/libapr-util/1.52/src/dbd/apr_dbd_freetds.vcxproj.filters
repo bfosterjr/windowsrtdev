@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{fc17c862-1f5d-4a4c-a3ab-4d1be9d6e0b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public Header Files">
+      <UniqueIdentifier>{bf2c896c-446b-4036-9a82-6525170385c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Header Files">
+      <UniqueIdentifier>{8b24ebdb-e2e7-43e1-85eb-7bb59882c6d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="apr_dbd_freetds.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\apr_dbd.h">
+      <Filter>Public Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\private\apu_config.h">
+      <Filter>Internal Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\private\apu_dbd_internal.h">
+      <Filter>Internal Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\private\apu_internal.h">
+      <Filter>Internal Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\libaprutil.rc" />
+  </ItemGroup>
+</Project>

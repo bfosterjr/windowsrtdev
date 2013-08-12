@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{b0b95c97-9a98-4ffe-ac4f-38388b0ade6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public Header Files">
+      <UniqueIdentifier>{f1e16ad9-7563-49be-90b4-64c5167c9f93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Header Files">
+      <UniqueIdentifier>{f5a3c44e-5d61-4437-8ef3-96595c03baac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="apr_dbd_sqlite3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\apr_dbd.h">
+      <Filter>Public Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\private\apu_config.h">
+      <Filter>Internal Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\private\apu_dbd_internal.h">
+      <Filter>Internal Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\private\apu_internal.h">
+      <Filter>Internal Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\libaprutil.rc" />
+  </ItemGroup>
+</Project>

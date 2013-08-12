@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libsqlite3", "libsqlite3.vcxproj", "{D7CA8688-2F13-4B56-A085-060A579EB6F1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sqlite3", "sqlite3.vcxproj", "{C37CC806-0054-4A98-8260-CA8F31787DBC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D7CA8688-2F13-4B56-A085-060A579EB6F1} = {D7CA8688-2F13-4B56-A085-060A579EB6F1}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		MinSizeRel|ARM = MinSizeRel|ARM
+		Release|ARM = Release|ARM
+		RelWithDebInfo|ARM = RelWithDebInfo|ARM
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7CA8688-2F13-4B56-A085-060A579EB6F1}.Debug|ARM.ActiveCfg = Debug|ARM
+		{D7CA8688-2F13-4B56-A085-060A579EB6F1}.Debug|ARM.Build.0 = Debug|ARM
+		{D7CA8688-2F13-4B56-A085-060A579EB6F1}.MinSizeRel|ARM.ActiveCfg = MinSizeRel|ARM
+		{D7CA8688-2F13-4B56-A085-060A579EB6F1}.MinSizeRel|ARM.Build.0 = MinSizeRel|ARM
+		{D7CA8688-2F13-4B56-A085-060A579EB6F1}.Release|ARM.ActiveCfg = Release|ARM
+		{D7CA8688-2F13-4B56-A085-060A579EB6F1}.Release|ARM.Build.0 = Release|ARM
+		{D7CA8688-2F13-4B56-A085-060A579EB6F1}.RelWithDebInfo|ARM.ActiveCfg = RelWithDebInfo|ARM
+		{D7CA8688-2F13-4B56-A085-060A579EB6F1}.RelWithDebInfo|ARM.Build.0 = RelWithDebInfo|ARM
+		{C37CC806-0054-4A98-8260-CA8F31787DBC}.Debug|ARM.ActiveCfg = Debug|ARM
+		{C37CC806-0054-4A98-8260-CA8F31787DBC}.Debug|ARM.Build.0 = Debug|ARM
+		{C37CC806-0054-4A98-8260-CA8F31787DBC}.MinSizeRel|ARM.ActiveCfg = MinSizeRel|ARM
+		{C37CC806-0054-4A98-8260-CA8F31787DBC}.MinSizeRel|ARM.Build.0 = MinSizeRel|ARM
+		{C37CC806-0054-4A98-8260-CA8F31787DBC}.Release|ARM.ActiveCfg = Release|ARM
+		{C37CC806-0054-4A98-8260-CA8F31787DBC}.Release|ARM.Build.0 = Release|ARM
+		{C37CC806-0054-4A98-8260-CA8F31787DBC}.RelWithDebInfo|ARM.ActiveCfg = RelWithDebInfo|ARM
+		{C37CC806-0054-4A98-8260-CA8F31787DBC}.RelWithDebInfo|ARM.Build.0 = RelWithDebInfo|ARM
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

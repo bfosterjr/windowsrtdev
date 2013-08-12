@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0B72B5D6-5D72-4391-84A7-9CCA5392668A}</ProjectGuid>
+    <RootNamespace>Plainamp</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>Debug\</OutDir>
+    <IntDir>Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\Binary\</OutDir>
+    <IntDir>Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>fftw3.lib;libzlib1.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)Plainamp.exe</OutputFile>
+      <AdditionalLibraryDirectories>..\..\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)Plainamp.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>fftw3.lib;libzlib1.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)Plainamp.exe</OutputFile>
+      <AdditionalLibraryDirectories>..\..\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)Plainamp.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat />
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>fftw3.lib;libzlib1.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)Plainamp.exe</OutputFile>
+      <AdditionalLibraryDirectories>..\..\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <ClCompile>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>C:\temp\fftw-3.3.3\fftw-3.3-libs\ARM\Release\libfftw-3.3.lib;C:\git\windowsrtdev\libs\zlib\1.27\bin\zdll.lib;comctl32.lib;ole32.lib;gdi32.lib;shell32.lib;advapi32.lib;comdlg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)Plainamp.exe</OutputFile>
+      <AdditionalLibraryDirectories>..\..\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\AddDirectory.cpp" />
+    <ClCompile Include="..\..\Source\AddFiles.cpp" />
+    <ClCompile Include="..\..\Source\Config.cpp" />
+    <ClCompile Include="..\..\Source\Console.cpp" />
+    <ClCompile Include="..\..\Source\DspModule.cpp" />
+    <ClCompile Include="..\..\Source\DspPlugin.cpp" />
+    <ClCompile Include="..\..\Source\Emabox\Emabox.cpp" />
+    <ClCompile Include="..\..\Source\Embed.cpp" />
+    <ClCompile Include="..\..\Source\Font.cpp" />
+    <ClCompile Include="..\..\Source\GenPlugin.cpp" />
+    <ClCompile Include="..\..\Source\Input.cpp" />
+    <ClCompile Include="..\..\Source\InputPlugin.cpp" />
+    <ClCompile Include="..\..\Source\Lock.cpp" />
+    <ClCompile Include="..\..\Source\Main.cpp" />
+    <ClCompile Include="..\..\Source\Output.cpp" />
+    <ClCompile Include="..\..\Source\OutputPlugin.cpp" />
+    <ClCompile Include="..\..\Source\Path.cpp" />
+    <ClCompile Include="..\..\Source\Playback.cpp" />
+    <ClCompile Include="..\..\Source\PlaybackEq.cpp" />
+    <ClCompile Include="..\..\Source\PlaybackOrder.cpp" />
+    <ClCompile Include="..\..\Source\Playlist.cpp" />
+    <ClCompile Include="..\..\Source\PlaylistControler.cpp" />
+    <ClCompile Include="..\..\Source\PlaylistView.cpp" />
+    <ClCompile Include="..\..\Source\Plugin.cpp" />
+    <ClCompile Include="..\..\Source\PluginManager.cpp" />
+    <ClCompile Include="..\..\Source\Prefs.cpp" />
+    <ClCompile Include="..\..\Source\Rebar.cpp" />
+    <ClCompile Include="..\..\Source\Status.cpp" />
+    <ClCompile Include="..\..\Source\Unicode.cpp" />
+    <ClCompile Include="..\..\Source\Util.cpp" />
+    <ClCompile Include="..\..\Source\VisCache.cpp" />
+    <ClCompile Include="..\..\Source\VisModule.cpp" />
+    <ClCompile Include="..\..\Source\VisPlugin.cpp" />
+    <ClCompile Include="..\..\Source\Winamp.cpp" />
+    <ClCompile Include="..\..\Source\Winmain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\AddDirectory.h" />
+    <ClInclude Include="..\..\Source\AddFiles.h" />
+    <ClInclude Include="..\..\Source\Config.h" />
+    <ClInclude Include="..\..\Source\Console.h" />
+    <ClInclude Include="..\..\Source\DspModule.h" />
+    <ClInclude Include="..\..\Source\DspPlugin.h" />
+    <ClInclude Include="..\..\Source\Emabox\Emabox.h" />
+    <ClInclude Include="..\..\Source\Emabox\EmaboxConfig.h" />
+    <ClInclude Include="..\..\Source\Embed.h" />
+    <ClInclude Include="..\..\Source\Font.h" />
+    <ClInclude Include="..\..\Source\GenPlugin.h" />
+    <ClInclude Include="..\..\Source\Global.h" />
+    <ClInclude Include="..\..\Source\GlobalVersion.h" />
+    <ClInclude Include="..\..\Source\Input.h" />
+    <ClInclude Include="..\..\Source\InputPlugin.h" />
+    <ClInclude Include="..\..\Source\Lock.h" />
+    <ClInclude Include="..\..\Source\Main.h" />
+    <ClInclude Include="..\..\Source\Output.h" />
+    <ClInclude Include="..\..\Source\OutputPlugin.h" />
+    <ClInclude Include="..\..\Source\Path.h" />
+    <ClInclude Include="..\..\Source\Playback.h" />
+    <ClInclude Include="..\..\Source\Playlist.h" />
+    <ClInclude Include="..\..\Source\PlaylistControler.h" />
+    <ClInclude Include="..\..\Source\PlaylistModel.h" />
+    <ClInclude Include="..\..\Source\PlaylistView.h" />
+    <ClInclude Include="..\..\Source\Plugin.h" />
+    <ClInclude Include="..\..\Source\PluginManager.h" />
+    <ClInclude Include="..\..\Source\Prefs.h" />
+    <ClInclude Include="..\..\Source\Rebar.h" />
+    <ClInclude Include="..\..\Source\Status.h" />
+    <ClInclude Include="..\..\Source\Unicode.h" />
+    <ClInclude Include="..\..\Source\Util.h" />
+    <ClInclude Include="..\..\Source\VisCache.h" />
+    <ClInclude Include="..\..\Source\VisModule.h" />
+    <ClInclude Include="..\..\Source\VisPlugin.h" />
+    <ClInclude Include="..\..\Source\Winamp.h" />
+    <ClInclude Include="..\..\Source\fftw3\fftw3.h" />
+    <ClInclude Include="..\..\Source\Winamp\Dsp.h" />
+    <ClInclude Include="..\..\Source\Winamp\Gen.h" />
+    <ClInclude Include="..\..\Source\Winamp\In2.h" />
+    <ClInclude Include="..\..\Source\Winamp\Out.h" />
+    <ClInclude Include="..\..\Source\Winamp\Vis.h" />
+    <ClInclude Include="..\..\Source\Winamp\wa_ipc.h" />
+    <ClInclude Include="..\..\Source\Winamp\wa_msgids.h" />
+    <ClInclude Include="..\..\Source\zlib\zconf.h" />
+    <ClInclude Include="..\..\Source\zlib\zlib.h" />
+    <ClInclude Include="..\..\Source\resrc1.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\Source\Buttons.bmp" />
+    <Image Include="..\..\Source\Plainamp.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\Source\resrc1.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

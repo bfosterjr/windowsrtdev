@@ -1,0 +1,141 @@
+
+   Plainamp changelog
+   http://sourceforge.net/projects/plainamp/
+
+--------------------------------------------------------------------------------
+   0.2.3                                                           2006-04-11
+--------------------------------------------------------------------------------
+
+   [+] Now bundled with Bauer stereophonic-to-binaural DSP
+   [+] Select zero hotkey added (Ctrl+Shift+A)
+
+   [*] Fixed: Proper seekbar reset on stop
+   [*] Fixed: Output plugin handling related bugs
+   [*] Fixed: Plainbar on-off-on bug
+
+--------------------------------------------------------------------------------
+   0.2.2                                                           2006-03-20
+--------------------------------------------------------------------------------
+
+   [+] Invert selection added
+   [+] Missing "Preferences" entry added to main menu
+   [+] Windows XP manifest added
+
+   [*] Fixed: DSP stacker bug
+   [*] Better focus handling
+
+--------------------------------------------------------------------------------
+   0.2.1                                                           2006-03-07
+--------------------------------------------------------------------------------
+
+   [+] Now bundled with MAD MP3 Decoder and GPL waveOut Plugin
+   [+] Button toolbar added
+   [+] Vis toolbar added (used by vis_plainbar.dll)
+   [+] Remembers which output plugins were active
+   [+] Remembers position in playlist
+   [+] Playlist entry numbers
+   [+] Current track highlighting
+   [+] Minimize to tray introduced (see Plainamp.ini)
+   [+] Alternating row background color
+   [+] Plugin Manager grid made optional (see Plainamp.ini)
+   [+] Pan slider invert option introduced (see Plainamp.ini)
+   [+] Seekbar keypress forwarding
+   [+] Better handling of playback with no active output plugin
+   [+] Missing plugins warning can now be turned off
+
+   [*] Fixed: Playlist related bugs
+
+--------------------------------------------------------------------------------
+   0.1.9                                                           2005-12-23
+--------------------------------------------------------------------------------
+
+   [+] Equalizer introduced
+   [+] Playlist follow made optional (see Plainamp.ini)
+
+   [*] Toolbar context menu sorted
+   [*] Fixed: Volume up/down did not work
+   [*] Fixed: Crash on header right-click in Plugin Manager
+   [*] Installer: Orange theme applied
+
+--------------------------------------------------------------------------------
+   0.1.8                                                           2005-11-12
+--------------------------------------------------------------------------------
+
+   [*] Console and plugin manager also come to front on window activation
+   [*] Fixed: Division by zero when playing missing files
+
+--------------------------------------------------------------------------------
+   0.1.7                                                           2005-10-31
+--------------------------------------------------------------------------------
+
+   [+] Playlist entries now can be dragged (hold <Alt>, use mouse)
+
+--------------------------------------------------------------------------------
+   0.1.6                                                           2005-10-30
+--------------------------------------------------------------------------------
+
+   [+] Keyboard playlist selection enhanced (hold <Ctrl>)
+   [+] Playlist entries now can be moved (hold <Alt>, press <Up>/<Down>)
+
+--------------------------------------------------------------------------------
+   0.1.5                                                           2005-10-28
+--------------------------------------------------------------------------------
+
+   [+] Basic vis support for PCM-only input plugins added
+
+   [*] Console and plugin manager are hidden/shown on minimize/restore
+
+--------------------------------------------------------------------------------
+   0.1.4                                                           2005-10-19
+--------------------------------------------------------------------------------
+
+   [+] Hotkey 'L' added
+   [+] Statusbar reset added
+   [+] Installer now creates "Plugins" directory
+
+   [*] Minor tweaks
+
+--------------------------------------------------------------------------------
+   0.1.3                                                           2005-10-16
+--------------------------------------------------------------------------------
+
+   [+] Output stacking
+   [+] General purpose plugin support
+   [+] Vis data synchronization
+   [+] Embed window service
+   [+] Plugins can be manually loaded/unloaded
+   [+] Plugin status indicator works now
+   [+] Vis plugin specific framerate support
+   [+] Basic config handling introduced
+   [+] M3U playlist loading/saving
+   [+] Main and rebar context menu added
+   [+] Plugins missing alert added
+   [+] Playlist cropping ability
+
+   [*] Output, vis and DSP plugins are unloaded after analysis to save memory
+   [*] One instance maximum per DSP module
+
+--------------------------------------------------------------------------------
+   0.1.2                                                           2005-09-11
+--------------------------------------------------------------------------------
+
+   [+] <Add files> dialog added
+   [+] Multi-vis support
+   [+] DSP plugin support plus chaining
+   [+] Basic Winamp IPC API
+   [+] Timestamps in console
+   [+] Icon by RITZ (Thanx!)
+
+   [*] Fixed: Proper plugin shutdown
+   [*] When adding a directory files are now sorted before adding
+   [*] Console and plugin manager changed to tool windows
+   [*] New window menu logic
+
+--------------------------------------------------------------------------------
+   0.1.1                                                           2005-08-17
+--------------------------------------------------------------------------------
+
+
+   Legend:
+   [+] Feature added
+   [*] Logic changed or bug removed

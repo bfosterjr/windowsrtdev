@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{cc8f7be4-180a-4722-a05b-762e5e392f68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public Header Files">
+      <UniqueIdentifier>{85839199-0cd7-4354-b532-a3cb22891ea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Header Files">
+      <UniqueIdentifier>{77c31b9d-5d16-4407-98ec-5de7da59c4bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="apr_crypto_openssl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\apr_crypto.h">
+      <Filter>Public Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\private\apu_config.h">
+      <Filter>Internal Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\private\apu_internal.h">
+      <Filter>Internal Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\libaprutil.rc" />
+  </ItemGroup>
+</Project>

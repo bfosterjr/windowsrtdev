@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="3" />
+	<Project>
+		<Option title="vis_plainbar" />
+		<Option pch_mode="0" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="default">
+				<Option output="..\..\Binary\Plugins\vis_plainbar.dll" />
+				<Option working_dir="..\..\Binary" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option includeInTargetAll="1" />
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-march=pentium-mmx" />
+			<Add option="-O3" />
+			<Add option="-DBUILD_DLL" />
+		</Compiler>
+		<Linker>
+			<Add option="-s" />
+			<Add library="libgdi32.a" />
+		</Linker>
+		<Unit filename="..\..\Source\Winamp\Vis.h">
+			<Option compilerVar="CPP" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="default" />
+		</Unit>
+		<Unit filename="..\..\Source\vis_plainbar\vis_plainbar.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="default" />
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

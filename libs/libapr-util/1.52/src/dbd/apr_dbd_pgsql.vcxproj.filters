@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7e9ffee7-eddf-4312-9bd1-fcc46fb2a31e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public Header Files">
+      <UniqueIdentifier>{aa205789-9840-4617-9291-21c1537f1166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Header Files">
+      <UniqueIdentifier>{598fe278-771b-489c-900a-f0967ce7a73d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="apr_dbd_pgsql.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\apr_dbd.h">
+      <Filter>Public Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\private\apu_config.h">
+      <Filter>Internal Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\private\apu_dbd_internal.h">
+      <Filter>Internal Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\private\apu_internal.h">
+      <Filter>Internal Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\libaprutil.rc" />
+  </ItemGroup>
+</Project>

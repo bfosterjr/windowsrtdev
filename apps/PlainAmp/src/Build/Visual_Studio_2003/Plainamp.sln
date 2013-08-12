@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Plainamp", "Plainamp.vcxproj", "{0B72B5D6-5D72-4391-84A7-9CCA5392668A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|Win32 = Debug|Win32
+		Release|ARM = Release|ARM
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B72B5D6-5D72-4391-84A7-9CCA5392668A}.Debug|ARM.ActiveCfg = Debug|ARM
+		{0B72B5D6-5D72-4391-84A7-9CCA5392668A}.Debug|ARM.Build.0 = Debug|ARM
+		{0B72B5D6-5D72-4391-84A7-9CCA5392668A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0B72B5D6-5D72-4391-84A7-9CCA5392668A}.Debug|Win32.Build.0 = Debug|Win32
+		{0B72B5D6-5D72-4391-84A7-9CCA5392668A}.Release|ARM.ActiveCfg = Release|ARM
+		{0B72B5D6-5D72-4391-84A7-9CCA5392668A}.Release|ARM.Build.0 = Release|ARM
+		{0B72B5D6-5D72-4391-84A7-9CCA5392668A}.Release|Win32.ActiveCfg = Release|Win32
+		{0B72B5D6-5D72-4391-84A7-9CCA5392668A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

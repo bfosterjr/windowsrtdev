@@ -1,0 +1,973 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|ARM">
+      <Configuration>Template</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|x64">
+      <Configuration>Template</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <ProjectGuid>{178D0BED-1500-4F0C-B99F-13090376923D}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|ARM'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Template|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>.\x64\Debug\</OutDir>
+    <IntDir>.\x64\Debug\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>.\x64\Release\</OutDir>
+    <IntDir>.\x64\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>./include;../apr/include;./include/private;../apr-iconv/include;./dbm/sdbm;./xml/expat/lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;APU_DECLARE_EXPORT;APU_USE_SDBM;XML_STATIC;WIN32;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\x64\Debug\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\x64\Debug\libaprutil.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)libaprutil_src</ProgramDataBaseFileName>
+      <AdditionalOptions> /EHsc </AdditionalOptions>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>if exist $(TargetPath).manifest mt.exe -manifest $(TargetPath).manifest -outputresource:$(TargetPath)%3b2</Command>
+      <Message>Embed .manifest</Message>
+    </PostBuildEvent>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\x64\Debug\libaprutil.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>./include;../apr/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;APU_VERSION_ONLY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\x64\Debug\libaprutil.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <LinkDLL>true</LinkDLL>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OutputFile>x64\Debug\libaprutil-1.dll</OutputFile>
+      <ImportLibrary>x64\Debug\libaprutil-1.lib</ImportLibrary>
+      <BaseAddress>0x6EE60000</BaseAddress>
+      <AdditionalDependencies>ws2_32.lib;mswsock.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions> /MACHINE:X64</AdditionalOptions>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <OmitFramePointers>false</OmitFramePointers>
+      <AdditionalIncludeDirectories>./include;../apr/include;./include/private;../apr-iconv/include;./dbm/sdbm;./xml/expat/lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;APU_DECLARE_EXPORT;APU_USE_SDBM;XML_STATIC;WIN32;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Release\libaprutil.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)libaprutil_src</ProgramDataBaseFileName>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>if exist $(TargetPath).manifest mt.exe -manifest $(TargetPath).manifest -outputresource:$(TargetPath)%3b2</Command>
+      <Message>Embed .manifest</Message>
+    </PostBuildEvent>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Release\libaprutil.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>./include;../apr/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;APU_VERSION_ONLY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\libaprutil.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <LinkDLL>true</LinkDLL>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OutputFile>Release\libaprutil-1.dll</OutputFile>
+      <ImportLibrary>Release\libaprutil-1.lib</ImportLibrary>
+      <BaseAddress>0x6EE60000</BaseAddress>
+      <AdditionalDependencies>ws2_32.lib;mswsock.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions> /MACHINE:X86</AdditionalOptions>
+      <OptimizeReferences>true</OptimizeReferences>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <OmitFramePointers>false</OmitFramePointers>
+      <AdditionalIncludeDirectories>./include;../apr/include;./include/private;../apr-iconv/include;./dbm/sdbm;./xml/expat/lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;APU_DECLARE_EXPORT;APU_USE_SDBM;XML_STATIC;WIN32;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Release\libaprutil.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)libaprutil_src</ProgramDataBaseFileName>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>if exist $(TargetPath).manifest mt.exe -manifest $(TargetPath).manifest -outputresource:$(TargetPath)%3b2</Command>
+      <Message>Embed .manifest</Message>
+    </PostBuildEvent>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Release\libaprutil.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>./include;../apr/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;APU_VERSION_ONLY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\libaprutil.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <LinkDLL>true</LinkDLL>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OutputFile>Release\libaprutil-1.dll</OutputFile>
+      <ImportLibrary>Release\libaprutil-1.lib</ImportLibrary>
+      <BaseAddress>0x6EE60000</BaseAddress>
+      <AdditionalDependencies>ws2_32.lib;mswsock.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>
+      </AdditionalOptions>
+      <OptimizeReferences>true</OptimizeReferences>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <OmitFramePointers>false</OmitFramePointers>
+      <AdditionalIncludeDirectories>./include;../apr/include;./include/private;../apr-iconv/include;./dbm/sdbm;./xml/expat/lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;APU_DECLARE_EXPORT;APU_USE_SDBM;XML_STATIC;WIN32;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\x64\Release\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\x64\Release\libaprutil.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)libaprutil_src</ProgramDataBaseFileName>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>if exist $(TargetPath).manifest mt.exe -manifest $(TargetPath).manifest -outputresource:$(TargetPath)%3b2</Command>
+      <Message>Embed .manifest</Message>
+    </PostBuildEvent>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\x64\Release\libaprutil.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>./include;../apr/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;APU_VERSION_ONLY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\x64\Release\libaprutil.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <LinkDLL>true</LinkDLL>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OutputFile>x64\Release\libaprutil-1.dll</OutputFile>
+      <ImportLibrary>x64\Release\libaprutil-1.lib</ImportLibrary>
+      <BaseAddress>0x6EE60000</BaseAddress>
+      <AdditionalDependencies>ws2_32.lib;mswsock.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions> /MACHINE:X64</AdditionalOptions>
+      <OptimizeReferences>true</OptimizeReferences>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>./include;../apr/include;./include/private;../apr-iconv/include;./dbm/sdbm;./xml/expat/lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;APU_DECLARE_EXPORT;APU_USE_SDBM;XML_STATIC;WIN32;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Debug\libaprutil.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)libaprutil_src</ProgramDataBaseFileName>
+      <AdditionalOptions> /EHsc </AdditionalOptions>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>if exist $(TargetPath).manifest mt.exe -manifest $(TargetPath).manifest -outputresource:$(TargetPath)%3b2</Command>
+      <Message>Embed .manifest</Message>
+    </PostBuildEvent>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Debug\libaprutil.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>./include;../apr/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;APU_VERSION_ONLY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\libaprutil.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <LinkDLL>true</LinkDLL>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OutputFile>Debug\libaprutil-1.dll</OutputFile>
+      <ImportLibrary>Debug\libaprutil-1.lib</ImportLibrary>
+      <BaseAddress>0x6EE60000</BaseAddress>
+      <AdditionalDependencies>ws2_32.lib;mswsock.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions> /MACHINE:X86</AdditionalOptions>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>./include;../apr/include;./include/private;../apr-iconv/include;./dbm/sdbm;./xml/expat/lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;APU_DECLARE_EXPORT;APU_USE_SDBM;XML_STATIC;WIN32;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Debug\libaprutil.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)libaprutil_src</ProgramDataBaseFileName>
+      <AdditionalOptions> /EHsc </AdditionalOptions>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>if exist $(TargetPath).manifest mt.exe -manifest $(TargetPath).manifest -outputresource:$(TargetPath)%3b2</Command>
+      <Message>Embed .manifest</Message>
+    </PostBuildEvent>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Debug\libaprutil.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>./include;../apr/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;APU_VERSION_ONLY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\libaprutil.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <LinkDLL>true</LinkDLL>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OutputFile>Debug\libaprutil-1.dll</OutputFile>
+      <ImportLibrary>Debug\libaprutil-1.lib</ImportLibrary>
+      <BaseAddress>0x6EE60000</BaseAddress>
+      <AdditionalDependencies>ws2_32.lib;mswsock.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions> /MACHINE:X86</AdditionalOptions>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="buckets\apr_brigade.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="buckets\apr_buckets.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="buckets\apr_buckets_alloc.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="buckets\apr_buckets_eos.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="buckets\apr_buckets_file.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="buckets\apr_buckets_flush.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="buckets\apr_buckets_heap.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="buckets\apr_buckets_mmap.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="buckets\apr_buckets_pipe.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="buckets\apr_buckets_pool.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="buckets\apr_buckets_refcount.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="buckets\apr_buckets_simple.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="buckets\apr_buckets_socket.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="crypto\apr_crypto.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="crypto\apr_md4.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="crypto\apr_md5.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="crypto\apr_passwd.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="crypto\apr_sha1.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="crypto\crypt_blowfish.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="crypto\getuuid.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="crypto\uuid.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="dbd\apr_dbd.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="dbd\apr_dbd_freetds.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="dbd\apr_dbd_mysql.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="dbd\apr_dbd_odbc.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="dbd\apr_dbd_oracle.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="dbd\apr_dbd_pgsql.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="dbd\apr_dbd_sqlite2.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="dbd\apr_dbd_sqlite3.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="dbm\apr_dbm.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="dbm\apr_dbm_berkeleydb.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="dbm\apr_dbm_gdbm.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="dbm\apr_dbm_sdbm.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="encoding\apr_base64.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="hooks\apr_hooks.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="ldap\apr_ldap_init.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="ldap\apr_ldap_option.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="ldap\apr_ldap_rebind.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="ldap\apr_ldap_stub.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="ldap\apr_ldap_url.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="memcache\apr_memcache.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="misc\apr_date.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="misc\apu_dso.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="misc\apr_queue.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="misc\apr_reslist.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="misc\apr_rmm.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="misc\apr_thread_pool.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="misc\apu_version.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="dbm\sdbm\sdbm.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="dbm\sdbm\sdbm_hash.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="dbm\sdbm\sdbm_lock.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="dbm\sdbm\sdbm_pair.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="strmatch\apr_strmatch.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="uri\apr_uri.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="xlate\xlate.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="xml\apr_xml.c">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /EHsc   /EHsc </AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"> /EHsc   /EHsc </AdditionalOptions>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="crypto\crypt_blowfish.h" />
+    <ClInclude Include="dbm\sdbm\sdbm_pair.h" />
+    <ClInclude Include="dbm\sdbm\sdbm_private.h" />
+    <ClInclude Include="dbm\sdbm\sdbm_tune.h" />
+    <ClInclude Include="include\apr_anylock.h" />
+    <ClInclude Include="include\apr_base64.h" />
+    <ClInclude Include="include\apr_buckets.h" />
+    <ClInclude Include="include\apr_date.h" />
+    <ClInclude Include="include\apr_dbm.h" />
+    <ClInclude Include="include\apr_hooks.h" />
+    <ClInclude Include="include\apr_ldap_url.h" />
+    <ClInclude Include="include\apr_md4.h" />
+    <ClInclude Include="include\apr_md5.h" />
+    <ClInclude Include="include\apr_memcache.h" />
+    <ClInclude Include="include\apr_optional.h" />
+    <ClInclude Include="include\apr_optional_hooks.h" />
+    <ClInclude Include="include\apr_queue.h" />
+    <ClInclude Include="include\apr_reslist.h" />
+    <ClInclude Include="include\apr_rmm.h" />
+    <ClInclude Include="include\apr_sdbm.h" />
+    <ClInclude Include="include\apr_sha1.h" />
+    <ClInclude Include="include\apr_strmatch.h" />
+    <ClInclude Include="include\apr_thread_pool.h" />
+    <ClInclude Include="include\apr_uri.h" />
+    <ClInclude Include="include\apr_uuid.h" />
+    <ClInclude Include="include\apr_xlate.h" />
+    <ClInclude Include="include\apr_xml.h" />
+    <ClInclude Include="include\apu_version.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="include\apr_ldap.h.in" />
+    <CustomBuild Include="include\apr_ldap.hnw" />
+    <CustomBuild Include="include\apr_ldap.hw">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">type .\include\apr_ldap.hw &gt; .\include\apr_ldap.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating apr_ldap.h from apr_ldap.hw</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\include\apr_ldap.h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">type .\include\apr_ldap.hw &gt; .\include\apr_ldap.h</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">type .\include\apr_ldap.hw &gt; .\include\apr_ldap.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Creating apr_ldap.h from apr_ldap.hw</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">Creating apr_ldap.h from apr_ldap.hw</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\include\apr_ldap.h;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">.\include\apr_ldap.h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">type .\include\apr_ldap.hw &gt; .\include\apr_ldap.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Creating apr_ldap.h from apr_ldap.hw</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\include\apr_ldap.h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">type .\include\apr_ldap.hw &gt; .\include\apr_ldap.h</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">type .\include\apr_ldap.hw &gt; .\include\apr_ldap.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Creating apr_ldap.h from apr_ldap.hw</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">Creating apr_ldap.h from apr_ldap.hw</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\include\apr_ldap.h;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">.\include\apr_ldap.h;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="include\apu.h.in" />
+    <CustomBuild Include="include\apu.hnw" />
+    <CustomBuild Include="include\apu.hw">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">type .\include\apu.hw &gt; .\include\apu.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating apu.h from apu.hw</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\include\apu.h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">type .\include\apu.hw &gt; .\include\apu.h</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">type .\include\apu.hw &gt; .\include\apu.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Creating apu.h from apu.hw</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">Creating apu.h from apu.hw</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\include\apu.h;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">.\include\apu.h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">type .\include\apu.hw &gt; .\include\apu.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Creating apu.h from apu.hw</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\include\apu.h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">type .\include\apu.hw &gt; .\include\apu.h</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">type .\include\apu.hw &gt; .\include\apu.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Creating apu.h from apu.hw</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">Creating apu.h from apu.hw</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\include\apu.h;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">.\include\apu.h;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="include\private\apu_config.h.in" />
+    <CustomBuild Include="include\private\apu_config.hw">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">type .\include\private\apu_config.hw &gt; .\include\private\apu_config.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating apu_config.h from apu_config.hw</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\include\private\apu_config.h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">type .\include\private\apu_config.hw &gt; .\include\private\apu_config.h</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">type .\include\private\apu_config.hw &gt; .\include\private\apu_config.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Creating apu_config.h from apu_config.hw</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">Creating apu_config.h from apu_config.hw</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\include\private\apu_config.h;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">.\include\private\apu_config.h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">type .\include\private\apu_config.hw &gt; .\include\private\apu_config.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Creating apu_config.h from apu_config.hw</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\include\private\apu_config.h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">type .\include\private\apu_config.hw &gt; .\include\private\apu_config.h</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">type .\include\private\apu_config.hw &gt; .\include\private\apu_config.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Creating apu_config.h from apu_config.hw</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">Creating apu_config.h from apu_config.hw</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\include\private\apu_config.h;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">.\include\private\apu_config.h;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="include\private\apu_select_dbm.h.in" />
+    <CustomBuild Include="include\private\apu_select_dbm.hw">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">type .\include\private\apu_select_dbm.hw &gt; .\include\private\apu_select_dbm.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating apu_select_dbm.h from apu_select_dbm.hw</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\include\private\apu_select_dbm.h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">type .\include\private\apu_select_dbm.hw &gt; .\include\private\apu_select_dbm.h</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">type .\include\private\apu_select_dbm.hw &gt; .\include\private\apu_select_dbm.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Creating apu_select_dbm.h from apu_select_dbm.hw</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">Creating apu_select_dbm.h from apu_select_dbm.hw</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\include\private\apu_select_dbm.h;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">.\include\private\apu_select_dbm.h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">type .\include\private\apu_select_dbm.hw &gt; .\include\private\apu_select_dbm.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Creating apu_select_dbm.h from apu_select_dbm.hw</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\include\private\apu_select_dbm.h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">type .\include\private\apu_select_dbm.hw &gt; .\include\private\apu_select_dbm.h</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">type .\include\private\apu_select_dbm.hw &gt; .\include\private\apu_select_dbm.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Creating apu_select_dbm.h from apu_select_dbm.hw</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">Creating apu_select_dbm.h from apu_select_dbm.hw</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\include\private\apu_select_dbm.h;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">.\include\private\apu_select_dbm.h;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="include\apu_want.h.in" />
+    <CustomBuild Include="include\apu_want.hnw" />
+    <CustomBuild Include="include\apu_want.hw">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">type .\include\apu_want.hw &gt; .\include\apu_want.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating apu_want.h from apu_want.hw</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\include\apu_want.h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">type .\include\apu_want.hw &gt; .\include\apu_want.h</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">type .\include\apu_want.hw &gt; .\include\apu_want.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Creating apu_want.h from apu_want.hw</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">Creating apu_want.h from apu_want.hw</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\include\apu_want.h;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">.\include\apu_want.h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">type .\include\apu_want.hw &gt; .\include\apu_want.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Creating apu_want.h from apu_want.hw</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\include\apu_want.h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">type .\include\apu_want.hw &gt; .\include\apu_want.h</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">type .\include\apu_want.hw &gt; .\include\apu_want.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Creating apu_want.h from apu_want.hw</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">Creating apu_want.h from apu_want.hw</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\include\apu_want.h;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">.\include\apu_want.h;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="libaprutil.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\apr-iconv\libapriconv.vcxproj">
+      <Project>{b6a8b0e2-372b-4808-abd4-a8760ba6c27e}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\apr\libapr.vcxproj">
+      <Project>{9cfd4327-546a-485d-9f5e-c4a447492ee4}</Project>
+    </ProjectReference>
+    <ProjectReference Include="xml\expat\lib\xml.vcxproj">
+      <Project>{fb0df645-8ea6-4d89-bbd7-db89d620e692}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
