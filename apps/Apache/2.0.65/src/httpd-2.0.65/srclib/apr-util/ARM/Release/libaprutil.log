@@ -1,0 +1,46 @@
+﻿  Generating uri_delims.h
+  apr_brigade.c
+  apr_buckets.c
+  apr_buckets_alloc.c
+  apr_buckets_eos.c
+  apr_buckets_file.c
+  apr_buckets_flush.c
+  apr_buckets_heap.c
+  apr_buckets_mmap.c
+  apr_buckets_pipe.c
+  apr_buckets_pool.c
+  apr_buckets_refcount.c
+  apr_buckets_simple.c
+  apr_buckets_socket.c
+  apr_md4.c
+  apr_md5.c
+  apr_sha1.c
+  getuuid.c
+  uuid.c
+  apr_dbm.c
+  apr_dbm_berkeleydb.c
+  Generating Code...
+  Compiling...
+  apr_dbm_gdbm.c
+  apr_dbm_sdbm.c
+  apr_base64.c
+  apr_hooks.c
+  apr_ldap_compat.c
+  apr_ldap_url.c
+  apr_date.c
+  apr_queue.c
+  apr_reslist.c
+  apr_rmm.c
+  apu_version.c
+  sdbm.c
+  sdbm_hash.c
+  sdbm_lock.c
+  sdbm_pair.c
+  apr_strmatch.c
+  apr_uri.c
+  xlate.c
+  apr_xml.c
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(C:\temp\httpd-2.0.65\ARM\Release\libaprutil.dll) does not match the Linker's OutputFile property value (C:\temp\httpd-2.0.65\srclib\apr-util\Release\libaprutil.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library .\Release\libaprutil.lib and object .\Release\libaprutil.exp
+  libaprutil.vcxproj -> C:\temp\httpd-2.0.65\ARM\Release\libaprutil.dll

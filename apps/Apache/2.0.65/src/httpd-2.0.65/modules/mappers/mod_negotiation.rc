@@ -1,0 +1,33 @@
+1 VERSIONINFO
+ FILEVERSION 2,0,65,200
+ PRODUCTVERSION 2,0,65,200
+ FILEFLAGSMASK 0x3fL
+#if defined(_DEBUG)
+ FILEFLAGS 0x01L
+#else
+ FILEFLAGS 0x00L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904b0"
+    BEGIN
+      VALUE "Comments", "Licensed under the Apache License, Version 2.0 (the ""License""); you may not use this file except in compliance with the License.  You may obtain a copy of the License at\r\n\r\nhttp://www.apache.org/licenses/LICENSE-2.0\r\n\r\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an ""AS IS"" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the License for the specific language governing permissions and limitations under the License.\0"
+      VALUE "CompanyName", "Apache Software Foundation\0"
+      VALUE "FileDescription", "negotiation_module for Apache\0"
+      VALUE "FileVersion", "2.0.65\0"
+      VALUE "InternalName", "mod_negotiation.so\0"
+      VALUE "LegalCopyright", "Copyright \0"
+      VALUE "OriginalFilename", "mod_negotiation.so\0"
+      VALUE "ProductName", "Apache HTTP Server\0"
+      VALUE "ProductVersion", "2.0.65\0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x409, 1200
+  END
+END

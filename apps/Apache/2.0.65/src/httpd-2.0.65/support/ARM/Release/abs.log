@@ -1,0 +1,3 @@
+﻿  Creating Version Resource
+  ab.c
+ab.c(150): fatal error C1083: Cannot open include file: 'openssl/rsa.h': No such file or directory

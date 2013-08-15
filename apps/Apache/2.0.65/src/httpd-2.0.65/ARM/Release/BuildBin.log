@@ -1,0 +1,14 @@
+﻿  
+  Microsoft (R) Program Maintenance Utility Version 11.00.60315.1
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  -----
+  mod_ssl and ab/ssl will not build unless openssl is installed
+  in srclib\openssl. They must be precompiled using the
+  ms/ntdll.mak file, see srclib\openssl\INSTALL.W32. The most
+  recent version confirmed to build with mod_ssl and ab is 0.9.8d.
+  Available from http://www.openssl.org/
+  -----
+  mod_deflate will not build unless zlib is installed in srclib\zlib.
+  Version 1.2.1 and later available from http://www.gzip.org/zlib/
+  built w/ nmake -f win32/Makefile.msc will satisfy this requirement.

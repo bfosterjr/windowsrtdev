@@ -1,0 +1,6 @@
+﻿  Creating Version Resource
+  mod_bucketeer.c
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(C:\temp\httpd-2.0.65\ARM\Release\mod_bucketeer.dll) does not match the Linker's OutputFile property value (C:\temp\httpd-2.0.65\modules\test\Release\mod_bucketeer.so). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1138,5): warning MSB8012: TargetExt(.dll) does not match the Linker's OutputFile property value (.so). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library .\Release\mod_bucketeer.lib and object .\Release\mod_bucketeer.exp
+  mod_bucketeer.vcxproj -> C:\temp\httpd-2.0.65\ARM\Release\mod_bucketeer.dll

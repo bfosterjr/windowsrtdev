@@ -1,0 +1,190 @@
+﻿  
+  Microsoft (R) Program Maintenance Utility Version 11.00.60315.1
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  	echo Y >.y
+  	echo A >.A
+  	mkdir "\Apache2"
+EXEC : cygwin warning : 
+    MS-DOS style path detected: \Apache2
+    Preferred POSIX equivalent is: /cygdrive/c/Apache2
+    CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+    Consult the user's guide for more details about POSIX paths:
+      http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+  	mkdir "\Apache2\bin"
+EXEC : cygwin warning : 
+    MS-DOS style path detected: \Apache2\bin
+    Preferred POSIX equivalent is: /cygdrive/c/Apache2/bin
+    CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+    Consult the user's guide for more details about POSIX paths:
+      http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+  	mkdir "\Apache2\bin\iconv"
+EXEC : cygwin warning : 
+    MS-DOS style path detected: \Apache2\bin\iconv
+    Preferred POSIX equivalent is: /cygdrive/c/Apache2/bin/iconv
+    CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+    Consult the user's guide for more details about POSIX paths:
+      http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+  	mkdir "\Apache2\cgi-bin"
+EXEC : cygwin warning : 
+    MS-DOS style path detected: \Apache2\cgi-bin
+    Preferred POSIX equivalent is: /cygdrive/c/Apache2/cgi-bin
+    CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+    Consult the user's guide for more details about POSIX paths:
+      http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+  	mkdir "\Apache2\conf"
+EXEC : cygwin warning : 
+    MS-DOS style path detected: \Apache2\conf
+    Preferred POSIX equivalent is: /cygdrive/c/Apache2/conf
+    CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+    Consult the user's guide for more details about POSIX paths:
+      http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+  	mkdir "\Apache2\error"
+EXEC : cygwin warning : 
+    MS-DOS style path detected: \Apache2\error
+    Preferred POSIX equivalent is: /cygdrive/c/Apache2/error
+    CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+    Consult the user's guide for more details about POSIX paths:
+      http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+  	mkdir "\Apache2\htdocs"
+EXEC : cygwin warning : 
+    MS-DOS style path detected: \Apache2\htdocs
+    Preferred POSIX equivalent is: /cygdrive/c/Apache2/htdocs
+    CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+    Consult the user's guide for more details about POSIX paths:
+      http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+  	mkdir "\Apache2\manual"
+EXEC : cygwin warning : 
+    MS-DOS style path detected: \Apache2\manual
+    Preferred POSIX equivalent is: /cygdrive/c/Apache2/manual
+    CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+    Consult the user's guide for more details about POSIX paths:
+      http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+  	mkdir "\Apache2\icons"
+EXEC : cygwin warning : 
+    MS-DOS style path detected: \Apache2\icons
+    Preferred POSIX equivalent is: /cygdrive/c/Apache2/icons
+    CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+    Consult the user's guide for more details about POSIX paths:
+      http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+  	mkdir "\Apache2\include"
+EXEC : cygwin warning : 
+    MS-DOS style path detected: \Apache2\include
+    Preferred POSIX equivalent is: /cygdrive/c/Apache2/include
+    CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+    Consult the user's guide for more details about POSIX paths:
+      http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+  	mkdir "\Apache2\lib"
+EXEC : cygwin warning : 
+    MS-DOS style path detected: \Apache2\lib
+    Preferred POSIX equivalent is: /cygdrive/c/Apache2/lib
+    CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+    Consult the user's guide for more details about POSIX paths:
+      http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+  	mkdir "\Apache2\logs"
+EXEC : cygwin warning : 
+    MS-DOS style path detected: \Apache2\logs
+    Preferred POSIX equivalent is: /cygdrive/c/Apache2/logs
+    CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+    Consult the user's guide for more details about POSIX paths:
+      http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+  	mkdir "\Apache2\modules"
+EXEC : cygwin warning : 
+    MS-DOS style path detected: \Apache2\modules
+    Preferred POSIX equivalent is: /cygdrive/c/Apache2/modules
+    CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+    Consult the user's guide for more details about POSIX paths:
+      http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+  	mkdir "\Apache2\proxy"
+EXEC : cygwin warning : 
+    MS-DOS style path detected: \Apache2\proxy
+    Preferred POSIX equivalent is: /cygdrive/c/Apache2/proxy
+    CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+    Consult the user's guide for more details about POSIX paths:
+      http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+  	mkdir "\Apache2\symbols"
+EXEC : cygwin warning : 
+    MS-DOS style path detected: \Apache2\symbols
+    Preferred POSIX equivalent is: /cygdrive/c/Apache2/symbols
+    CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+    Consult the user's guide for more details about POSIX paths:
+      http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+  	mkdir "\Apache2\symbols\exe"
+EXEC : cygwin warning : 
+    MS-DOS style path detected: \Apache2\symbols\exe
+    Preferred POSIX equivalent is: /cygdrive/c/Apache2/symbols/exe
+    CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+    Consult the user's guide for more details about POSIX paths:
+      http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+  	mkdir "\Apache2\symbols\dll"
+EXEC : cygwin warning : 
+    MS-DOS style path detected: \Apache2\symbols\dll
+    Preferred POSIX equivalent is: /cygdrive/c/Apache2/symbols/dll
+    CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+    Consult the user's guide for more details about POSIX paths:
+      http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+  	mkdir "\Apache2\symbols\so"
+EXEC : cygwin warning : 
+    MS-DOS style path detected: \Apache2\symbols\so
+    Preferred POSIX equivalent is: /cygdrive/c/Apache2/symbols/so
+    CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+    Consult the user's guide for more details about POSIX paths:
+      http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+  	copy ABOUT_APACHE 	"\Apache2\ABOUT_APACHE.txt" <.y
+          1 file(s) copied.
+  	copy CHANGES 		"\Apache2\CHANGES.txt" <.y
+          1 file(s) copied.
+  	copy INSTALL 		"\Apache2\INSTALL.txt" <.y
+          1 file(s) copied.
+  	copy LICENSE 		"\Apache2\LICENSE.txt" <.y
+          1 file(s) copied.
+  	copy NOTICE 		"\Apache2\NOTICE.txt" <.y
+          1 file(s) copied.
+  	copy README 		"\Apache2\README.txt" <.y
+          1 file(s) copied.
+  	"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\nmake.exe" -nologo -f Makefile.win SHORT=R LONG=Release  _copybin src_exe=exe src_dll=dll src_so=so              inst_exe="\Apache2\bin"                               inst_dll="\Apache2\bin"                               inst_so="\Apache2\modules"
+  	copy Release\Apache.exe 				"\Apache2\bin" <.y
+          1 file(s) copied.
+  	copy Release\libhttpd.dll 			"\Apache2\bin" <.y
+          1 file(s) copied.
+  	copy srclib\apr\Release\libapr.dll 		"\Apache2\bin" <.y
+          1 file(s) copied.
+  	copy srclib\apr-iconv\Release\libapriconv.dll 	"\Apache2\bin" <.y
+          1 file(s) copied.
+  	copy srclib\apr-util\Release\libaprutil.dll 	"\Apache2\bin" <.y
+          1 file(s) copied.
+  	copy modules\aaa\Release\mod_access.so 		"\Apache2\modules" <.y
+          1 file(s) copied.
+  	copy modules\aaa\Release\mod_auth.so 		"\Apache2\modules" <.y
+          1 file(s) copied.
+  	copy modules\aaa\Release\mod_auth_anon.so 	"\Apache2\modules" <.y
+          1 file(s) copied.
+  	copy modules\aaa\Release\mod_auth_dbm.so 	"\Apache2\modules" <.y
+          1 file(s) copied.
+  	copy modules\aaa\Release\mod_auth_digest.so 	"\Apache2\modules" <.y
+          1 file(s) copied.
+  	copy modules\arch\win32\Release\mod_isapi.so 	"\Apache2\modules" <.y
+          1 file(s) copied.
+  	copy modules\cache\Release\mod_file_cache.so 	"\Apache2\modules" <.y
+          1 file(s) copied.
+  	copy modules\dav\fs\Release\mod_dav_fs.so 	"\Apache2\modules" <.y
+          1 file(s) copied.
+  	copy modules\dav\main\Release\mod_dav.so		"\Apache2\modules" <.y
+          1 file(s) copied.
+  	copy modules\experimental\Release\mod_cache.so		"\Apache2\modules" <.y
+          1 file(s) copied.
+  	copy modules\experimental\Release\mod_disk_cache.so	"\Apache2\modules" <.y
+          1 file(s) copied.
+  	copy modules\experimental\Release\mod_mem_cache.so	"\Apache2\modules" <.y
+          1 file(s) copied.
+  	copy modules\experimental\Release\mod_charset_lite.so	"\Apache2\modules" <.y
+          1 file(s) copied.
+  	copy modules\experimental\Release\mod_dumpio.so		"\Apache2\modules" <.y
+          1 file(s) copied.
+  	copy modules\experimental\Release\util_ldap.so		"\Apache2\modules" <.y
+  The system cannot find the file specified.
+NMAKE : fatal error U1077: 'copy' : return code '0x1'
+  Stop.
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\nmake.exe"' : return code '0x2'
+  Stop.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.MakeFile.Targets(38,5): error MSB3073: The command "NMAKE /f makefile.win INSTDIR="\Apache2" SHORT=R LONG=Release _install" exited with code 2.

@@ -1,0 +1,30 @@
+Changes with APR-ICONV 0.9.7
+
+  *) Fixed build .rc version resource for Win32. [Will Rowe]
+
+Changes with APR-ICONV 0.9.4
+
+  *) Add -v option to iconv program. [Justin Erenkrantz]
+
+  *) Add api_version.h. [Justin Erenkrantz]
+
+  *) A fourth pass at a build system. [Justin Erenkrantz]
+
+  *) A third pass at a build system. [Justin Erenkrantz]
+
+Changes with APR-ICONV 0.9.3
+
+Changes with APR-ICONV 0.9.2
+
+  *) A second pass at a working build system - now builds on linux,
+     some namespace protection added.
+     [jean-frederic clere <jfrederic.clere@fujitsu-siemens.com>]
+
+  *) A first blush at a working build system.
+     [jean-frederic clere <jfrederic.clere@fujitsu-siemens.com>]
+
+  *) First set of changes for APR compatibility (eliminated __inline).
+     [jean-frederic clere <jfrederic.clere@fujitsu-siemens.com>]
+
+  *) Source moved from the apr library into it's own repository
+     due to size concerns.  Still requires portability overhaul.

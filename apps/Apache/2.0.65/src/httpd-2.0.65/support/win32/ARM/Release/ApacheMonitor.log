@@ -1,0 +1,30 @@
+﻿  ApacheMonitor.c
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(C:\temp\httpd-2.0.65\ARM\Release\ApacheMonitor.exe) does not match the Linker's OutputFile property value (C:\temp\httpd-2.0.65\support\win32\Release\ApacheMonitor.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+ApacheMonitor.obj : error LNK2019: unresolved external symbol __imp_RegCloseKey referenced in function am_ClearComputersSt
+ApacheMonitor.obj : error LNK2019: unresolved external symbol __imp_Shell_NotifyIconA referenced in function ShowNotifyIcon
+ApacheMonitor.obj : error LNK2019: unresolved external symbol __imp_OpenSCManagerA referenced in function IsServiceRunning
+ApacheMonitor.obj : error LNK2019: unresolved external symbol __imp_OpenServiceA referenced in function IsServiceRunning
+ApacheMonitor.obj : error LNK2019: unresolved external symbol __imp_QueryServiceStatus referenced in function IsServiceRunning
+ApacheMonitor.obj : error LNK2019: unresolved external symbol __imp_CloseServiceHandle referenced in function IsServiceRunning
+ApacheMonitor.obj : error LNK2019: unresolved external symbol __imp_RegConnectRegistryA referenced in function am_ConnectComputer
+ApacheMonitor.obj : error LNK2019: unresolved external symbol __imp_ShellExecuteA referenced in function am_RespawnAsUserAdmin
+ApacheMonitor.obj : error LNK2019: unresolved external symbol __imp_SHBrowseForFolderA referenced in function ConnectDlgProc
+ApacheMonitor.obj : error LNK2019: unresolved external symbol __imp_SHGetSpecialFolderLocation referenced in function ConnectDlgProc
+ApacheMonitor.obj : error LNK2019: unresolved external symbol __imp_SHGetMalloc referenced in function ConnectDlgProc
+ApacheMonitor.obj : error LNK2019: unresolved external symbol __imp_RegOpenKeyExA referenced in function GetApacheServicesStatus
+ApacheMonitor.obj : error LNK2019: unresolved external symbol __imp_RegEnumKeyA referenced in function GetApacheServicesStatus
+ApacheMonitor.obj : error LNK2019: unresolved external symbol __imp_RegQueryValueExA referenced in function GetApacheServicesStatus
+ApacheMonitor.obj : error LNK2019: unresolved external symbol __imp_ControlService referenced in function ApacheManageService
+ApacheMonitor.obj : error LNK2019: unresolved external symbol __imp_StartServiceA referenced in function ApacheManageService
+ApacheMonitor.obj : error LNK2019: unresolved external symbol __imp_DeleteDC referenced in function ServiceDlgProc
+ApacheMonitor.obj : error LNK2019: unresolved external symbol __imp_SelectObject referenced in function ServiceDlgProc
+ApacheMonitor.obj : error LNK2019: unresolved external symbol __imp_GetTextMetricsA referenced in function ServiceDlgProc
+ApacheMonitor.obj : error LNK2019: unresolved external symbol __imp_BitBlt referenced in function ServiceDlgProc
+ApacheMonitor.obj : error LNK2019: unresolved external symbol __imp_CreateCompatibleDC referenced in function ServiceDlgProc
+ApacheMonitor.obj : error LNK2019: unresolved external symbol __imp_SetBkColor referenced in function ServiceDlgProc
+ApacheMonitor.obj : error LNK2019: unresolved external symbol __imp_SetTextColor referenced in function ServiceDlgProc
+ApacheMonitor.obj : error LNK2019: unresolved external symbol __imp_TextOutA referenced in function ServiceDlgProc
+ApacheMonitor.obj : error LNK2019: unresolved external symbol __imp_CoInitialize referenced in function WinMain
+ApacheMonitor.obj : error LNK2019: unresolved external symbol __imp_CoUninitialize referenced in function WinMain
+ApacheMonitor.obj : error LNK2019: unresolved external symbol __imp_DeleteObject referenced in function WinMain
+.\Release\ApacheMonitor.exe : fatal error LNK1120: 27 unresolved externals

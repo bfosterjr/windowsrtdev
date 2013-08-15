@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|ARM">
+      <Configuration>Template</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>MakeFileProj</Keyword>
+    <ProjectGuid>{B2945883-A022-4B46-8D7A-111B048F5966}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|ARM'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Template|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\</OutDir>
+    <IntDir>.\</IntDir>
+    <NMakeBuildCommandLine>NMAKE /f makefile.win INSTDIR="\Apache2" LONG=Release _tryssl _tryzlib _dummy</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>NMAKE /f makefile.win INSTDIR="\Apache2" LONG=Release _tryssl _tryzlib _dummy </NMakeReBuildCommandLine>
+    <NMakeOutput>\Apache2\bin\Apache.exe</NMakeOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <NMakeBuildCommandLine>NMAKE /f makefile.win INSTDIR="\Apache2" LONG=Release _tryssl _tryzlib _dummy</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>NMAKE /f makefile.win INSTDIR="\Apache2" LONG=Release _tryssl _tryzlib _dummy </NMakeReBuildCommandLine>
+    <NMakeOutput>\Apache2\bin\Apache.exe</NMakeOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\</OutDir>
+    <IntDir>.\</IntDir>
+    <NMakeBuildCommandLine>NMAKE /f makefile.win INSTDIR="\Apache2" LONG=Debug _tryssl _tryzlib _dummy</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>NMAKE /f makefile.win INSTDIR="\Apache2" LONG=Debug _tryssl _tryzlib _dummy </NMakeReBuildCommandLine>
+    <NMakeOutput>\Apache2\bin\Apache.exe</NMakeOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <NMakeBuildCommandLine>NMAKE /f makefile.win INSTDIR="\Apache2" LONG=Debug _tryssl _tryzlib _dummy</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>NMAKE /f makefile.win INSTDIR="\Apache2" LONG=Debug _tryssl _tryzlib _dummy </NMakeReBuildCommandLine>
+    <NMakeOutput>\Apache2\bin\Apache.exe</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="Browse\Apache.bsc" />
+    <CustomBuild Include="os\win32\BaseAddr.ref" />
+    <CustomBuild Include="CHANGES" />
+    <CustomBuild Include="Makefile.win" />
+    <CustomBuild Include="STATUS" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Apache.vcxproj">
+      <Project>{7151ea4f-de32-46ee-8dc3-5975a3846b88}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\aaa\mod_access.vcxproj">
+      <Project>{f297c0d7-81f2-4e97-b664-2adabd5ac9e9}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\aaa\mod_auth.vcxproj">
+      <Project>{c1cd56fe-b378-418c-91c5-cf79fb99afe8}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\aaa\mod_auth_anon.vcxproj">
+      <Project>{62618569-98d5-4dd6-83f0-239df6579680}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\aaa\mod_auth_dbm.vcxproj">
+      <Project>{85a64c88-4239-47b9-ac4a-1f31bff7ea61}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\aaa\mod_auth_digest.vcxproj">
+      <Project>{7c1c5bc6-175b-49a1-9446-58be3a45c92e}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\arch\win32\mod_isapi.vcxproj">
+      <Project>{53eb0dd6-e60b-4aa7-8daa-cefc152d8acf}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\cache\mod_file_cache.vcxproj">
+      <Project>{91087cee-6674-4a3f-a0e5-54da73257c9e}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\dav\fs\mod_dav_fs.vcxproj">
+      <Project>{06d45006-39c4-4e84-b5dd-bc2e4ae6a84c}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\experimental\mod_auth_ldap.vcxproj">
+      <Project>{b46e37e5-8d73-4b28-b5c1-005dc8a87ab2}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\experimental\mod_charset_lite.vcxproj">
+      <Project>{0edf8515-05f9-48c1-90f4-de17d6d7a3e3}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\experimental\mod_disk_cache.vcxproj">
+      <Project>{d9ab1e46-acd2-4127-b34d-a1934a7b729f}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\experimental\mod_dumpio.vcxproj">
+      <Project>{5d310a7d-8d7e-472d-a2c1-afca29624c5b}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\experimental\mod_mem_cache.vcxproj">
+      <Project>{52763da7-7664-4b0b-97fa-a111f9b63238}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\filters\mod_ext_filter.vcxproj">
+      <Project>{cf6c5c87-0784-4aeb-935b-75f293975c77}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\filters\mod_include.vcxproj">
+      <Project>{064de214-99e7-40ac-9842-86967a0af301}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\generators\mod_asis.vcxproj">
+      <Project>{7712739e-db30-4111-8ccd-cda6292ba40b}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\generators\mod_autoindex.vcxproj">
+      <Project>{75de6e54-a95b-4a38-a0e8-141910437fdc}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\generators\mod_cgi.vcxproj">
+      <Project>{c5389400-5eb3-4d1f-b182-cac2c618addd}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\generators\mod_info.vcxproj">
+      <Project>{ea0db957-31d1-48b9-afcb-b651c9166e42}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\generators\mod_status.vcxproj">
+      <Project>{c051f11f-bfcb-4b08-8da9-3f6d62a9ca3e}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\http\mod_mime.vcxproj">
+      <Project>{c77df89d-8002-4762-9996-f36add179d92}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\loggers\mod_logio.vcxproj">
+      <Project>{534ce78a-61ef-4485-9f1c-e24cafc72717}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\loggers\mod_log_config.vcxproj">
+      <Project>{ee0b2616-e780-405c-8efc-4b82abc2e333}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\loggers\mod_log_forensic.vcxproj">
+      <Project>{7e6a5804-0ea4-405b-bad2-6989b0d8ad80}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\mappers\mod_actions.vcxproj">
+      <Project>{fb781302-4b2c-45f3-9656-faecd835762f}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\mappers\mod_alias.vcxproj">
+      <Project>{d3fc9dc8-c85d-4533-9c32-5a6067549812}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\mappers\mod_dir.vcxproj">
+      <Project>{44bd250e-afbd-45d7-95a7-a432897292c5}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\mappers\mod_imap.vcxproj">
+      <Project>{e214fcca-df0f-4874-9635-236ae89dd47f}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\mappers\mod_negotiation.vcxproj">
+      <Project>{7c036bc7-9c1a-45f4-a1f1-6fb0ba474a1f}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\mappers\mod_rewrite.vcxproj">
+      <Project>{34fbcef1-e0c2-4c81-985c-30e57d86ceec}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\mappers\mod_speling.vcxproj">
+      <Project>{0db58e9f-d585-42f4-afd5-da67862faf7c}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\mappers\mod_userdir.vcxproj">
+      <Project>{6bf39d81-22ba-4748-8952-3d6e74cf4227}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\mappers\mod_vhost_alias.vcxproj">
+      <Project>{8ca0101c-2c65-4d93-9ed3-5def5cb0646c}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\metadata\mod_cern_meta.vcxproj">
+      <Project>{07235343-007e-4602-aa75-6b7e2f2a7f17}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\metadata\mod_env.vcxproj">
+      <Project>{9dd53913-fe40-462c-b290-e4d94b59d9c9}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\metadata\mod_expires.vcxproj">
+      <Project>{faa8d62f-a54b-46da-9094-b03fa4d6b5ca}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\metadata\mod_headers.vcxproj">
+      <Project>{ec582592-4e1e-4cb0-8716-f1cab42758a7}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\metadata\mod_mime_magic.vcxproj">
+      <Project>{60873bbc-6823-4677-b01e-232920c6e200}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\metadata\mod_setenvif.vcxproj">
+      <Project>{128236f7-ab04-4cb5-8b15-948c635875bb}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\metadata\mod_unique_id.vcxproj">
+      <Project>{ccf91ea3-369e-4b0e-bd8f-3cd528bea3ea}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\metadata\mod_usertrack.vcxproj">
+      <Project>{ff4b68d3-83fc-47bb-8da7-7869d1b74137}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\metadata\mod_version.vcxproj">
+      <Project>{b4baee8f-0cd4-491a-8dfb-7400932f6dba}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\proxy\mod_proxy_connect.vcxproj">
+      <Project>{c5e07712-c413-448c-b84c-32d3ad12985e}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\proxy\mod_proxy_ftp.vcxproj">
+      <Project>{a727c1e2-7f32-41b0-b4a3-e0cf232888ab}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="modules\proxy\mod_proxy_http.vcxproj">
+      <Project>{9fc1b69d-39de-4f53-bb6a-4153b33544be}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="srclib\apr-iconv\ccs\libapriconv_ccs_modules.vcxproj">
+      <Project>{7b9925fb-f996-4fa9-8f12-ceee226415f2}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="srclib\apr-iconv\ces\libapriconv_ces_modules.vcxproj">
+      <Project>{05a281a3-fc35-41ad-ac28-09e9280c247f}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="support\ab.vcxproj">
+      <Project>{b2a96265-7def-406d-a0ea-c113c4ec8837}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="support\htdbm.vcxproj">
+      <Project>{b344f1d5-fbcb-49b2-8544-bc391d5c943f}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="support\htdigest.vcxproj">
+      <Project>{7ef95449-659c-45fd-ad85-9c0176fd212b}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="support\htpasswd.vcxproj">
+      <Project>{1e270fca-dbd1-48b1-bbe3-8cb43b0afd9e}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="support\httxt2dbm.vcxproj">
+      <Project>{3fbcc4d4-22e1-4619-b2ba-c5ed5bb6619d}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="support\logresolve.vcxproj">
+      <Project>{13c39c53-c3f1-4f5c-b485-607431dccafc}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="support\rotatelogs.vcxproj">
+      <Project>{0f906d3b-b4ab-4420-a6ec-8d82f90fec62}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="support\win32\ApacheMonitor.vcxproj">
+      <Project>{d48339cf-d4af-4a30-9830-60a70c75a28b}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="support\win32\wintty.vcxproj">
+      <Project>{029e147d-f3f7-4acf-8a75-b29c2c5bfa2f}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,9 @@
+Apache HTTP Server 2.0 Documentation Status File.
+Last modified: $Date: 2004-11-21 08:35:21 -0600 (Sun, 21 Nov 2004) $
+
+For more information on how to contribute to the Apache Documentation
+Project, please see http://httpd.apache.org/docs-project/
+
+This document contains only documentation issues related to 2.0 alone.
+For general documentation issues, or those that relate both to 2.0 and
+to future versions, please see the same file in httpd-2.0 HEAD.

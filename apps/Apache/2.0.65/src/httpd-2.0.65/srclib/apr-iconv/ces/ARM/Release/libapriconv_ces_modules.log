@@ -1,0 +1,100 @@
+﻿  Compiling _tbl_simple.c... via ..\Release\iconv\objs\_tbl_simple.obj to ..\Release\iconv\_tbl_simple.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  _tbl_simple.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\_tbl_simple.lib and object ..\Release\iconv\_tbl_simple.exp
+  
+  Compiling euc-jp.c... via ..\Release\iconv\objs\euc-jp.obj to ..\Release\iconv\euc-jp.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  euc-jp.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\euc-jp.lib and object ..\Release\iconv\euc-jp.exp
+  
+  Compiling euc-kr.c... via ..\Release\iconv\objs\euc-kr.obj to ..\Release\iconv\euc-kr.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  euc-kr.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\euc-kr.lib and object ..\Release\iconv\euc-kr.exp
+  
+  Compiling euc-tw.c... via ..\Release\iconv\objs\euc-tw.obj to ..\Release\iconv\euc-tw.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  euc-tw.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\euc-tw.lib and object ..\Release\iconv\euc-tw.exp
+  
+  Compiling gb2312.c... via ..\Release\iconv\objs\gb2312.obj to ..\Release\iconv\gb2312.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  gb2312.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\gb2312.lib and object ..\Release\iconv\gb2312.exp
+  
+  Compiling iso-10646-ucs-2.c... via ..\Release\iconv\objs\iso-10646-ucs-2.obj to ..\Release\iconv\iso-10646-ucs-2.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-10646-ucs-2.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-10646-ucs-2.lib and object ..\Release\iconv\iso-10646-ucs-2.exp
+  
+  Compiling iso-10646-ucs-4.c... via ..\Release\iconv\objs\iso-10646-ucs-4.obj to ..\Release\iconv\iso-10646-ucs-4.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-10646-ucs-4.c
+iso-10646-ucs-4.c(58): warning C4018: '<' : signed/unsigned mismatch
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-10646-ucs-4.lib and object ..\Release\iconv\iso-10646-ucs-4.exp
+  
+  Compiling iso-2022-cn.c... via ..\Release\iconv\objs\iso-2022-cn.obj to ..\Release\iconv\iso-2022-cn.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-2022-cn.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-2022-cn.lib and object ..\Release\iconv\iso-2022-cn.exp
+  
+  Compiling iso-2022-jp-2.c... via ..\Release\iconv\objs\iso-2022-jp-2.obj to ..\Release\iconv\iso-2022-jp-2.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-2022-jp-2.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-2022-jp-2.lib and object ..\Release\iconv\iso-2022-jp-2.exp
+  
+  Compiling iso-2022-jp.c... via ..\Release\iconv\objs\iso-2022-jp.obj to ..\Release\iconv\iso-2022-jp.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-2022-jp.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-2022-jp.lib and object ..\Release\iconv\iso-2022-jp.exp
+  
+  Compiling iso-2022-kr.c... via ..\Release\iconv\objs\iso-2022-kr.obj to ..\Release\iconv\iso-2022-kr.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-2022-kr.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-2022-kr.lib and object ..\Release\iconv\iso-2022-kr.exp
+  
+  Compiling ucs2-internal.c... via ..\Release\iconv\objs\ucs2-internal.obj to ..\Release\iconv\ucs2-internal.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  ucs2-internal.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\ucs2-internal.lib and object ..\Release\iconv\ucs2-internal.exp
+  
+  Compiling ucs4-internal.c... via ..\Release\iconv\objs\ucs4-internal.obj to ..\Release\iconv\ucs4-internal.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  ucs4-internal.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\ucs4-internal.lib and object ..\Release\iconv\ucs4-internal.exp
+  
+  Compiling unicode-1-1-utf-7.c... via ..\Release\iconv\objs\unicode-1-1-utf-7.obj to ..\Release\iconv\unicode-1-1-utf-7.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  unicode-1-1-utf-7.c
+unicode-1-1-utf-7.c(53): warning C4018: '>' : signed/unsigned mismatch
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\unicode-1-1-utf-7.lib and object ..\Release\iconv\unicode-1-1-utf-7.exp
+  
+  Compiling utf-16.c... via ..\Release\iconv\objs\utf-16.obj to ..\Release\iconv\utf-16.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  utf-16.c
+utf-16.c(61): warning C4018: '<' : signed/unsigned mismatch
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\utf-16.lib and object ..\Release\iconv\utf-16.exp
+  
+  Compiling utf-8.c... via ..\Release\iconv\objs\utf-8.obj to ..\Release\iconv\utf-8.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  utf-8.c
+utf-8.c(67): warning C4018: '<' : signed/unsigned mismatch
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\utf-8.lib and object ..\Release\iconv\utf-8.exp
+  

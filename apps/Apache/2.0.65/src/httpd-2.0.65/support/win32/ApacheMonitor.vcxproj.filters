@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{50e55ed0-1d2b-4195-90b5-e21e0518f1da}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="apache_header.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ApacheMonitor.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="aprun.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="apstop.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="srun.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sstop.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ApacheMonitor.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ApacheMonitor.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ApacheMonitor.rc" />
+  </ItemGroup>
+</Project>

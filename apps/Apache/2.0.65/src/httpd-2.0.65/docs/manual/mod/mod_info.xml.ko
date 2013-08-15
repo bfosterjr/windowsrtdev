@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="EUC-KR" ?>
+<!DOCTYPE modulesynopsis SYSTEM "../style/modulesynopsis.dtd">
+<?xml-stylesheet type="text/xsl" href="../style/manual.ko.xsl"?>
+<!-- English Revision: 106090:421174 (outdated) -->
+
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one or more
+ contributor license agreements.  See the NOTICE file distributed with
+ this work for additional information regarding copyright ownership.
+ The ASF licenses this file to You under the Apache License, Version 2.0
+ (the "License"); you may not use this file except in compliance with
+ the License.  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+<modulesynopsis metafile="mod_info.xml.meta">
+
+<name>mod_info</name>
+<description>서버 설정에 대한 종합적인 정보를 보여준다</description>
+<status>Extension</status>
+<sourcefile>mod_info.c</sourcefile>
+<identifier>info_module</identifier>
+
+<summary>
+    <p><module>mod_info</module>를 사용하려면 <code>httpd.conf</code>
+    파일에 다음과 같이 추가한다.</p>
+
+    <example>
+      &lt;Location /server-info&gt;<br />
+      <indent>
+        SetHandler server-info<br />
+      </indent>
+      &lt;/Location&gt;
+    </example>
+
+    <p>서버 설정 정보를 아무나 볼 수 없도록 <directive type="section"
+    module="core">Location</directive> 지시어 안에 <directive
+    type="section" module="core">Limit</directive> 구문을 추가할
+    수 있다.</p>
+
+    <p>이렇게 설정하면
+    <code>http://your.host.dom/server-info</code>에
+    접근하여 서버에 대한 정보를 볼 수 있다.</p>
+
+    <note>
+      모듈은 서버가 시작할때 설정파일을 읽기때문에, 서버를 재시작한
+      후에 파일을 수정하였다면 화면에 표시된 정보가 실행중인
+      서버의 실제 설정과 <em>다를</em> 수 있다. 또, 설정파일은
+      서버를 실행하는 사용자(<directive
+      module="mpm_common">User</directive> 지시어 참고)가 읽을
+      수 있어야 한다. 읽을 수 없다면 지시어 설정을 보여주지
+      못한다.
+
+      <p>서버에 <module>mod_info</module>가 컴파일되있다면,
+      디렉토리별 설정파일(<em>예를 들어</em>,
+      <code>.htaccess</code>)을 포함한 <em>모든</em> 설정파일에서
+      이 핸들러 기능을 사용할 수 있다. 그래서 사이트에 보안관련
+      문제가 될 수 있다.</p>
+
+      <p>특히 이 모듈은 시스템 경로, 사용자명/암호, 데이터베이스
+      이름과 같이 여러 아파치 모듈의 설정지시어에 기록한 민감한
+      정보를 유출할 수 있다. 모듈이 동작하는 방식상 이를 막을
+      방법이 없다. 그래서 이 모듈은 항상 주의해야 하며 통제된
+      환경에서<strong>만</strong> 사용해야 한다.</p>
+    </note>
+</summary>
+
+<directivesynopsis>
+<name>AddModuleInfo</name>
+<description>모듈에 대한 추가 정보를 server-info 핸들러가 보여주도록
+추가한다</description>
+<syntax>AddModuleInfo <var>module-name</var> <var>string</var></syntax>
+<contextlist><context>server config</context><context>virtual host</context>
+</contextlist>
+<compatibility>아파치 1.3 이후</compatibility>
+
+<usage>
+    <p><var>module-name</var> 모듈에 대한 <strong>추가 정보</strong>로
+    <var>string</var>의 내용을 HTML로 보여준다. 예를 들어,</p>
+
+    <example>
+      AddModuleInfo mod_auth.c 'See &lt;a \<br />
+      <indent>
+        href="http://www.apache.org/docs/&httpd.docs;/mod/mod_auth.html"&gt;\<br />
+        http://www.apache.org/docs/&httpd.docs;/mod/mod_auth.html&lt;/a&gt;'
+      </indent>
+    </example>
+</usage>
+
+</directivesynopsis>
+</modulesynopsis>
+

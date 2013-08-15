@@ -1,0 +1,4 @@
+﻿  Creating Version Resource
+  main.c
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(C:\temp\httpd-2.0.65\ARM\Release\Apache.exe) does not match the Linker's OutputFile property value (C:\temp\httpd-2.0.65\Release\Apache.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  Apache.vcxproj -> C:\temp\httpd-2.0.65\ARM\Release\Apache.exe

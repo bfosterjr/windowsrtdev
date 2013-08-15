@@ -1,0 +1,44 @@
+﻿  Creating Version Resource
+  Generating test_char.h from gen_test_char.exe
+  config.c
+  connection.c
+  core.c
+  http_core.c
+  http_protocol.c
+  http_request.c
+  log.c
+  protocol.c
+server\protocol.c(730): warning C4018: '>' : signed/unsigned mismatch
+  request.c
+  vhost.c
+  mod_so.c
+  mod_win32.c
+  modules.c
+  eoc_bucket.c
+  error_bucket.c
+  rfc1413.c
+  util.c
+server\util.c(415): warning C4018: '<=' : signed/unsigned mismatch
+  util_cfgtree.c
+  util_filter.c
+  util_md5.c
+  Generating Code...
+  Compiling...
+  util_script.c
+  util_time.c
+  util_win32.c
+  util_xml.c
+  ap_regkey.c
+  child.c
+  listen.c
+  mpm_common.c
+  mpm_winnt.c
+  nt_eventlog.c
+  provider.c
+  scoreboard.c
+  service.c
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(C:\temp\httpd-2.0.65\ARM\Release\libhttpd.dll) does not match the Linker's OutputFile property value (C:\temp\httpd-2.0.65\Release\libhttpd.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  buildmark.c
+     Creating library .\Release\libhttpd.lib and object .\Release\libhttpd.exp
+  libhttpd.vcxproj -> C:\temp\httpd-2.0.65\ARM\Release\libhttpd.dll

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- GENERATED FROM XML: DO NOT EDIT -->
+
+<metafile reference="upgrading.xml">
+  <basename>upgrading</basename>
+  <path>/</path>
+  <relpath>.</relpath>
+
+  <variants>
+    <variant>de</variant>
+    <variant>en</variant>
+    <variant>es</variant>
+    <variant htmlonly="yes">fr</variant>
+    <variant>ja</variant>
+    <variant>ko</variant>
+    <variant>ru</variant>
+  </variants>
+</metafile>

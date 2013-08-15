@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- GENERATED FROM XML: DO NOT EDIT -->
+
+<metafile reference="error.xml">
+  <basename>error</basename>
+  <path>/faq/</path>
+  <relpath>..</relpath>
+
+  <variants>
+    <variant>en</variant>
+    <variant>ko</variant>
+    <variant>tr</variant>
+  </variants>
+</metafile>

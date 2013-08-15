@@ -1,0 +1,1176 @@
+﻿  Compiling adobe-stdenc.c... via ..\Release\iconv\objs\adobe-stdenc.obj to ..\Release\iconv\adobe-stdenc.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  adobe-stdenc.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\adobe-stdenc.lib and object ..\Release\iconv\adobe-stdenc.exp
+  
+  Compiling adobe-symbol.c... via ..\Release\iconv\objs\adobe-symbol.obj to ..\Release\iconv\adobe-symbol.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  adobe-symbol.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\adobe-symbol.lib and object ..\Release\iconv\adobe-symbol.exp
+  
+  Compiling adobe-zdingbats.c... via ..\Release\iconv\objs\adobe-zdingbats.obj to ..\Release\iconv\adobe-zdingbats.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  adobe-zdingbats.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\adobe-zdingbats.lib and object ..\Release\iconv\adobe-zdingbats.exp
+  
+  Compiling big5.c... via ..\Release\iconv\objs\big5.obj to ..\Release\iconv\big5.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  big5.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\big5.lib and object ..\Release\iconv\big5.exp
+  
+  Compiling cns11643-plane1.c... via ..\Release\iconv\objs\cns11643-plane1.obj to ..\Release\iconv\cns11643-plane1.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cns11643-plane1.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cns11643-plane1.lib and object ..\Release\iconv\cns11643-plane1.exp
+  
+  Compiling cns11643-plane14.c... via ..\Release\iconv\objs\cns11643-plane14.obj to ..\Release\iconv\cns11643-plane14.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cns11643-plane14.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cns11643-plane14.lib and object ..\Release\iconv\cns11643-plane14.exp
+  
+  Compiling cns11643-plane2.c... via ..\Release\iconv\objs\cns11643-plane2.obj to ..\Release\iconv\cns11643-plane2.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cns11643-plane2.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cns11643-plane2.lib and object ..\Release\iconv\cns11643-plane2.exp
+  
+  Compiling cp037.c... via ..\Release\iconv\objs\cp037.obj to ..\Release\iconv\cp037.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp037.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp037.lib and object ..\Release\iconv\cp037.exp
+  
+  Compiling cp038.c... via ..\Release\iconv\objs\cp038.obj to ..\Release\iconv\cp038.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp038.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp038.lib and object ..\Release\iconv\cp038.exp
+  
+  Compiling cp10000.c... via ..\Release\iconv\objs\cp10000.obj to ..\Release\iconv\cp10000.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp10000.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp10000.lib and object ..\Release\iconv\cp10000.exp
+  
+  Compiling cp10006.c... via ..\Release\iconv\objs\cp10006.obj to ..\Release\iconv\cp10006.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp10006.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp10006.lib and object ..\Release\iconv\cp10006.exp
+  
+  Compiling cp10007.c... via ..\Release\iconv\objs\cp10007.obj to ..\Release\iconv\cp10007.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp10007.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp10007.lib and object ..\Release\iconv\cp10007.exp
+  
+  Compiling cp10029.c... via ..\Release\iconv\objs\cp10029.obj to ..\Release\iconv\cp10029.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp10029.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp10029.lib and object ..\Release\iconv\cp10029.exp
+  
+  Compiling cp1006.c... via ..\Release\iconv\objs\cp1006.obj to ..\Release\iconv\cp1006.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp1006.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp1006.lib and object ..\Release\iconv\cp1006.exp
+  
+  Compiling cp10079.c... via ..\Release\iconv\objs\cp10079.obj to ..\Release\iconv\cp10079.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp10079.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp10079.lib and object ..\Release\iconv\cp10079.exp
+  
+  Compiling cp10081.c... via ..\Release\iconv\objs\cp10081.obj to ..\Release\iconv\cp10081.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp10081.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp10081.lib and object ..\Release\iconv\cp10081.exp
+  
+  Compiling cp1026.c... via ..\Release\iconv\objs\cp1026.obj to ..\Release\iconv\cp1026.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp1026.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp1026.lib and object ..\Release\iconv\cp1026.exp
+  
+  Compiling cp273.c... via ..\Release\iconv\objs\cp273.obj to ..\Release\iconv\cp273.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp273.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp273.lib and object ..\Release\iconv\cp273.exp
+  
+  Compiling cp274.c... via ..\Release\iconv\objs\cp274.obj to ..\Release\iconv\cp274.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp274.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp274.lib and object ..\Release\iconv\cp274.exp
+  
+  Compiling cp275.c... via ..\Release\iconv\objs\cp275.obj to ..\Release\iconv\cp275.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp275.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp275.lib and object ..\Release\iconv\cp275.exp
+  
+  Compiling cp277.c... via ..\Release\iconv\objs\cp277.obj to ..\Release\iconv\cp277.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp277.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp277.lib and object ..\Release\iconv\cp277.exp
+  
+  Compiling cp278.c... via ..\Release\iconv\objs\cp278.obj to ..\Release\iconv\cp278.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp278.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp278.lib and object ..\Release\iconv\cp278.exp
+  
+  Compiling cp280.c... via ..\Release\iconv\objs\cp280.obj to ..\Release\iconv\cp280.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp280.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp280.lib and object ..\Release\iconv\cp280.exp
+  
+  Compiling cp281.c... via ..\Release\iconv\objs\cp281.obj to ..\Release\iconv\cp281.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp281.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp281.lib and object ..\Release\iconv\cp281.exp
+  
+  Compiling cp284.c... via ..\Release\iconv\objs\cp284.obj to ..\Release\iconv\cp284.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp284.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp284.lib and object ..\Release\iconv\cp284.exp
+  
+  Compiling cp285.c... via ..\Release\iconv\objs\cp285.obj to ..\Release\iconv\cp285.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp285.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp285.lib and object ..\Release\iconv\cp285.exp
+  
+  Compiling cp290.c... via ..\Release\iconv\objs\cp290.obj to ..\Release\iconv\cp290.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp290.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp290.lib and object ..\Release\iconv\cp290.exp
+  
+  Compiling cp297.c... via ..\Release\iconv\objs\cp297.obj to ..\Release\iconv\cp297.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp297.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp297.lib and object ..\Release\iconv\cp297.exp
+  
+  Compiling cp420.c... via ..\Release\iconv\objs\cp420.obj to ..\Release\iconv\cp420.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp420.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp420.lib and object ..\Release\iconv\cp420.exp
+  
+  Compiling cp423.c... via ..\Release\iconv\objs\cp423.obj to ..\Release\iconv\cp423.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp423.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp423.lib and object ..\Release\iconv\cp423.exp
+  
+  Compiling cp424.c... via ..\Release\iconv\objs\cp424.obj to ..\Release\iconv\cp424.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp424.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp424.lib and object ..\Release\iconv\cp424.exp
+  
+  Compiling cp437.c... via ..\Release\iconv\objs\cp437.obj to ..\Release\iconv\cp437.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp437.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp437.lib and object ..\Release\iconv\cp437.exp
+  
+  Compiling cp500.c... via ..\Release\iconv\objs\cp500.obj to ..\Release\iconv\cp500.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp500.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp500.lib and object ..\Release\iconv\cp500.exp
+  
+  Compiling cp737.c... via ..\Release\iconv\objs\cp737.obj to ..\Release\iconv\cp737.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp737.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp737.lib and object ..\Release\iconv\cp737.exp
+  
+  Compiling cp775.c... via ..\Release\iconv\objs\cp775.obj to ..\Release\iconv\cp775.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp775.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp775.lib and object ..\Release\iconv\cp775.exp
+  
+  Compiling cp850.c... via ..\Release\iconv\objs\cp850.obj to ..\Release\iconv\cp850.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp850.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp850.lib and object ..\Release\iconv\cp850.exp
+  
+  Compiling cp851.c... via ..\Release\iconv\objs\cp851.obj to ..\Release\iconv\cp851.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp851.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp851.lib and object ..\Release\iconv\cp851.exp
+  
+  Compiling cp852.c... via ..\Release\iconv\objs\cp852.obj to ..\Release\iconv\cp852.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp852.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp852.lib and object ..\Release\iconv\cp852.exp
+  
+  Compiling cp855.c... via ..\Release\iconv\objs\cp855.obj to ..\Release\iconv\cp855.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp855.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp855.lib and object ..\Release\iconv\cp855.exp
+  
+  Compiling cp856.c... via ..\Release\iconv\objs\cp856.obj to ..\Release\iconv\cp856.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp856.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp856.lib and object ..\Release\iconv\cp856.exp
+  
+  Compiling cp857.c... via ..\Release\iconv\objs\cp857.obj to ..\Release\iconv\cp857.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp857.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp857.lib and object ..\Release\iconv\cp857.exp
+  
+  Compiling cp860.c... via ..\Release\iconv\objs\cp860.obj to ..\Release\iconv\cp860.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp860.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp860.lib and object ..\Release\iconv\cp860.exp
+  
+  Compiling cp861.c... via ..\Release\iconv\objs\cp861.obj to ..\Release\iconv\cp861.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp861.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp861.lib and object ..\Release\iconv\cp861.exp
+  
+  Compiling cp862.c... via ..\Release\iconv\objs\cp862.obj to ..\Release\iconv\cp862.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp862.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp862.lib and object ..\Release\iconv\cp862.exp
+  
+  Compiling cp863.c... via ..\Release\iconv\objs\cp863.obj to ..\Release\iconv\cp863.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp863.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp863.lib and object ..\Release\iconv\cp863.exp
+  
+  Compiling cp864.c... via ..\Release\iconv\objs\cp864.obj to ..\Release\iconv\cp864.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp864.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp864.lib and object ..\Release\iconv\cp864.exp
+  
+  Compiling cp865.c... via ..\Release\iconv\objs\cp865.obj to ..\Release\iconv\cp865.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp865.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp865.lib and object ..\Release\iconv\cp865.exp
+  
+  Compiling cp866.c... via ..\Release\iconv\objs\cp866.obj to ..\Release\iconv\cp866.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp866.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp866.lib and object ..\Release\iconv\cp866.exp
+  
+  Compiling cp868.c... via ..\Release\iconv\objs\cp868.obj to ..\Release\iconv\cp868.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp868.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp868.lib and object ..\Release\iconv\cp868.exp
+  
+  Compiling cp869.c... via ..\Release\iconv\objs\cp869.obj to ..\Release\iconv\cp869.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp869.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp869.lib and object ..\Release\iconv\cp869.exp
+  
+  Compiling cp870.c... via ..\Release\iconv\objs\cp870.obj to ..\Release\iconv\cp870.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp870.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp870.lib and object ..\Release\iconv\cp870.exp
+  
+  Compiling cp871.c... via ..\Release\iconv\objs\cp871.obj to ..\Release\iconv\cp871.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp871.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp871.lib and object ..\Release\iconv\cp871.exp
+  
+  Compiling cp874.c... via ..\Release\iconv\objs\cp874.obj to ..\Release\iconv\cp874.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp874.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp874.lib and object ..\Release\iconv\cp874.exp
+  
+  Compiling cp875.c... via ..\Release\iconv\objs\cp875.obj to ..\Release\iconv\cp875.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp875.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp875.lib and object ..\Release\iconv\cp875.exp
+  
+  Compiling cp880.c... via ..\Release\iconv\objs\cp880.obj to ..\Release\iconv\cp880.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp880.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp880.lib and object ..\Release\iconv\cp880.exp
+  
+  Compiling cp891.c... via ..\Release\iconv\objs\cp891.obj to ..\Release\iconv\cp891.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp891.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp891.lib and object ..\Release\iconv\cp891.exp
+  
+  Compiling cp903.c... via ..\Release\iconv\objs\cp903.obj to ..\Release\iconv\cp903.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp903.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp903.lib and object ..\Release\iconv\cp903.exp
+  
+  Compiling cp904.c... via ..\Release\iconv\objs\cp904.obj to ..\Release\iconv\cp904.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp904.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp904.lib and object ..\Release\iconv\cp904.exp
+  
+  Compiling cp905.c... via ..\Release\iconv\objs\cp905.obj to ..\Release\iconv\cp905.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp905.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp905.lib and object ..\Release\iconv\cp905.exp
+  
+  Compiling cp918.c... via ..\Release\iconv\objs\cp918.obj to ..\Release\iconv\cp918.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp918.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp918.lib and object ..\Release\iconv\cp918.exp
+  
+  Compiling cp932.c... via ..\Release\iconv\objs\cp932.obj to ..\Release\iconv\cp932.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp932.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp932.lib and object ..\Release\iconv\cp932.exp
+  
+  Compiling cp936.c... via ..\Release\iconv\objs\cp936.obj to ..\Release\iconv\cp936.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp936.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp936.lib and object ..\Release\iconv\cp936.exp
+  
+  Compiling cp949.c... via ..\Release\iconv\objs\cp949.obj to ..\Release\iconv\cp949.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp949.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp949.lib and object ..\Release\iconv\cp949.exp
+  
+  Compiling cp950.c... via ..\Release\iconv\objs\cp950.obj to ..\Release\iconv\cp950.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  cp950.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\cp950.lib and object ..\Release\iconv\cp950.exp
+  
+  Compiling dec-mcs.c... via ..\Release\iconv\objs\dec-mcs.obj to ..\Release\iconv\dec-mcs.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  dec-mcs.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\dec-mcs.lib and object ..\Release\iconv\dec-mcs.exp
+  
+  Compiling ebcdic-at-de-a.c... via ..\Release\iconv\objs\ebcdic-at-de-a.obj to ..\Release\iconv\ebcdic-at-de-a.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  ebcdic-at-de-a.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\ebcdic-at-de-a.lib and object ..\Release\iconv\ebcdic-at-de-a.exp
+  
+  Compiling ebcdic-at-de.c... via ..\Release\iconv\objs\ebcdic-at-de.obj to ..\Release\iconv\ebcdic-at-de.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  ebcdic-at-de.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\ebcdic-at-de.lib and object ..\Release\iconv\ebcdic-at-de.exp
+  
+  Compiling ebcdic-ca-fr.c... via ..\Release\iconv\objs\ebcdic-ca-fr.obj to ..\Release\iconv\ebcdic-ca-fr.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  ebcdic-ca-fr.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\ebcdic-ca-fr.lib and object ..\Release\iconv\ebcdic-ca-fr.exp
+  
+  Compiling ebcdic-dk-no-a.c... via ..\Release\iconv\objs\ebcdic-dk-no-a.obj to ..\Release\iconv\ebcdic-dk-no-a.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  ebcdic-dk-no-a.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\ebcdic-dk-no-a.lib and object ..\Release\iconv\ebcdic-dk-no-a.exp
+  
+  Compiling ebcdic-dk-no.c... via ..\Release\iconv\objs\ebcdic-dk-no.obj to ..\Release\iconv\ebcdic-dk-no.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  ebcdic-dk-no.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\ebcdic-dk-no.lib and object ..\Release\iconv\ebcdic-dk-no.exp
+  
+  Compiling ebcdic-es-a.c... via ..\Release\iconv\objs\ebcdic-es-a.obj to ..\Release\iconv\ebcdic-es-a.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  ebcdic-es-a.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\ebcdic-es-a.lib and object ..\Release\iconv\ebcdic-es-a.exp
+  
+  Compiling ebcdic-es-s.c... via ..\Release\iconv\objs\ebcdic-es-s.obj to ..\Release\iconv\ebcdic-es-s.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  ebcdic-es-s.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\ebcdic-es-s.lib and object ..\Release\iconv\ebcdic-es-s.exp
+  
+  Compiling ebcdic-es.c... via ..\Release\iconv\objs\ebcdic-es.obj to ..\Release\iconv\ebcdic-es.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  ebcdic-es.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\ebcdic-es.lib and object ..\Release\iconv\ebcdic-es.exp
+  
+  Compiling ebcdic-fi-se-a.c... via ..\Release\iconv\objs\ebcdic-fi-se-a.obj to ..\Release\iconv\ebcdic-fi-se-a.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  ebcdic-fi-se-a.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\ebcdic-fi-se-a.lib and object ..\Release\iconv\ebcdic-fi-se-a.exp
+  
+  Compiling ebcdic-fi-se.c... via ..\Release\iconv\objs\ebcdic-fi-se.obj to ..\Release\iconv\ebcdic-fi-se.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  ebcdic-fi-se.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\ebcdic-fi-se.lib and object ..\Release\iconv\ebcdic-fi-se.exp
+  
+  Compiling ebcdic-fr.c... via ..\Release\iconv\objs\ebcdic-fr.obj to ..\Release\iconv\ebcdic-fr.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  ebcdic-fr.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\ebcdic-fr.lib and object ..\Release\iconv\ebcdic-fr.exp
+  
+  Compiling ebcdic-it.c... via ..\Release\iconv\objs\ebcdic-it.obj to ..\Release\iconv\ebcdic-it.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  ebcdic-it.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\ebcdic-it.lib and object ..\Release\iconv\ebcdic-it.exp
+  
+  Compiling ebcdic-pt.c... via ..\Release\iconv\objs\ebcdic-pt.obj to ..\Release\iconv\ebcdic-pt.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  ebcdic-pt.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\ebcdic-pt.lib and object ..\Release\iconv\ebcdic-pt.exp
+  
+  Compiling ebcdic-uk.c... via ..\Release\iconv\objs\ebcdic-uk.obj to ..\Release\iconv\ebcdic-uk.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  ebcdic-uk.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\ebcdic-uk.lib and object ..\Release\iconv\ebcdic-uk.exp
+  
+  Compiling ebcdic-us.c... via ..\Release\iconv\objs\ebcdic-us.obj to ..\Release\iconv\ebcdic-us.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  ebcdic-us.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\ebcdic-us.lib and object ..\Release\iconv\ebcdic-us.exp
+  
+  Compiling gb12345.c... via ..\Release\iconv\objs\gb12345.obj to ..\Release\iconv\gb12345.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  gb12345.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\gb12345.lib and object ..\Release\iconv\gb12345.exp
+  
+  Compiling gb_2312-80.c... via ..\Release\iconv\objs\gb_2312-80.obj to ..\Release\iconv\gb_2312-80.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  gb_2312-80.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\gb_2312-80.lib and object ..\Release\iconv\gb_2312-80.exp
+  
+  Compiling hp-roman8.c... via ..\Release\iconv\objs\hp-roman8.obj to ..\Release\iconv\hp-roman8.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  hp-roman8.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\hp-roman8.lib and object ..\Release\iconv\hp-roman8.exp
+  
+  Compiling iso-8859-1.c... via ..\Release\iconv\objs\iso-8859-1.obj to ..\Release\iconv\iso-8859-1.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-8859-1.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-8859-1.lib and object ..\Release\iconv\iso-8859-1.exp
+  
+  Compiling iso-8859-10.c... via ..\Release\iconv\objs\iso-8859-10.obj to ..\Release\iconv\iso-8859-10.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-8859-10.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-8859-10.lib and object ..\Release\iconv\iso-8859-10.exp
+  
+  Compiling iso-8859-13.c... via ..\Release\iconv\objs\iso-8859-13.obj to ..\Release\iconv\iso-8859-13.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-8859-13.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-8859-13.lib and object ..\Release\iconv\iso-8859-13.exp
+  
+  Compiling iso-8859-14.c... via ..\Release\iconv\objs\iso-8859-14.obj to ..\Release\iconv\iso-8859-14.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-8859-14.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-8859-14.lib and object ..\Release\iconv\iso-8859-14.exp
+  
+  Compiling iso-8859-15.c... via ..\Release\iconv\objs\iso-8859-15.obj to ..\Release\iconv\iso-8859-15.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-8859-15.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-8859-15.lib and object ..\Release\iconv\iso-8859-15.exp
+  
+  Compiling iso-8859-2.c... via ..\Release\iconv\objs\iso-8859-2.obj to ..\Release\iconv\iso-8859-2.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-8859-2.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-8859-2.lib and object ..\Release\iconv\iso-8859-2.exp
+  
+  Compiling iso-8859-3.c... via ..\Release\iconv\objs\iso-8859-3.obj to ..\Release\iconv\iso-8859-3.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-8859-3.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-8859-3.lib and object ..\Release\iconv\iso-8859-3.exp
+  
+  Compiling iso-8859-4.c... via ..\Release\iconv\objs\iso-8859-4.obj to ..\Release\iconv\iso-8859-4.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-8859-4.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-8859-4.lib and object ..\Release\iconv\iso-8859-4.exp
+  
+  Compiling iso-8859-5.c... via ..\Release\iconv\objs\iso-8859-5.obj to ..\Release\iconv\iso-8859-5.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-8859-5.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-8859-5.lib and object ..\Release\iconv\iso-8859-5.exp
+  
+  Compiling iso-8859-6.c... via ..\Release\iconv\objs\iso-8859-6.obj to ..\Release\iconv\iso-8859-6.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-8859-6.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-8859-6.lib and object ..\Release\iconv\iso-8859-6.exp
+  
+  Compiling iso-8859-7.c... via ..\Release\iconv\objs\iso-8859-7.obj to ..\Release\iconv\iso-8859-7.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-8859-7.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-8859-7.lib and object ..\Release\iconv\iso-8859-7.exp
+  
+  Compiling iso-8859-8.c... via ..\Release\iconv\objs\iso-8859-8.obj to ..\Release\iconv\iso-8859-8.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-8859-8.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-8859-8.lib and object ..\Release\iconv\iso-8859-8.exp
+  
+  Compiling iso-8859-9.c... via ..\Release\iconv\objs\iso-8859-9.obj to ..\Release\iconv\iso-8859-9.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-8859-9.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-8859-9.lib and object ..\Release\iconv\iso-8859-9.exp
+  
+  Compiling iso-ir-10.c... via ..\Release\iconv\objs\iso-ir-10.obj to ..\Release\iconv\iso-ir-10.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-10.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-10.lib and object ..\Release\iconv\iso-ir-10.exp
+  
+  Compiling iso-ir-102.c... via ..\Release\iconv\objs\iso-ir-102.obj to ..\Release\iconv\iso-ir-102.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-102.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-102.lib and object ..\Release\iconv\iso-ir-102.exp
+  
+  Compiling iso-ir-103.c... via ..\Release\iconv\objs\iso-ir-103.obj to ..\Release\iconv\iso-ir-103.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-103.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-103.lib and object ..\Release\iconv\iso-ir-103.exp
+  
+  Compiling iso-ir-11.c... via ..\Release\iconv\objs\iso-ir-11.obj to ..\Release\iconv\iso-ir-11.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-11.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-11.lib and object ..\Release\iconv\iso-ir-11.exp
+  
+  Compiling iso-ir-111.c... via ..\Release\iconv\objs\iso-ir-111.obj to ..\Release\iconv\iso-ir-111.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-111.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-111.lib and object ..\Release\iconv\iso-ir-111.exp
+  
+  Compiling iso-ir-121.c... via ..\Release\iconv\objs\iso-ir-121.obj to ..\Release\iconv\iso-ir-121.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-121.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-121.lib and object ..\Release\iconv\iso-ir-121.exp
+  
+  Compiling iso-ir-122.c... via ..\Release\iconv\objs\iso-ir-122.obj to ..\Release\iconv\iso-ir-122.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-122.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-122.lib and object ..\Release\iconv\iso-ir-122.exp
+  
+  Compiling iso-ir-123.c... via ..\Release\iconv\objs\iso-ir-123.obj to ..\Release\iconv\iso-ir-123.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-123.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-123.lib and object ..\Release\iconv\iso-ir-123.exp
+  
+  Compiling iso-ir-128.c... via ..\Release\iconv\objs\iso-ir-128.obj to ..\Release\iconv\iso-ir-128.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-128.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-128.lib and object ..\Release\iconv\iso-ir-128.exp
+  
+  Compiling iso-ir-13.c... via ..\Release\iconv\objs\iso-ir-13.obj to ..\Release\iconv\iso-ir-13.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-13.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-13.lib and object ..\Release\iconv\iso-ir-13.exp
+  
+  Compiling iso-ir-139.c... via ..\Release\iconv\objs\iso-ir-139.obj to ..\Release\iconv\iso-ir-139.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-139.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-139.lib and object ..\Release\iconv\iso-ir-139.exp
+  
+  Compiling iso-ir-14.c... via ..\Release\iconv\objs\iso-ir-14.obj to ..\Release\iconv\iso-ir-14.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-14.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-14.lib and object ..\Release\iconv\iso-ir-14.exp
+  
+  Compiling iso-ir-141.c... via ..\Release\iconv\objs\iso-ir-141.obj to ..\Release\iconv\iso-ir-141.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-141.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-141.lib and object ..\Release\iconv\iso-ir-141.exp
+  
+  Compiling iso-ir-142.c... via ..\Release\iconv\objs\iso-ir-142.obj to ..\Release\iconv\iso-ir-142.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-142.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-142.lib and object ..\Release\iconv\iso-ir-142.exp
+  
+  Compiling iso-ir-143.c... via ..\Release\iconv\objs\iso-ir-143.obj to ..\Release\iconv\iso-ir-143.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-143.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-143.lib and object ..\Release\iconv\iso-ir-143.exp
+  
+  Compiling iso-ir-146.c... via ..\Release\iconv\objs\iso-ir-146.obj to ..\Release\iconv\iso-ir-146.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-146.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-146.lib and object ..\Release\iconv\iso-ir-146.exp
+  
+  Compiling iso-ir-147.c... via ..\Release\iconv\objs\iso-ir-147.obj to ..\Release\iconv\iso-ir-147.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-147.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-147.lib and object ..\Release\iconv\iso-ir-147.exp
+  
+  Compiling iso-ir-15.c... via ..\Release\iconv\objs\iso-ir-15.obj to ..\Release\iconv\iso-ir-15.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-15.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-15.lib and object ..\Release\iconv\iso-ir-15.exp
+  
+  Compiling iso-ir-150.c... via ..\Release\iconv\objs\iso-ir-150.obj to ..\Release\iconv\iso-ir-150.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-150.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-150.lib and object ..\Release\iconv\iso-ir-150.exp
+  
+  Compiling iso-ir-151.c... via ..\Release\iconv\objs\iso-ir-151.obj to ..\Release\iconv\iso-ir-151.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-151.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-151.lib and object ..\Release\iconv\iso-ir-151.exp
+  
+  Compiling iso-ir-152.c... via ..\Release\iconv\objs\iso-ir-152.obj to ..\Release\iconv\iso-ir-152.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-152.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-152.lib and object ..\Release\iconv\iso-ir-152.exp
+  
+  Compiling iso-ir-153.c... via ..\Release\iconv\objs\iso-ir-153.obj to ..\Release\iconv\iso-ir-153.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-153.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-153.lib and object ..\Release\iconv\iso-ir-153.exp
+  
+  Compiling iso-ir-154.c... via ..\Release\iconv\objs\iso-ir-154.obj to ..\Release\iconv\iso-ir-154.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-154.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-154.lib and object ..\Release\iconv\iso-ir-154.exp
+  
+  Compiling iso-ir-155.c... via ..\Release\iconv\objs\iso-ir-155.obj to ..\Release\iconv\iso-ir-155.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-155.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-155.lib and object ..\Release\iconv\iso-ir-155.exp
+  
+  Compiling iso-ir-158.c... via ..\Release\iconv\objs\iso-ir-158.obj to ..\Release\iconv\iso-ir-158.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-158.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-158.lib and object ..\Release\iconv\iso-ir-158.exp
+  
+  Compiling iso-ir-16.c... via ..\Release\iconv\objs\iso-ir-16.obj to ..\Release\iconv\iso-ir-16.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-16.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-16.lib and object ..\Release\iconv\iso-ir-16.exp
+  
+  Compiling iso-ir-17.c... via ..\Release\iconv\objs\iso-ir-17.obj to ..\Release\iconv\iso-ir-17.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-17.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-17.lib and object ..\Release\iconv\iso-ir-17.exp
+  
+  Compiling iso-ir-18.c... via ..\Release\iconv\objs\iso-ir-18.obj to ..\Release\iconv\iso-ir-18.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-18.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-18.lib and object ..\Release\iconv\iso-ir-18.exp
+  
+  Compiling iso-ir-19.c... via ..\Release\iconv\objs\iso-ir-19.obj to ..\Release\iconv\iso-ir-19.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-19.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-19.lib and object ..\Release\iconv\iso-ir-19.exp
+  
+  Compiling iso-ir-2.c... via ..\Release\iconv\objs\iso-ir-2.obj to ..\Release\iconv\iso-ir-2.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-2.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-2.lib and object ..\Release\iconv\iso-ir-2.exp
+  
+  Compiling iso-ir-21.c... via ..\Release\iconv\objs\iso-ir-21.obj to ..\Release\iconv\iso-ir-21.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-21.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-21.lib and object ..\Release\iconv\iso-ir-21.exp
+  
+  Compiling iso-ir-25.c... via ..\Release\iconv\objs\iso-ir-25.obj to ..\Release\iconv\iso-ir-25.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-25.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-25.lib and object ..\Release\iconv\iso-ir-25.exp
+  
+  Compiling iso-ir-27.c... via ..\Release\iconv\objs\iso-ir-27.obj to ..\Release\iconv\iso-ir-27.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-27.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-27.lib and object ..\Release\iconv\iso-ir-27.exp
+  
+  Compiling iso-ir-37.c... via ..\Release\iconv\objs\iso-ir-37.obj to ..\Release\iconv\iso-ir-37.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-37.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-37.lib and object ..\Release\iconv\iso-ir-37.exp
+  
+  Compiling iso-ir-4.c... via ..\Release\iconv\objs\iso-ir-4.obj to ..\Release\iconv\iso-ir-4.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-4.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-4.lib and object ..\Release\iconv\iso-ir-4.exp
+  
+  Compiling iso-ir-47.c... via ..\Release\iconv\objs\iso-ir-47.obj to ..\Release\iconv\iso-ir-47.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-47.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-47.lib and object ..\Release\iconv\iso-ir-47.exp
+  
+  Compiling iso-ir-49.c... via ..\Release\iconv\objs\iso-ir-49.obj to ..\Release\iconv\iso-ir-49.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-49.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-49.lib and object ..\Release\iconv\iso-ir-49.exp
+  
+  Compiling iso-ir-50.c... via ..\Release\iconv\objs\iso-ir-50.obj to ..\Release\iconv\iso-ir-50.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-50.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-50.lib and object ..\Release\iconv\iso-ir-50.exp
+  
+  Compiling iso-ir-51.c... via ..\Release\iconv\objs\iso-ir-51.obj to ..\Release\iconv\iso-ir-51.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-51.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-51.lib and object ..\Release\iconv\iso-ir-51.exp
+  
+  Compiling iso-ir-54.c... via ..\Release\iconv\objs\iso-ir-54.obj to ..\Release\iconv\iso-ir-54.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-54.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-54.lib and object ..\Release\iconv\iso-ir-54.exp
+  
+  Compiling iso-ir-55.c... via ..\Release\iconv\objs\iso-ir-55.obj to ..\Release\iconv\iso-ir-55.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-55.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-55.lib and object ..\Release\iconv\iso-ir-55.exp
+  
+  Compiling iso-ir-57.c... via ..\Release\iconv\objs\iso-ir-57.obj to ..\Release\iconv\iso-ir-57.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-57.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-57.lib and object ..\Release\iconv\iso-ir-57.exp
+  
+  Compiling iso-ir-60.c... via ..\Release\iconv\objs\iso-ir-60.obj to ..\Release\iconv\iso-ir-60.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-60.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-60.lib and object ..\Release\iconv\iso-ir-60.exp
+  
+  Compiling iso-ir-61.c... via ..\Release\iconv\objs\iso-ir-61.obj to ..\Release\iconv\iso-ir-61.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-61.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-61.lib and object ..\Release\iconv\iso-ir-61.exp
+  
+  Compiling iso-ir-69.c... via ..\Release\iconv\objs\iso-ir-69.obj to ..\Release\iconv\iso-ir-69.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-69.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-69.lib and object ..\Release\iconv\iso-ir-69.exp
+  
+  Compiling iso-ir-70.c... via ..\Release\iconv\objs\iso-ir-70.obj to ..\Release\iconv\iso-ir-70.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-70.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-70.lib and object ..\Release\iconv\iso-ir-70.exp
+  
+  Compiling iso-ir-8-1.c... via ..\Release\iconv\objs\iso-ir-8-1.obj to ..\Release\iconv\iso-ir-8-1.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-8-1.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-8-1.lib and object ..\Release\iconv\iso-ir-8-1.exp
+  
+  Compiling iso-ir-8-2.c... via ..\Release\iconv\objs\iso-ir-8-2.obj to ..\Release\iconv\iso-ir-8-2.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-8-2.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-8-2.lib and object ..\Release\iconv\iso-ir-8-2.exp
+  
+  Compiling iso-ir-84.c... via ..\Release\iconv\objs\iso-ir-84.obj to ..\Release\iconv\iso-ir-84.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-84.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-84.lib and object ..\Release\iconv\iso-ir-84.exp
+  
+  Compiling iso-ir-85.c... via ..\Release\iconv\objs\iso-ir-85.obj to ..\Release\iconv\iso-ir-85.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-85.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-85.lib and object ..\Release\iconv\iso-ir-85.exp
+  
+  Compiling iso-ir-86.c... via ..\Release\iconv\objs\iso-ir-86.obj to ..\Release\iconv\iso-ir-86.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-86.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-86.lib and object ..\Release\iconv\iso-ir-86.exp
+  
+  Compiling iso-ir-88.c... via ..\Release\iconv\objs\iso-ir-88.obj to ..\Release\iconv\iso-ir-88.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-88.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-88.lib and object ..\Release\iconv\iso-ir-88.exp
+  
+  Compiling iso-ir-89.c... via ..\Release\iconv\objs\iso-ir-89.obj to ..\Release\iconv\iso-ir-89.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-89.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-89.lib and object ..\Release\iconv\iso-ir-89.exp
+  
+  Compiling iso-ir-9-1.c... via ..\Release\iconv\objs\iso-ir-9-1.obj to ..\Release\iconv\iso-ir-9-1.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-9-1.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-9-1.lib and object ..\Release\iconv\iso-ir-9-1.exp
+  
+  Compiling iso-ir-9-2.c... via ..\Release\iconv\objs\iso-ir-9-2.obj to ..\Release\iconv\iso-ir-9-2.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-9-2.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-9-2.lib and object ..\Release\iconv\iso-ir-9-2.exp
+  
+  Compiling iso-ir-90.c... via ..\Release\iconv\objs\iso-ir-90.obj to ..\Release\iconv\iso-ir-90.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-90.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-90.lib and object ..\Release\iconv\iso-ir-90.exp
+  
+  Compiling iso-ir-91.c... via ..\Release\iconv\objs\iso-ir-91.obj to ..\Release\iconv\iso-ir-91.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-91.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-91.lib and object ..\Release\iconv\iso-ir-91.exp
+  
+  Compiling iso-ir-92.c... via ..\Release\iconv\objs\iso-ir-92.obj to ..\Release\iconv\iso-ir-92.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-92.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-92.lib and object ..\Release\iconv\iso-ir-92.exp
+  
+  Compiling iso-ir-93.c... via ..\Release\iconv\objs\iso-ir-93.obj to ..\Release\iconv\iso-ir-93.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-93.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-93.lib and object ..\Release\iconv\iso-ir-93.exp
+  
+  Compiling iso-ir-94.c... via ..\Release\iconv\objs\iso-ir-94.obj to ..\Release\iconv\iso-ir-94.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-94.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-94.lib and object ..\Release\iconv\iso-ir-94.exp
+  
+  Compiling iso-ir-95.c... via ..\Release\iconv\objs\iso-ir-95.obj to ..\Release\iconv\iso-ir-95.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-95.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-95.lib and object ..\Release\iconv\iso-ir-95.exp
+  
+  Compiling iso-ir-96.c... via ..\Release\iconv\objs\iso-ir-96.obj to ..\Release\iconv\iso-ir-96.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-96.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-96.lib and object ..\Release\iconv\iso-ir-96.exp
+  
+  Compiling iso-ir-98.c... via ..\Release\iconv\objs\iso-ir-98.obj to ..\Release\iconv\iso-ir-98.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-98.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-98.lib and object ..\Release\iconv\iso-ir-98.exp
+  
+  Compiling iso-ir-99.c... via ..\Release\iconv\objs\iso-ir-99.obj to ..\Release\iconv\iso-ir-99.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso-ir-99.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso-ir-99.lib and object ..\Release\iconv\iso-ir-99.exp
+  
+  Compiling iso646-dk.c... via ..\Release\iconv\objs\iso646-dk.obj to ..\Release\iconv\iso646-dk.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso646-dk.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso646-dk.lib and object ..\Release\iconv\iso646-dk.exp
+  
+  Compiling iso646-kr.c... via ..\Release\iconv\objs\iso646-kr.obj to ..\Release\iconv\iso646-kr.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  iso646-kr.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\iso646-kr.lib and object ..\Release\iconv\iso646-kr.exp
+  
+  Compiling jis_x0201.c... via ..\Release\iconv\objs\jis_x0201.obj to ..\Release\iconv\jis_x0201.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  jis_x0201.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\jis_x0201.lib and object ..\Release\iconv\jis_x0201.exp
+  
+  Compiling jis_x0208-1983.c... via ..\Release\iconv\objs\jis_x0208-1983.obj to ..\Release\iconv\jis_x0208-1983.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  jis_x0208-1983.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\jis_x0208-1983.lib and object ..\Release\iconv\jis_x0208-1983.exp
+  
+  Compiling jis_x0212-1990.c... via ..\Release\iconv\objs\jis_x0212-1990.obj to ..\Release\iconv\jis_x0212-1990.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  jis_x0212-1990.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\jis_x0212-1990.lib and object ..\Release\iconv\jis_x0212-1990.exp
+  
+  Compiling johab.c... via ..\Release\iconv\objs\johab.obj to ..\Release\iconv\johab.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  johab.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\johab.lib and object ..\Release\iconv\johab.exp
+  
+  Compiling koi8-r.c... via ..\Release\iconv\objs\koi8-r.obj to ..\Release\iconv\koi8-r.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  koi8-r.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\koi8-r.lib and object ..\Release\iconv\koi8-r.exp
+  
+  Compiling koi8-ru.c... via ..\Release\iconv\objs\koi8-ru.obj to ..\Release\iconv\koi8-ru.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  koi8-ru.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\koi8-ru.lib and object ..\Release\iconv\koi8-ru.exp
+  
+  Compiling koi8-u.c... via ..\Release\iconv\objs\koi8-u.obj to ..\Release\iconv\koi8-u.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  koi8-u.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\koi8-u.lib and object ..\Release\iconv\koi8-u.exp
+  
+  Compiling ksx1001.c... via ..\Release\iconv\objs\ksx1001.obj to ..\Release\iconv\ksx1001.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  ksx1001.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\ksx1001.lib and object ..\Release\iconv\ksx1001.exp
+  
+  Compiling mac-ce.c... via ..\Release\iconv\objs\mac-ce.obj to ..\Release\iconv\mac-ce.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  mac-ce.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\mac-ce.lib and object ..\Release\iconv\mac-ce.exp
+  
+  Compiling mac-croatian.c... via ..\Release\iconv\objs\mac-croatian.obj to ..\Release\iconv\mac-croatian.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  mac-croatian.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\mac-croatian.lib and object ..\Release\iconv\mac-croatian.exp
+  
+  Compiling mac-cyrillic.c... via ..\Release\iconv\objs\mac-cyrillic.obj to ..\Release\iconv\mac-cyrillic.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  mac-cyrillic.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\mac-cyrillic.lib and object ..\Release\iconv\mac-cyrillic.exp
+  
+  Compiling mac-dingbats.c... via ..\Release\iconv\objs\mac-dingbats.obj to ..\Release\iconv\mac-dingbats.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  mac-dingbats.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\mac-dingbats.lib and object ..\Release\iconv\mac-dingbats.exp
+  
+  Compiling mac-greek.c... via ..\Release\iconv\objs\mac-greek.obj to ..\Release\iconv\mac-greek.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  mac-greek.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\mac-greek.lib and object ..\Release\iconv\mac-greek.exp
+  
+  Compiling mac-iceland.c... via ..\Release\iconv\objs\mac-iceland.obj to ..\Release\iconv\mac-iceland.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  mac-iceland.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\mac-iceland.lib and object ..\Release\iconv\mac-iceland.exp
+  
+  Compiling mac-japan.c... via ..\Release\iconv\objs\mac-japan.obj to ..\Release\iconv\mac-japan.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  mac-japan.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\mac-japan.lib and object ..\Release\iconv\mac-japan.exp
+  
+  Compiling mac-roman.c... via ..\Release\iconv\objs\mac-roman.obj to ..\Release\iconv\mac-roman.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  mac-roman.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\mac-roman.lib and object ..\Release\iconv\mac-roman.exp
+  
+  Compiling mac-romania.c... via ..\Release\iconv\objs\mac-romania.obj to ..\Release\iconv\mac-romania.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  mac-romania.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\mac-romania.lib and object ..\Release\iconv\mac-romania.exp
+  
+  Compiling mac-thai.c... via ..\Release\iconv\objs\mac-thai.obj to ..\Release\iconv\mac-thai.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  mac-thai.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\mac-thai.lib and object ..\Release\iconv\mac-thai.exp
+  
+  Compiling mac-turkish.c... via ..\Release\iconv\objs\mac-turkish.obj to ..\Release\iconv\mac-turkish.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  mac-turkish.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\mac-turkish.lib and object ..\Release\iconv\mac-turkish.exp
+  
+  Compiling mac-ukraine.c... via ..\Release\iconv\objs\mac-ukraine.obj to ..\Release\iconv\mac-ukraine.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  mac-ukraine.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\mac-ukraine.lib and object ..\Release\iconv\mac-ukraine.exp
+  
+  Compiling macintosh.c... via ..\Release\iconv\objs\macintosh.obj to ..\Release\iconv\macintosh.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  macintosh.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\macintosh.lib and object ..\Release\iconv\macintosh.exp
+  
+  Compiling osd_ebcdic_df04_1.c... via ..\Release\iconv\objs\osd_ebcdic_df04_1.obj to ..\Release\iconv\osd_ebcdic_df04_1.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  osd_ebcdic_df04_1.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\osd_ebcdic_df04_1.lib and object ..\Release\iconv\osd_ebcdic_df04_1.exp
+  
+  Compiling osd_ebcdic_df04_15.c... via ..\Release\iconv\objs\osd_ebcdic_df04_15.obj to ..\Release\iconv\osd_ebcdic_df04_15.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  osd_ebcdic_df04_15.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\osd_ebcdic_df04_15.lib and object ..\Release\iconv\osd_ebcdic_df04_15.exp
+  
+  Compiling shift_jis.c... via ..\Release\iconv\objs\shift_jis.obj to ..\Release\iconv\shift_jis.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  shift_jis.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\shift_jis.lib and object ..\Release\iconv\shift_jis.exp
+  
+  Compiling us-ascii.c... via ..\Release\iconv\objs\us-ascii.obj to ..\Release\iconv\us-ascii.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  us-ascii.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\us-ascii.lib and object ..\Release\iconv\us-ascii.exp
+  
+  Compiling windows-1250.c... via ..\Release\iconv\objs\windows-1250.obj to ..\Release\iconv\windows-1250.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  windows-1250.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\windows-1250.lib and object ..\Release\iconv\windows-1250.exp
+  
+  Compiling windows-1251.c... via ..\Release\iconv\objs\windows-1251.obj to ..\Release\iconv\windows-1251.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  windows-1251.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\windows-1251.lib and object ..\Release\iconv\windows-1251.exp
+  
+  Compiling windows-1252.c... via ..\Release\iconv\objs\windows-1252.obj to ..\Release\iconv\windows-1252.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  windows-1252.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\windows-1252.lib and object ..\Release\iconv\windows-1252.exp
+  
+  Compiling windows-1253.c... via ..\Release\iconv\objs\windows-1253.obj to ..\Release\iconv\windows-1253.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  windows-1253.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\windows-1253.lib and object ..\Release\iconv\windows-1253.exp
+  
+  Compiling windows-1254.c... via ..\Release\iconv\objs\windows-1254.obj to ..\Release\iconv\windows-1254.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  windows-1254.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\windows-1254.lib and object ..\Release\iconv\windows-1254.exp
+  
+  Compiling windows-1255.c... via ..\Release\iconv\objs\windows-1255.obj to ..\Release\iconv\windows-1255.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  windows-1255.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\windows-1255.lib and object ..\Release\iconv\windows-1255.exp
+  
+  Compiling windows-1256.c... via ..\Release\iconv\objs\windows-1256.obj to ..\Release\iconv\windows-1256.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  windows-1256.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\windows-1256.lib and object ..\Release\iconv\windows-1256.exp
+  
+  Compiling windows-1257.c... via ..\Release\iconv\objs\windows-1257.obj to ..\Release\iconv\windows-1257.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  windows-1257.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\windows-1257.lib and object ..\Release\iconv\windows-1257.exp
+  
+  Compiling windows-1258.c... via ..\Release\iconv\objs\windows-1258.obj to ..\Release\iconv\windows-1258.so
+cl : Command line warning D9002: ignoring unknown option '/YXiconv.h'
+  windows-1258.c
+LINK : warning LNK4044: unrecognized option '/WARN:0'; ignored
+     Creating library ..\Release\iconv\windows-1258.lib and object ..\Release\iconv\windows-1258.exp
+  

@@ -1,0 +1,558 @@
+﻿APACHE 2.0 STATUS:                                              -*-text-*-
+Last modified at [$Date: 2013-06-28 11:56:49 -0500 (Fri, 28 Jun 2013) $]
+
+
+Release history:
+
+    2.0.65  : Tagged and Retired June 28, 2013.
+    2.0.64  : Released October 19, 2010.
+    2.0.63  : Released January 19, 2008.
+    2.0.62  : Tagged January 4, 2008. Not released.
+    2.0.61  : Released September 7, 2007.
+    2.0.60  : Tagged August 10, 2007, not released.
+    2.0.59  : released July 28, 2006 as GA.
+    2.0.58  : released May 1, 2006 as GA.
+    2.0.57  : tagged April 19, 2006, not released.
+    2.0.56  : tagged April 16, 2006, not released.
+    2.0.55  : released October 16, 2005 as GA.
+    2.0.54  : released April 17, 2005 as GA.
+    2.0.53  : released February 7, 2005 as GA.
+    2.0.52  : released September 28, 2004 as GA.
+    2.0.51  : released September 15, 2004 as GA.
+    2.0.50  : released June 30, 2004 as GA.
+    2.0.49  : released March 19, 2004 as GA.
+    2.0.48  : released October 29, 2003 as GA.
+    2.0.47  : released July 09, 2003 as GA.
+    2.0.46  : released May 28, 2003 as GA.
+    2.0.45  : released April 1, 2003 as GA.
+    2.0.44  : released January 20, 2003 as GA.
+    2.0.43  : released October 3, 2002 as GA.
+    2.0.42  : released September 24, 2002 as GA.
+    2.0.41  : rolled September 16, 2002.  not released.
+    2.0.40  : released August 9, 2002 as GA.
+    2.0.39  : released June 17, 2002 as GA.
+    2.0.38  : rolled June 16, 2002.  not released.
+    2.0.37  : rolled June 11, 2002.  not released.
+    2.0.36  : released May 6, 2002 as GA.
+    2.0.35  : released April 5, 2002 as GA.
+    2.0.34  : tagged March 26, 2002.
+    2.0.33  : tagged March 6, 2002.  not released.
+    2.0.32  : released Feburary 16, 2002 as beta.
+    2.0.31  : rolled Feburary 1, 2002.  not released.
+    2.0.30  : tagged January 8, 2002.  not rolled.
+    2.0.29  : tagged November 27, 2001.  not rolled.
+    2.0.28  : released November 13, 2001 as beta.
+    2.0.27  : rolled November 6, 2001
+    2.0.26  : tagged October 16, 2001.  not rolled.
+    2.0.25  : rolled August 29, 2001
+    2.0.24  : rolled August 18, 2001
+    2.0.23  : rolled August 9, 2001
+    2.0.22  : rolled July 29, 2001
+    2.0.21  : rolled July 20, 2001
+    2.0.20  : rolled July 8, 2001
+    2.0.19  : rolled June 27, 2001
+    2.0.18  : rolled May 18, 2001
+    2.0.17  : rolled April 17, 2001
+    2.0.16  : rolled April 4, 2001
+    2.0.15  : rolled March 21, 2001
+    2.0.14  : rolled March 7, 2001
+    2.0a9   : released December 12, 2000
+    2.0a8   : released November 20, 2000
+    2.0a7   : released October 8, 2000
+    2.0a6   : released August 18, 2000
+    2.0a5   : released August 4, 2000
+    2.0a4   : released June 7, 2000
+    2.0a3   : released April 28, 2000
+    2.0a2   : released March 31, 2000
+    2.0a1   : released March 10, 2000
+
+
+CURRENT RELEASE NOTES:
+
+  ** THIS BRANCH IS CLOSED TO DEVELOPMENT AND MAINTENANCE **
+ 
+  * Refer to the development trunk and maintained/stable branches for current
+    activity;
+ 
+      http://svn.apache.org/repos/asf/httpd/httpd/trunk/STATUS
+
+
+UNADDRESSED ISSUES:
+
+  * Backport 327179; PR 31226; allow ap_add_output_filters_by_type to handle
+    proxied requests.  Basic tests by jorton and [rpluem] show that this works,
+    nobody can actually remember why this limitation was introduced at all
+    (r94028) and the mailing list archives also gave no hint.
+      http://svn.apache.org/viewvc?view=rev&revision=327179
+    +0: covener, wrowe
+          do we need to make people opt-in for this behavior to
+          backport it to 2.0.x? What mechanism?
+
+    *) mod_headers: Support {...}s tag for SSL variable lookup.
+       http://www.apache.org/~jorton/mod_headers-2.0-ssl.diff
+       +1: jorton, trawick
+       nd: two comments:
+         (1) is the use of APR_ASCII_* ebcdic-safe? I.e. shouldn't we use the
+             native chars here and it will be converted later? (I'm not sure)
+       jorton: I have no idea, let an EBCDIC-er complain if it breaks?
+       trawick: seems that '\r' and '\n' are the better chars to check
+                for; this is not raw data read from the network (or directly
+                from SSL) but instead it is either protocol data that has
+                already been converted to the native charset or it is other
+                data which was created inside the server in the native charset
+         (2) I'd put out (null) only if val is NULL, not if it's empty.
+       jorton: ssl_var_lookup() returns "" in place of NULL, that was really
+          a deliberate choice... but maybe you're right.
+
+
+    *) Provide TLS/SSL upgrade functionality in mod_ssl allowing an unsecure
+       connection to be upgraded to a secure connection upon request by the
+       client.  The full patch is available at http://www.apache.org/~bnicholes/
+       as well as a test client tlsupgrade.c. This functionality is mainly used
+       by IPP clients today.
+          modules/ssl/mod_ssl.c: r1.75, r1.97, r1.100
+          modules/ssl/mod_ssl.h: r1.123
+          modules/ssl/ssl_engine_config.c: r1.71, r1.90
+          modules/ssl/ssl_engine_init.c: r1.107, r1.126
+          modules/ssl/ssl_engine_io.c: r1.102, r1.124
+          modules/ssl/ssl_engine_kernel.c: r1.83, r1.105, r1.108
+          modules/ssl/ssl_util.c: r1.36
+          modules/ssl/ssl_private.h: r1.2
+       +1: bnicholes, wrowe
+       -0: jerenkrantz (should wait for 2.2)
+       -0: pquerna (2.2)
+       -0: jorton (msgid <20040305083540.GA24529@redhat.com>)
+
+
+    *) Replace some of the mutex locking in the worker MPM with
+       atomic operations for higher concurrency.
+         server/mpm/worker/fdqueue.c 1.24, 1.25
+       +1: brianp, ianh, jjclar
+       trawick: Doesn't this make Apache 2.0.next slower except
+                when the right atomic operations are available/
+                implemented?  (Due to under-the-covers mutex
+                operations when the dummy atomics are used?)
+       pquerna: Has anyone tested the performance differences
+                for different platforms? At this point I would
+                favour waiting for 2.2.
+       -0: stoddard (at least until the performance implications are clarified)
+
+    *) Allow mod_dav to do weak entity comparison functions.
+       modules/dav/main/util.c: r1.45
+       [ This one is under review.  Don't merge.  ]
+       +1:
+
+    *) mod_negotiation: parse quality values independent from
+       the current locale and level values as integers. PR 17564.
+       (essentially: get a rid of atof()) (2.0 + 1.3)
+       modules/mappers/mod_negotiation.c: r1.114
+       +1: nd
+         We need to decide what happens with unparsable qvalues. RFC 2616
+         states that q defaults to 1. (see 14.1 - 14.4). So should wrong
+         qvalues be returned as 1.0 or 0.0 (as atof() did)?
+         1.0: nd
+         0.0: jim (a default != an "errored" value)
+
+    *) Keep the same SSLMutex for the lifetime of the parent process
+       (instead of having children using different mutexes and failing
+       to lock the session cache across restarts.)
+       New patch forthcoming - JimJag's changes make the merge ugly.
+       +1: wrowe
+       +1 (concept): jim (final vote when the patch is available)
+
+    *) Fix the SSLMutex config parser so that all 'mechanisms' can take
+       a filename, even if ignored, and they are rooted to the full path
+       to the server (except for posixsem locks).  This allows a very
+       cross-platform default:logs/ssl_mutex to be used everywhere.  Also
+       eliminates the '.pid' suffix so that the name given is the name.
+       Allows Win32 and other non-unicies to use named locks.
+       New patch forthcoming - JimJag's changes make the merge ugly.
+       +1: wrowe
+       +1 (concept): jim (final vote when the patch is available)
+
+    *) mod_ssl: Drop SSL_EXPERIMENTAL_ENGINE test in favor of testing for the
+       ENGINE_init() function in config.m4, and use HAVE_ENGINE_INIT instead.
+       wrowe notes that this feature is a noop until configured with SSLEngine.
+       http://www.apache.org/~wrowe/have_engine_init.patch for a clean 2.0 patch.
+       modules/ssl/README 1.40
+       modules/ssl/config.m4 1.14
+       modules/ssl/mod_ssl.c 1.79
+       modules/ssl/mod_ssl.h 1.135
+       modules/ssl/ssl_engine_config.c 1.78
+       modules/ssl/ssl_engine_init.c 1.113
+       modules/ssl/ssl_toolkit_compat.c 1.33
+       +0: wrowe {Pending research into how to get AC to use -lsockets et. al.,
+                  shows breakage on Solaris which can't -lcrypto -lssl without
+                  the extra pkgconfig/openssl.pc Libs: * foo }
+
+    *) mod_ssl: fix a link failure when the openssl-engine libraries are
+       present but the engine headers are missing.
+         modules/ssl/mod_ssl.c: r1.87
+         modules/ssl/mod_ssl.h: r1.139
+         modules/ssl/ssl_engine_config.c: r1.82
+       PREREQ: Blow away of SSL_EXPERIMENTAL_ENGINE (see above)
+       +1: jwoolley, trawick, jim, jerenkrantz
+
+    *) When UseCanonicalName is set to OFF, allow ap_get_server_port to
+       check r->connection->local_addr->port before defaulting to
+       server->port or ap_default_port()
+         server/core.c r1.247
+       +1: bnicholes, jim, wrowe
+       0: nd, jerenkrantz
+          nd: can the local_addr->port ever be 0?
+          bnicholes response: I couldn't tell you for sure if local_addr->port
+            could be 0.  But it makes sense that if it were then Apache
+            wouldn't be listening on any port so it wouldn't matter anyway.
+          nd replies: But if it can't be 0 the alternatives thereafter make no
+            sense anymore, right?
+          jim proposes: UseCanonicalName Client directive
+            which implements this, keeping UseCanonicalName Off
+            "as is".
+
+    *) ThreadStackSize for Win32 and threaded MPMs
+       trawick will eventually put together a patch for httpd 2.0.next
+       +1 concept: trawick, nd, stoddard, wrowe
+
+    *) don't propagate input headers describing a body to a GET subrequest
+       with no body
+       http://svn.apache.org/viewcvs?view=rev&rev=158798
+       http://svn.apache.org/viewcvs?view=rev&rev=159410
+       http://svn.apache.org/viewcvs?view=rev&rev=160573
+       +1: gregames, wrowe (provided this is applied to ALL subreq types!)
+       -1: jerenkrantz (read_length isn't a sufficient check to see if a body
+                       is present in the request; presence of T-E and C-L in
+                       the headers is the correct flag.)
+           gregames: addressed jerenkrantz' objection in rev 160573
+           wrowe: this has a negative impact on modules who wish to 'inspect'
+             the headers, e.g. an xml transformation affected by the query
+             string or request POST args.  The right solution is adopt apreq,
+             providing an API for filters to participate in POST bodies.
+           gregames: this does not affect POSTs.  the affected function helps
+             create a GET subrequest with no body and is unprepared to deal with
+             subrequest bodies.  any modules or applications wishing to
+             inspect headers will in fact work better because the headers will
+             reflect reality.
+           wrowe: I've reconsidered - the simple fact is that subrequests
+             don't have a good mechanism to 'share' the input body with the
+             main request, and it's gotta be up to the main request to handle
+             the input body.  If the module wants to use apreq-provided data,
+             then it's going to have to ask apreq for the data instead of
+             looking at the headers.  For that matter, why are subreq's even
+             propogating POST or other non-GET types?  It seems that almost
+             any subreq should be handled as a GET in 2.0.
+
+    *) Reverse Proxy fixes: <Location> bug and Cookie support
+        Patch is at
+        http://people.apache.org/~colm/httpd-2.0-reverse-proxy-cookie.patch
+        and is in production with Clients.
+       +1: niq, wrowe
+         wrowe adds; looks good, no way to apply this without a minor bump
+
+CURRENT VOTES:
+
+    *) httpd-std.conf and friends;
+
+      a) httpd-std.conf should be tailored by install (from src or
+         binbuild) even if user has existing httpd.conf
+         +1:   trawick, slive, gregames, ianh, Ken, wrowe, jwoolley, jim, nd,
+               erikabele
+           wrowe - prefer httpd.default.conf to avoid ambiguity with cvs,
+                   note that win32 installer creates just that file
+                   (.default.conf rather than .conf.default so that win32
+                    can recognize .conf files as text configuration files.)
+
+      c) tailored httpd-std.conf should be installed to
+         sysconfdir/examples or manualdir/exampleconf/
+         +1:   slive, trawick, Ken, nd (prefer the latter), erikabele
+
+    *) If the parent process dies, should the remaining child processes
+       "gracefully" self-terminate. Or maybe we should make it a runtime
+       option, or have a concept of 2 parent processes (one being a
+       "hot spare").
+       See: Message-ID: <3C58232C.FE91F19F@Golux.Com>
+
+       Self-destruct: Ken, Martin
+       Not self-destruct: BrianP, Ian, Cliff, BillS
+       Make it runtime configurable: Aaron, Justin, wrowe, rederpj, jim, nd
+
+       /* The below was a concept on *how* to handle the problem */
+       Have 2 parents: +1: jim
+                       -1: Justin, wrowe, rederpj, nd
+                       +0: Martin (while standing by, could it do
+                                  something useful?)
+
+    *) Make the worker MPM the default MPM for threaded Unix boxes.
+       +1:   Justin, Ian, Cliff, BillS, striker, Philip
+       +0:   BrianP, Aaron (mutex contention is looking better with the
+             latest code, let's continue tuning and testing), rederpj, jim
+       -0:   Lars, wrowe (let's make this defacto for the 2.2 release.),
+             nd (for 2.0)
+
+
+RELEASE NON-SHOWSTOPPERS BUT WOULD BE REAL NICE TO WRAP THESE UP:
+
+    * There is a bug in how we sort some hooks, at least the pre-config
+      hook.  The first time we call the hooks, they are in the correct
+      order, but the second time, we don't sort them correctly.  Currently,
+      the modules/http/config.m4 file has been renamed to
+      modules/http/config2.m4 to work around this problem, it should moved
+      back when this is fixed.
+
+        OtherBill offers that this is a SERIOUS problem.  We do not sort
+        correctly by the ordering arguments passed to the register hook
+        functions.  This was proven when I reordered the open_logs hook
+        to attempt to open the error logs prior to the access logs.  Possibly
+        the entire sorting code needs to be refactored.
+
+    * pipes deadlock on all platforms with limited pipe buffers (e.g. both
+      Linux and Win32, as opposed to only Win32 on 1.3).  The right solution
+      is either GStein's proposal for a "CGI Brigade", or OtherBill's proposal
+      for "Poll Buckets" for "Polling Filter Chains".  Or perhaps both :-)
+
+    * All handlers should always send content down even if r->header_only
+      is set.  If not, it means that the HEAD requests don't generate the
+      same headers as a GET which is wrong.
+
+    * HP/UX 10.20: compile breakage in APR.  Looks like it should be easy
+      to fix, probably just some extraneous #include's that are fouling
+      things up.
+      PR: 9457
+      Jeff: See my reply and patch in the PR (and previous commit to
+      stop using "pipe" as a field name).  If patch is committed, we
+      should be okay.  I'll wait to see if the user tests the patch.
+      Update by Jeff 20020722: I got an account on HP 10.20.  It looks
+      like some of the APR thread detection is screwed up.  If we find
+      pthread.h but we can't compile the pthread test program we still
+      think we can use threads.  For that reason, the patch I posted
+      to the PR won't work as-is since a failed compile of the test
+      program means nothing.
+
+    * exec cmd and suexec arg-passing enhancements
+      Status: Patches proposed
+      Message-ID: <20020526041748.A29148@prodigy.Redbrick.DCU.IE>
+      (see the "proc.patch" and "suexec-shell.patch" links in this message)
+
+    * The 2.0.36 worker MPM graceless shutdown changes work but are
+      a bit clunky on some platforms; eg, on Linux, the loop to
+      join each worker thread seems to hang, and the parent ends up
+      killing off the child with SIGKILL.  But at least it shuts down.
+
+    * --enable-mods-shared="foo1 foo2" is busted on Darwin.  Pier
+        posted a patch (Message-ID: <B8DBBE8D.575A%pier@betaversion.org>).
+
+    * We do not properly substitute the prefix-variables in the configuration
+      scripts or generated-configs.  (i.e. if sysconfdir is etc,
+      httpd-std.conf points to conf.)
+
+    * If any request gets through ap_process_request_internal() and is
+      scheduled to be served by the core handler, without a flag that this
+      r->filename was tested by dir/file_walk, we need to 500 at the very
+      end of the ap_process_request_internal() processing so sub_req-esters
+      know this request cannot be run.  This provides authors of older
+      modules better compatibility, while still improving the security and
+      robustness of 2.0.
+
+        Status: still need to decide where this goes, OtherBill comments...
+        Message-ID: <065701c14526$495203b0$96c0b0d0@roweclan.net>
+        [Deleted comments regarding the ap_run_handler phase, as irrelevant
+            as BillS points out that "common case will be caught in
+            default_handler already (with the r->finfo.filetype == 0 check)"
+            and the issue is detecting this -before- we try to run the req.]
+
+        gregames says: can this happen somehow without a broken module
+            being involved?  If not, why waste cycles trying to defend against
+            potential broken modules?  It seems futile.
+        wrowe counters: no, it shouldn't happen unless the module is broken.
+            But the right answer is to fail the request up-front in dir/file
+            walk if the path was entirely invalid; and we can't do that either
+            UNTIL 2.1 or we break modules that haven't hooked map_to_storage.
+
+    * With AP_MODE_EXHAUSTIVE in the core, it is finally clear to me
+      how the Perchild MPM should be re-written.  It hasn't worked
+      correctly since filters were added because it wasn't possible to
+      get the content that had already been written and the socket at
+      the same time.  This mode lets us do that, so the MPM can be
+      fixed.
+
+    * htpasswd blindly processes the file you give it, and does no
+      sanity checking before totally corrupting whatever file it was
+      you thought you had. It should check the input file and bail
+      if it finds non-comment lines that do not contain exactly 1
+      ':' character.
+        Message-ID: <20020217150457.A31632@clove.org>
+
+    * Can a static httpd be built reliably?
+        Message-ID: <20020207142751.T31582@clove.org>
+
+    * [Ken] Test suite failures:
+      o worker is also failing some of the 'cgi' subtests
+      (see <URL:http://Source-Zone.Org/Apache/regression/>):
+        Justin says: "Worker should be fine and passes httpd-test here.
+                      I think it's a perl or a httpd-test problem."
+
+    * Usage of APR_BRIGADE_NORMALIZE in core_input_filter should be
+      removed if possible.
+        Message-ID: <Pine.LNX.4.33.0201202232430.318-100000@deepthought.cs.virginia.edu>
+        Jeff wonders if we still care about this.  It is no longer an
+        API issue but simply an extra trip through the brigade.
+
+    * The Add...Filter and Set...Filter directives do not allow the
+      administrator to order filters, beyond the order of filename (mime)
+      extensions.  It isn't clear if Set...Filter(s) should be inserted
+      before or after the Add...Filter(s) which are ordered by sequence of
+      filename extensions.  At minimum, some sort of +-[0-10] syntax seems
+      like a nice solution.  See ROADMAP.
+
+    * Get perchild to work on platforms other than Linux. This
+      will require a portable mechanism to pass data and file/socket
+      descriptors between vhost child groups. An API was proposed
+      on dev@apr:
+        Message-ID: <20020111115006.K1529@clove.org>
+
+    * Try to get libtool inter-library dependency code working on AIX.
+        Message-ID: <cm3n10lx555.fsf@rdu163-40-092.nc.rr.com>
+
+      Justin says: If we get it working on AIX, we can enable this
+                   on all platforms and clean up our build system
+                   somewhat.
+      Jeff says:   I thought I tested a patch for you sometime in
+                   January that you were going to commit within a few
+                   days.
+
+    * Handling of %2f in URIs.  Currently both 1.3 and 2.0
+      completely disallow %2f in the request URI path (see
+      ap_unescape_url() in util.c).  It's permitted and passed
+      through in the query string, however.  Roy says the
+      original reason for disallowing it, from five years ago,
+      was to protect CGI scripts that applied PATH_INFO to
+      a filesystem location and which might be tricked by
+      ..%2f..%2f(...).  We *should* allow path-info of the
+      form 'http://foo.com/index.cgi/path/to/path%2finfo'.
+      Since we've revamped a lot of our processing of path
+      segments, it would be nice to allow this, or at least
+      allow it conditionally with a directive.
+
+        OtherBill adds that %2f as the SECOND character of a multibyte
+        sequence causes the request to fail!  This happens notably in
+        the ja-jis encoding.
+
+      OtherBill is -0.5 for even considering this until 2.2 because
+      it removes some protection we provided to third party modules
+      that would mysteriously 'evaporate', exposing potential holes
+      in security.  Putting this change into 2.1 development now (with
+      strong warnings!) will give authors a chance to vet their code.
+
+    * There is increasing demand from module writers for an API
+      that will allow them to control the server à la apachectl.
+      Reasons include sole-function servers that need to die if
+      an external dependency (e.g., a database) fails, et cetera.
+      Perhaps something in the (ever more abused) scoreboard?
+
+             On the other hand, we already have a pipe that goes between parent
+             and child for graceful shutdown events, along with an API that
+             can be used to send a message down that pipe.  In threaded MPMs,
+             it is easy enough to make that one pipe be used for graceful
+             and graceless events, and it is also easy to open that pipe
+             to both parent and child for writing.  Then we just need to
+             figure out how to do graceless on non-threaded MPMs.
+
+    * Win32: Rotatelogs sometimes is not terminated when Apache
+      goes down hard.  FirstBill was looking at possibly tracking the
+      child's-child processes in the parent process.
+        stoddard: Shared scoreboard might offer a good way for the parent
+        to keep track of 'other child' processes and whack them if the child
+        goes down.
+        Other thoughts on walking the process chain using the NT kernel
+        have also been proposed on APR.
+
+    * Eliminate unnecessary creation of pipes in mod_cgid
+
+    * Combine log_child and piped_log_spawn. Clean up http_log.c.
+      Common logging API.
+
+    * There are still a number of places in the code where we are
+      losing error status (i.e. throwing away the error returned by a
+      system call and replacing it with a generic error code)
+
+    * Mass vhosting version of suEXEC.
+
+    * All DBMs suffer from confusion in support/dbmmanage (perl script) since
+      the dbmmanage employs the first-matched dbm format.  This is not
+      necessarily the library that Apache was built with.  Aught to
+      rewrite dbmmanage upon installation to bin/ with the proper library
+      for predictable mod_auth_dbm administration.
+        Questions; htdbm exists, time to kill dbmmanage, or does it remain
+                   useful as a perl dbm management example?  If we keep it,
+                   do we address the issue above?
+        March discussion summary; we are missing group support.  With that
+                   added to trunk, this script will go away.  It will remain
+                   in 2.0 based on our versioning approach.
+
+    * Integrate mod_dav.
+        Some additional items remaining:
+        - case_preserved_filename stuff
+            (use the new canonical name stuff?)
+        - find a new home for ap_text(_header)
+        - is it possible to remove the DAV: namespace stuff from util_xml?
+
+    * ap_core_translate() and its use by mod_mmap_static and mod_file_cache
+      are a bit wonky.  The function should probably be exposed as a utility
+      function (such as ap_translate_url2fs() or ap_validate_fs_url() or
+      something).  Another approach would be a new hook phase after
+      "translate" which would allow the module to munge what the
+      translation has decided to do.
+        Status: Greg +1 (volunteers)
+
+    * Explore use of a post-config hook for the code in http_main.c which
+      calls ap_fixup_virutal_hosts(), ap_fini_vhost_config(), and
+      ap_sort_hooks()  [to reduce the logic in main()]
+
+    * read the config tree just once, and process N times (as necessary)
+        OtherBill adds that the 'good' solution of three passes against the
+        config tree within one read is the better solution, but breaks many
+        modules.  Best left for 2.2?
+        -0.5:  OtherBill
+
+    * (possibly) use UUIDs in mod_unique_id and/or mod_usertrack
+
+    * (possibly) port the bug fix for PR 6942 (segv when LoadModule is put
+      into a VirtualHost container) to 2.0.
+
+    * shift stuff to mod_core.h
+
+    * callers of ap_run_create_request() should check the return value
+      for failure (Doug volunteers)
+
+    * Win32: Get Apache working on Windows 95/98. The following work
+        (at least) needs to be done:
+        - Document warning that OSR2 is required (for Crypt functions, in
+        rand.c, at least.)  This could be resolved with an SSL library, or
+        randomization in APR itself.
+        - Bring the Win9xConHook.dll from 1.3 into 2.0 (no sense till it
+        actually works) and add in a splash of Win9x service code.
+
+    * Fix the worker MPM to use POD to kill child processes instead
+      of ap_os_killpg, regardless of how they should die.
+
+    * Scoreboard structures could be changed in the future such that
+      proper alignment is not maintained, leading to segfaults on
+      some systems.  Cliff posted a patch to deal with this issue but
+      later recanted. See this message to dev@apr.apache.org:
+      Message-ID: <Pine.LNX.4.44.0203011354090.16457-200000@deepthought
+                  .cs.virginia.edu>
+
+    * ap_discard_request should be converted to use the bucket API
+      directly rather than waste cycles copying buffers with the old API.
+
+    * SIGSEGV on Linux (glibc 2.1.2) isn't caught properly by a
+      sigwaiting thread. We need to work around this, perhaps unless
+      there is hope soon for a fixed glibc.
+
+
+EXPERIMENTAL MODULES:
+
+    mod_auth_ldap/util_ldap:
+    * General stabilization and testing
+
+    * Fix the shared memory cache
+

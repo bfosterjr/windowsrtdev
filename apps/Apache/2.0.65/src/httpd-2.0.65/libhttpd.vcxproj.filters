@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="headers">
+      <UniqueIdentifier>{235c9aeb-61cf-4b0d-ae63-7754dc362feb}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;hpj;bat;for;f90</Extensions>
+    </Filter>
+    <Filter Include="httpd">
+      <UniqueIdentifier>{41faaa99-4710-4171-af9e-2415b9e11e58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules">
+      <UniqueIdentifier>{2db5f797-e455-49e9-8b8e-a2998bd82997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{eb1bf5b1-87dd-48df-9a67-c7d46e6e2baf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mpm_winnt">
+      <UniqueIdentifier>{4c131cd6-e7bb-494b-8da7-6ad4aac27dfd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\ap_compat.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ap_config.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ap_mmn.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ap_release.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\http_config.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\http_connection.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\http_core.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\http_log.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\http_main.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\http_protocol.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\http_request.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\http_vhost.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\httpd.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="server\test_char.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rfc1413.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util_cfgtree.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util_charset.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util_ebcdic.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util_filter.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util_md5.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util_script.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util_xml.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ap_listen.h">
+      <Filter>mpm_winnt</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ap_mpm.h">
+      <Filter>mpm_winnt</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ap_regkey.h">
+      <Filter>mpm_winnt</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mpm_common.h">
+      <Filter>mpm_winnt</Filter>
+    </ClInclude>
+    <ClInclude Include="server\mpm\winnt\mpm_winnt.h">
+      <Filter>mpm_winnt</Filter>
+    </ClInclude>
+    <ClInclude Include="include\scoreboard.h">
+      <Filter>mpm_winnt</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="server\buildmark.c">
+      <Filter>httpd</Filter>
+    </ClCompile>
+    <ClCompile Include="server\config.c">
+      <Filter>httpd</Filter>
+    </ClCompile>
+    <ClCompile Include="server\connection.c">
+      <Filter>httpd</Filter>
+    </ClCompile>
+    <ClCompile Include="server\core.c">
+      <Filter>httpd</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\http\http_core.c">
+      <Filter>httpd</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\http\http_protocol.c">
+      <Filter>httpd</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\http\http_request.c">
+      <Filter>httpd</Filter>
+    </ClCompile>
+    <ClCompile Include="server\log.c">
+      <Filter>httpd</Filter>
+    </ClCompile>
+    <ClCompile Include="server\protocol.c">
+      <Filter>httpd</Filter>
+    </ClCompile>
+    <ClCompile Include="server\request.c">
+      <Filter>httpd</Filter>
+    </ClCompile>
+    <ClCompile Include="server\vhost.c">
+      <Filter>httpd</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\mappers\mod_so.c">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\arch\win32\mod_win32.c">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="os\win32\modules.c">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="server\eoc_bucket.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="server\error_bucket.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="server\rfc1413.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="server\util.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="server\util_cfgtree.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="server\util_filter.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="server\util_md5.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="server\util_script.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="server\util_time.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="os\win32\util_win32.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="server\util_xml.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="os\win32\ap_regkey.c">
+      <Filter>mpm_winnt</Filter>
+    </ClCompile>
+    <ClCompile Include="server\mpm\winnt\child.c">
+      <Filter>mpm_winnt</Filter>
+    </ClCompile>
+    <ClCompile Include="server\listen.c">
+      <Filter>mpm_winnt</Filter>
+    </ClCompile>
+    <ClCompile Include="server\mpm_common.c">
+      <Filter>mpm_winnt</Filter>
+    </ClCompile>
+    <ClCompile Include="server\mpm\winnt\mpm_winnt.c">
+      <Filter>mpm_winnt</Filter>
+    </ClCompile>
+    <ClCompile Include="server\mpm\winnt\nt_eventlog.c">
+      <Filter>mpm_winnt</Filter>
+    </ClCompile>
+    <ClCompile Include="server\provider.c">
+      <Filter>mpm_winnt</Filter>
+    </ClCompile>
+    <ClCompile Include="server\scoreboard.c">
+      <Filter>mpm_winnt</Filter>
+    </ClCompile>
+    <ClCompile Include="server\mpm\winnt\service.c">
+      <Filter>mpm_winnt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="build\win32\libhttpd.rc">
+      <Filter>headers</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="modules\generators\mod_cgi.h">
+      <Filter>headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="modules\http\mod_core.h">
+      <Filter>headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="modules\dav\main\mod_dav.h">
+      <Filter>headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="modules\filters\mod_include.h">
+      <Filter>headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="modules\proxy\mod_proxy.h">
+      <Filter>headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="os\win32\os.h">
+      <Filter>headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="server\mpm\winnt\mpm.h">
+      <Filter>mpm_winnt</Filter>
+    </CustomBuild>
+    <CustomBuild Include="server\mpm\winnt\mpm_default.h">
+      <Filter>mpm_winnt</Filter>
+    </CustomBuild>
+    <CustomBuild Include="server\gen_test_char.exe" />
+    <CustomBuild Include="build\win32\win32ver.awk" />
+  </ItemGroup>
+</Project>

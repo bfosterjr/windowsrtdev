@@ -1,0 +1,50 @@
+﻿  Generating ssl_expr_parse.c/.h from ssl_expr_parse.y
+  Generating ssl_expr_scan.c from ssl_expr_scan.l
+  Creating Version Resource
+  mod_ssl.c
+c:\temp\httpd-2.0.65\modules\ssl\mod_ssl.h(92): fatal error C1083: Cannot open include file: 'ssl.h': No such file or directory
+  ssl_engine_config.c
+c:\temp\httpd-2.0.65\modules\ssl\mod_ssl.h(92): fatal error C1083: Cannot open include file: 'ssl.h': No such file or directory
+  ssl_engine_dh.c
+c:\temp\httpd-2.0.65\modules\ssl\mod_ssl.h(92): fatal error C1083: Cannot open include file: 'ssl.h': No such file or directory
+  ssl_engine_init.c
+c:\temp\httpd-2.0.65\modules\ssl\mod_ssl.h(92): fatal error C1083: Cannot open include file: 'ssl.h': No such file or directory
+  ssl_engine_io.c
+c:\temp\httpd-2.0.65\modules\ssl\mod_ssl.h(92): fatal error C1083: Cannot open include file: 'ssl.h': No such file or directory
+  ssl_engine_kernel.c
+c:\temp\httpd-2.0.65\modules\ssl\mod_ssl.h(92): fatal error C1083: Cannot open include file: 'ssl.h': No such file or directory
+  ssl_engine_log.c
+c:\temp\httpd-2.0.65\modules\ssl\mod_ssl.h(92): fatal error C1083: Cannot open include file: 'ssl.h': No such file or directory
+  ssl_engine_mutex.c
+c:\temp\httpd-2.0.65\modules\ssl\mod_ssl.h(92): fatal error C1083: Cannot open include file: 'ssl.h': No such file or directory
+  ssl_engine_pphrase.c
+c:\temp\httpd-2.0.65\modules\ssl\mod_ssl.h(92): fatal error C1083: Cannot open include file: 'ssl.h': No such file or directory
+  ssl_engine_rand.c
+c:\temp\httpd-2.0.65\modules\ssl\mod_ssl.h(92): fatal error C1083: Cannot open include file: 'ssl.h': No such file or directory
+  ssl_engine_vars.c
+c:\temp\httpd-2.0.65\modules\ssl\mod_ssl.h(92): fatal error C1083: Cannot open include file: 'ssl.h': No such file or directory
+  ssl_expr.c
+c:\temp\httpd-2.0.65\modules\ssl\mod_ssl.h(92): fatal error C1083: Cannot open include file: 'ssl.h': No such file or directory
+  ssl_expr_eval.c
+c:\temp\httpd-2.0.65\modules\ssl\mod_ssl.h(92): fatal error C1083: Cannot open include file: 'ssl.h': No such file or directory
+  ssl_expr_parse.c
+c:\temp\httpd-2.0.65\modules\ssl\mod_ssl.h(92): fatal error C1083: Cannot open include file: 'ssl.h': No such file or directory
+  ssl_expr_scan.c
+c:\temp\httpd-2.0.65\modules\ssl\mod_ssl.h(92): fatal error C1083: Cannot open include file: 'ssl.h': No such file or directory
+  ssl_scache.c
+c:\temp\httpd-2.0.65\modules\ssl\mod_ssl.h(92): fatal error C1083: Cannot open include file: 'ssl.h': No such file or directory
+  ssl_scache_dbm.c
+c:\temp\httpd-2.0.65\modules\ssl\mod_ssl.h(92): fatal error C1083: Cannot open include file: 'ssl.h': No such file or directory
+  ssl_scache_shmcb.c
+c:\temp\httpd-2.0.65\modules\ssl\mod_ssl.h(92): fatal error C1083: Cannot open include file: 'ssl.h': No such file or directory
+  ssl_scache_shmht.c
+c:\temp\httpd-2.0.65\modules\ssl\mod_ssl.h(92): fatal error C1083: Cannot open include file: 'ssl.h': No such file or directory
+  ssl_util.c
+c:\temp\httpd-2.0.65\modules\ssl\mod_ssl.h(92): fatal error C1083: Cannot open include file: 'ssl.h': No such file or directory
+  Generating Code...
+  Compiling...
+  ssl_util_ssl.c
+c:\temp\httpd-2.0.65\modules\ssl\mod_ssl.h(92): fatal error C1083: Cannot open include file: 'ssl.h': No such file or directory
+  ssl_util_table.c
+c:\temp\httpd-2.0.65\modules\ssl\mod_ssl.h(92): fatal error C1083: Cannot open include file: 'ssl.h': No such file or directory
+  Generating Code...

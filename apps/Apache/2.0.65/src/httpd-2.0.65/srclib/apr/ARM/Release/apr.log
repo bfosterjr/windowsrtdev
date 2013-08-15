@@ -1,0 +1,71 @@
+﻿  dso.c
+  copy.c
+  dir.c
+  fileacc.c
+  filedup.c
+  filepath.c
+  filepath_util.c
+  filestat.c
+  filesys.c
+  flock.c
+  fullrw.c
+  mktemp.c
+  open.c
+  pipe.c
+  readwrite.c
+  seek.c
+  tempdir.c
+  proc_mutex.c
+  thread_cond.c
+  thread_mutex.c
+  Generating Code...
+  Compiling...
+  thread_rwlock.c
+  apr_pools.c
+  charset.c
+  env.c
+  errorcodes.c
+  getopt.c
+  internal.c
+  misc.c
+  otherchild.c
+  rand.c
+  start.c
+  utf8.c
+  version.c
+  common.c
+  mmap.c
+  inet_ntop.c
+  inet_pton.c
+  poll.c
+  pollacc.c
+  sendrecv.c
+  Generating Code...
+  Compiling...
+  sockaddr.c
+  sockets.c
+  sockopt.c
+  apr_getpass.c
+  shm.c
+  apr_cpystrn.c
+  apr_fnmatch.c
+  apr_snprintf.c
+  apr_strings.c
+  apr_strnatcmp.c
+  apr_strtok.c
+  apr_hash.c
+  apr_tables.c
+  proc.c
+  signals.c
+  thread.c
+  threadpriv.c
+  access.c
+  time.c
+  timestr.c
+  Generating Code...
+  Compiling...
+  groupinfo.c
+  userinfo.c
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1299,5): warning MSB8012: TargetPath(C:\temp\httpd-2.0.65\ARM\Release\apr.lib) does not match the Library's OutputFile property value (C:\temp\httpd-2.0.65\srclib\apr\LibR\apr.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  apr.vcxproj -> C:\temp\httpd-2.0.65\ARM\Release\apr.lib

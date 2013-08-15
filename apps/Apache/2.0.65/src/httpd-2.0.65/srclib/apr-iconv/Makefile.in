@@ -1,0 +1,53 @@
+#
+# Top-level Makefile for APRICONV
+#
+abs_srcdir=@api_srcdir@
+abs_builddir=@api_builddir@
+VPATH = @srcdir@
+
+# bring in rules.mk for standard functionality
+@INCLUDE_RULES@
+
+SUBDIRS = lib ccs ces util
+CLEAN_SUBDIRS = . lib ccs ces util
+
+TARGET_LIB = libapriconv.la
+
+DISTCLEAN_TARGETS = config.cache config.log config.status
+EXTRACLEAN_TARGETS = configure libtool aclocal.m4
+
+### install location
+prefix=@prefix@
+exec_prefix=@prefix@/bin
+lib_prefix=@prefix@/lib
+libdir=@iconv_libdir@
+includedir=@includedir@
+
+MKINSTALLDIRS=$(abs_srcdir)/build/mkdir.sh
+
+install:
+	if [ ! -d $(includedir) ]; then \
+	    $(MKINSTALLDIRS) $(includedir); \
+	fi; \
+	cp -p $(abs_srcdir)/include/*.h $(includedir); \
+	cp -p $(abs_srcdir)/lib/*.h $(includedir); \
+	cp -p $(abs_builddir)/lib/*.h $(includedir); \
+	if [ ! -d $(lib_prefix) ]; then \
+	    $(MKINSTALLDIRS) $(lib_prefix); \
+	fi;
+	(cd lib; $(LIBTOOL) --mode=install cp $(TARGET_LIB) $(lib_prefix))
+	if [ ! -d $(libdir) ]; then \
+	    $(MKINSTALLDIRS) $(libdir); \
+	fi; \
+	(cd ccs; for i in *.la; do $(LIBTOOL) --mode=install cp $$i $(libdir); done)
+	(cd ces; for i in *.la; do $(LIBTOOL) --mode=install cp $$i $(libdir); done)
+	if [ ! -d $(exec_prefix) ]; then \
+	    $(MKINSTALLDIRS) $(exec_prefix); \
+	fi; \
+	(cd util; $(LIBTOOL) --mode=install cp iconv $(exec_prefix))
+
+docs:
+	mkdir ./docs
+	perl $(abs_srcdir)/build/scandoc.pl -i./build/default.pl -p./docs/ ./lib/*.h
+
+.PHONY: delete-lib

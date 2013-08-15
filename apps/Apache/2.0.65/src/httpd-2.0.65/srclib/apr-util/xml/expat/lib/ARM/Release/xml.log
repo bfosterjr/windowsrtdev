@@ -1,0 +1,7 @@
+﻿C:\temp\httpd-2.0.65\srclib\apr-util\xml\expat\lib\xml.vcxproj(131,5): warning MSB4011: "C:\Users\blair\AppData\Local\Microsoft\MSBuild\v4.0\Microsoft.Cpp.ARM.user.props" cannot be imported again. It was already imported at "C:\temp\httpd-2.0.65\srclib\apr-util\xml\expat\lib\xml.vcxproj (118,5)". This is most likely a build authoring error. This subsequent import will be ignored. 
+  xmlparse.c
+  xmlrole.c
+  xmltok.c
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1299,5): warning MSB8012: TargetPath(C:\temp\httpd-2.0.65\ARM\Release\xml.lib) does not match the Library's OutputFile property value (C:\temp\httpd-2.0.65\srclib\apr-util\xml\expat\lib\LibR\xml.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  xml.vcxproj -> C:\temp\httpd-2.0.65\ARM\Release\xml.lib
