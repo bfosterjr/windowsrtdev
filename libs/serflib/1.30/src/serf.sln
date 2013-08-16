@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "serf", "serflib.vcxproj", "{E0B776CA-E9C0-BA9C-9010-39B888028734}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|ARM = Release|ARM
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		RelStatic|ARM = RelStatic|ARM
+		RelStatic|Win32 = RelStatic|Win32
+		RelStatic|x64 = RelStatic|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0B776CA-E9C0-BA9C-9010-39B888028734}.Debug|ARM.ActiveCfg = Debug|ARM
+		{E0B776CA-E9C0-BA9C-9010-39B888028734}.Debug|ARM.Build.0 = Debug|ARM
+		{E0B776CA-E9C0-BA9C-9010-39B888028734}.Debug|Win32.ActiveCfg = Debug|ARM
+		{E0B776CA-E9C0-BA9C-9010-39B888028734}.Debug|x64.ActiveCfg = Debug|ARM
+		{E0B776CA-E9C0-BA9C-9010-39B888028734}.Release|ARM.ActiveCfg = Release|ARM
+		{E0B776CA-E9C0-BA9C-9010-39B888028734}.Release|ARM.Build.0 = Release|ARM
+		{E0B776CA-E9C0-BA9C-9010-39B888028734}.Release|Win32.ActiveCfg = Release|ARM
+		{E0B776CA-E9C0-BA9C-9010-39B888028734}.Release|x64.ActiveCfg = Release|ARM
+		{E0B776CA-E9C0-BA9C-9010-39B888028734}.RelStatic|ARM.ActiveCfg = RelStatic|ARM
+		{E0B776CA-E9C0-BA9C-9010-39B888028734}.RelStatic|ARM.Build.0 = RelStatic|ARM
+		{E0B776CA-E9C0-BA9C-9010-39B888028734}.RelStatic|Win32.ActiveCfg = RelStatic|ARM
+		{E0B776CA-E9C0-BA9C-9010-39B888028734}.RelStatic|x64.ActiveCfg = RelStatic|ARM
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelStatic|ARM">
+      <Configuration>RelStatic</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="auth\auth.c" />
+    <ClCompile Include="auth\auth_basic.c" />
+    <ClCompile Include="auth\auth_digest.c" />
+    <ClCompile Include="auth\auth_spnego.c" />
+    <ClCompile Include="auth\auth_spnego_gss.c" />
+    <ClCompile Include="auth\auth_spnego_sspi.c" />
+    <ClCompile Include="buckets\aggregate_buckets.c" />
+    <ClCompile Include="buckets\allocator.c" />
+    <ClCompile Include="buckets\barrier_buckets.c" />
+    <ClCompile Include="buckets\buckets.c" />
+    <ClCompile Include="buckets\bwtp_buckets.c" />
+    <ClCompile Include="buckets\chunk_buckets.c" />
+    <ClCompile Include="buckets\dechunk_buckets.c" />
+    <ClCompile Include="buckets\deflate_buckets.c" />
+    <ClCompile Include="buckets\file_buckets.c" />
+    <ClCompile Include="buckets\headers_buckets.c" />
+    <ClCompile Include="buckets\iovec_buckets.c" />
+    <ClCompile Include="buckets\limit_buckets.c" />
+    <ClCompile Include="buckets\mmap_buckets.c" />
+    <ClCompile Include="buckets\request_buckets.c" />
+    <ClCompile Include="buckets\response_body_buckets.c" />
+    <ClCompile Include="buckets\response_buckets.c" />
+    <ClCompile Include="buckets\simple_buckets.c" />
+    <ClCompile Include="buckets\socket_buckets.c" />
+    <ClCompile Include="buckets\ssl_buckets.c" />
+    <ClCompile Include="context.c" />
+    <ClCompile Include="incoming.c" />
+    <ClCompile Include="outgoing.c" />
+    <ClCompile Include="ssltunnel.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="auth\auth.h" />
+    <ClInclude Include="auth\auth_spnego.h" />
+    <ClInclude Include="serf.h" />
+    <ClInclude Include="serf_bucket_types.h" />
+    <ClInclude Include="serf_bucket_util.h" />
+    <ClInclude Include="serf_private.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>serf</ProjectName>
+    <ProjectGuid>{E0B776CA-E9C0-BA9C-9010-39B888028734}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelStatic|ARM'" Label="Configuration">
+    <PlatformToolset>v110</PlatformToolset>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">"$(VCInstallDir)bin\nmake.exe" /s /nologo /f serf.mak ALL DEBUG_BUILD=1 APR_SRC=..\..\..\..\apps\Apache\2.0.65\src\httpd-2.0.65\srclib\apr APRUTIL_SRC=..\..\..\..\apps\Apache\2.0.65\src\httpd-2.0.65\srclib\apr-util  ZLIB_SRC=..\..\..\zlib\1.27\src OPENSSL_SRC=..\..\..\openssl\0.9.8x\bin\include </NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">"$(VCInstallDir)bin\nmake.exe" /s /nologo /f serf.mak CLEAN ALL DEBUG_BUILD=1 APR_SRC=..\..\..\..\apps\Apache\2.0.65\src\httpd-2.0.65\srclib\apr APRUTIL_SRC=..\..\..\..\apps\Apache\2.0.65\src\httpd-2.0.65\srclib\apr-util  ZLIB_SRC=..\..\..\zlib\1.27\src OPENSSL_SRC=..\..\..\openssl\0.9.8x\bin\include </NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">"$(VCInstallDir)bin\nmake.exe" /s /nologo /f serf.mak CLEAN DEBUG_BUILD=1 APR_SRC=..\..\..\..\apps\Apache\2.0.65\src\httpd-2.0.65\srclib\apr APRUTIL_SRC=..\..\..\..\apps\Apache\2.0.65\src\httpd-2.0.65\srclib\apr-util  ZLIB_SRC=..\..\..\zlib\1.27\src OPENSSL_SRC=..\..\..\openssl\0.9.8x\bin\include </NMakeCleanCommandLine>
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(OutDir)\serf-1.lib</NMakeOutput>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">"$(VCInstallDir)bin\nmake.exe" /s /nologo /f serf.mak ALL APR_SRC=..\..\..\..\apps\Apache\2.0.65\src\httpd-2.0.65\srclib\apr APRUTIL_SRC=..\..\..\..\apps\Apache\2.0.65\src\httpd-2.0.65\srclib\apr-util  ZLIB_SRC=..\..\..\zlib\1.27\src OPENSSL_SRC=..\..\..\openssl\0.9.8x\bin\include </NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">"$(VCInstallDir)bin\nmake.exe" /s /nologo /f serf.mak CLEAN ALL APR_SRC=..\..\..\..\apps\Apache\2.0.65\src\httpd-2.0.65\srclib\apr APRUTIL_SRC=..\..\..\..\apps\Apache\2.0.65\src\httpd-2.0.65\srclib\apr-util  ZLIB_SRC=..\..\..\zlib\1.27\src OPENSSL_SRC=..\..\..\openssl\0.9.8x\bin\include </NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">"$(VCInstallDir)bin\nmake.exe" /s /nologo /f serf.mak CLEAN APR_SRC=..\..\..\..\apps\Apache\2.0.65\src\httpd-2.0.65\srclib\apr APRUTIL_SRC=..\..\..\..\apps\Apache\2.0.65\src\httpd-2.0.65\srclib\apr-util  ZLIB_SRC=..\..\..\zlib\1.27\src OPENSSL_SRC=..\..\..\openssl\0.9.8x\bin\include </NMakeCleanCommandLine>
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(OutDir)\serf-1.lib</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelStatic|ARM'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir);C:\git\windowsrtdev\libs\openssl\0.9.8x\bin\include;.;C:\git\windowsrtdev\libs\zlib\1.27\src;C:\git\windowsrtdev\libs\libapr-util\1.52\src\include;C:\git\windowsrtdev\libs\libapr\1.4.8\include</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir);C:\git\windowsrtdev\libs\openssl\0.9.8x\bin\include;.;C:\git\windowsrtdev\libs\zlib\1.27\src;C:\git\windowsrtdev\libs\libapr-util\1.52\src\include;C:\git\windowsrtdev\libs\libapr\1.4.8\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <ModuleDefinitionFile>$(SolutionDir)serf.def</ModuleDefinitionFile>
+      <AdditionalDependencies>ws2_32.lib;C:\git\windowsrtdev\libs\openssl\0.9.8x\bin\libeay32.lib;C:\git\windowsrtdev\libs\openssl\0.9.8x\bin\ssleay32.lib;C:\git\windowsrtdev\libs\libapr\1.4.8\lib\libapr-1.lib;C:\git\windowsrtdev\libs\libapr-util\1.52\lib\libaprutil-1.lib;C:\git\windowsrtdev\libs\zlib\1.27\bin\zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir);C:\git\windowsrtdev\libs\openssl\0.9.8x\bin\include;.;C:\git\windowsrtdev\libs\zlib\1.27\src;C:\git\windowsrtdev\libs\libapr-util\1.52\src\include;C:\git\windowsrtdev\libs\libapr\1.4.8\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <ModuleDefinitionFile>$(SolutionDir)serf.def</ModuleDefinitionFile>
+      <AdditionalDependencies>C:\git\windowsrtdev\libs\openssl\0.9.8x\bin\libeay32.lib;C:\git\windowsrtdev\libs\openssl\0.9.8x\bin\ssleay32.lib;C:\git\windowsrtdev\libs\libapr\1.4.8\lib\libapr-1.lib;C:\git\windowsrtdev\libs\libapr-util\1.52\lib\libaprutil-1.lib;C:\git\windowsrtdev\libs\zlib\1.27\bin\zlib.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{31d69130-0a8c-4878-9e10-cdc0e74fa86c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{1d2a5c48-4e8e-4e32-8808-78865173b6b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="context.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="incoming.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="outgoing.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ssltunnel.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="buckets\aggregate_buckets.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="buckets\allocator.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="buckets\barrier_buckets.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="buckets\buckets.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="buckets\bwtp_buckets.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="buckets\chunk_buckets.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="buckets\dechunk_buckets.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="buckets\deflate_buckets.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="buckets\file_buckets.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="buckets\headers_buckets.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="buckets\iovec_buckets.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="buckets\limit_buckets.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="buckets\mmap_buckets.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="buckets\request_buckets.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="buckets\response_body_buckets.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="buckets\response_buckets.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="buckets\simple_buckets.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="buckets\socket_buckets.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="buckets\ssl_buckets.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="auth\auth.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="auth\auth_basic.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="auth\auth_digest.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="auth\auth_spnego.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="auth\auth_spnego_gss.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="auth\auth_spnego_sspi.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="auth\auth.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\auth_spnego.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="serf.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="serf_bucket_types.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="serf_bucket_util.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="serf_private.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
