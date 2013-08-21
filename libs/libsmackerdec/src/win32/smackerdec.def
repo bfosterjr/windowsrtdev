@@ -1,0 +1,16 @@
+LIBRARY
+EXPORTS
+
+; functions
+Smacker_Open  
+Smacker_Close
+Smacker_GetNumAudioTracks
+Smacker_GetAudioTrackDetails
+Smacker_GetAudioData
+Smacker_GetNumFrames
+Smacker_GetFrameSize
+Smacker_GetCurrentFrameNum
+Smacker_GetNextFrame
+Smacker_GetFrameRate
+Smacker_GetPalette
+Smacker_GetFrame
