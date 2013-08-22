@@ -1,0 +1,4252 @@
+REBINFF2
+#AVP - please leave this line
+#
+# Reserved space for level-specific messages (e.g. mission briefings, goals, etc)
+# Here so that there will be fixed numbers available for level designers to assign
+# to things.
+#
+# This means, for example, that an artist can attach string 34 somewhere
+# in the tools system, and be sure that the meaning of string 34 will be fixed.
+#
+# (Artists can decide amongst themselves on how to allocate numbers)
+
+# <TEXTSTRING_LEVELMSG_001>
+# Genshd1
+"COM: Power is back on-line. Activate switch to open door."
+
+# <TEXTSTRING_LEVELMSG_002>
+# Genshd1
+"DUMMY LEVEL-SPECIFIC MSG 002"
+
+# <TEXTSTRING_LEVELMSG_003>
+# Genshd1
+"DUMMY LEVEL-SPECIFIC MSG 003"
+
+# <TEXTSTRING_LEVELMSG_004>
+# Genshd1
+"DUMMY LEVEL-SPECIFIC MSG 004"
+
+# <TEXTSTRING_LEVELMSG_005>
+# Genshd1
+"DUMMY LEVEL-SPECIFIC MSG 005"
+
+# <TEXTSTRING_LEVELMSG_006>
+# Genshd1
+"DUMMY LEVEL-SPECIFIC MSG 006"
+
+# <TEXTSTRING_LEVELMSG_007>
+# GENSHD1 objective#3, message when completed:
+"COM: Manual bypass collected."
+
+# <TEXTSTRING_LEVELMSG_008>
+# Genshd1
+"DUMMY LEVEL-SPECIFIC MSG 008"
+
+# <TEXTSTRING_LEVELMSG_009>
+# Genshd1
+"COM: Manual bypass in operation."
+
+# <TEXTSTRING_LEVELMSG_010>
+# Genshd1
+"COM: PDT is near - look around for a small device."
+
+# <TEXTSTRING_LEVELMSG_011>
+# Genshd1
+"Warning! Safety system failure."
+
+# AREA 52 MESSAGES START HERE
+# 
+
+# <TEXTSTRING_LEVELMSG_012>
+# AREA52
+"Caution! Safety system active."
+
+# <TEXTSTRING_LEVELMSG_013>
+"Door welded shut."
+
+# <TEXTSTRING_LEVELMSG_014>
+"Gain access to base."
+
+# <TEXTSTRING_LEVELMSG_015>
+"Base accessed. Now locate controls to lower bridge."
+
+# <TEXTSTRING_LEVELMSG_016>
+"Device unlocks door."
+
+# <TEXTSTRING_LEVELMSG_017>
+"Door unlocked."
+
+# <TEXTSTRING_LEVELMSG_018>
+"Entered lift."
+
+# <TEXTSTRING_LEVELMSG_019>
+"There is some field charge in here."
+
+# <TEXTSTRING_LEVELMSG_020>
+"Bridge down. Now access second security level."
+
+# <TEXTSTRING_LEVELMSG_021>
+"Platform lift."
+
+# <TEXTSTRING_LEVELMSG_022>
+"Device lowers bridge."
+
+# <TEXTSTRING_LEVELMSG_023>
+"There is the ship. Locate access to hangar."
+
+# <TEXTSTRING_LEVELMSG_024>
+"Entered second security level. All doors have been locked."
+
+# <TEXTSTRING_LEVELMSG_025>
+"Attention all units! The Predator has accessed level four. All doors have been secured. Stay on maximum alert. This thing must be stopped NOW."
+
+# <TEXTSTRING_LEVELMSG_026>
+"This door leads to the second security level."
+
+# <TEXTSTRING_LEVELMSG_027>
+"All units! We have a system error. Xenomorph specimens are on the loose! Get to the ops area now! Oh shit, they're in here!"
+
+# <TEXTSTRING_LEVELMSG_028>
+"Hello.hello? Is there anyone alive down there? Well we've shut down the power and we think we can stop them if we..."
+
+# <TEXTSTRING_LEVELMSG_029>
+"Doors on this level have been unlocked. Gain access to the third security level."
+
+# <TEXTSTRING_LEVELMSG_030>
+"A sentry gun. Find another way around."
+
+# <TEXTSTRING_LEVELMSG_031>
+"Access to the third security level denied! Find another way to access the hangar."
+
+#
+#
+#ONE DERELICT MESSAGE:
+
+# <TEXTSTRING_LEVELMSG_032>
+"COM: Don't worry about those weird-looking eggs, marine. They've been sterilized."
+
+#
+#
+#BACK TO AREA52 MESSAGING:
+#
+#
+
+# <TEXTSTRING_LEVELMSG_033>
+"This looks like a challenging jump."
+
+# <TEXTSTRING_LEVELMSG_034>
+"Kill all threats and access the ship."
+
+# <TEXTSTRING_LEVELMSG_035>
+"Attention all base units! The Predator has infiltrated the installation. Now it's up to us. Keep it cool and watch each others' backs."
+
+# <TEXTSTRING_LEVELMSG_036>
+"Marines! Security level two has been breached. All doors are being sealed. Stand your ground, Marines, let's bag this thing."
+
+# <TEXTSTRING_LEVELMSG_037>
+"What the Hell's going on out there? We've lost sight of the intruder. All units report immediately!"
+
+# <TEXTSTRING_LEVELMSG_038>
+"To retain honor amongst your clan your electrical weapons have been disabled."
+
+# <TEXTSTRING_LEVELMSG_039>
+"DUMMY LEVEL-SPECIFIC MSG 039"
+
+# <TEXTSTRING_LEVELMSG_040>
+"You are next to a laundry chute."
+
+
+#	GATEWAY BEGINS HERE
+#
+
+
+# <TEXTSTRING_LEVELMSG_041>
+"The vessel has docked, a hive presence can be felt, seek it."
+
+# <TEXTSTRING_LEVELMSG_042>
+"Destroy the power sources to the fans."
+
+# <TEXTSTRING_LEVELMSG_043>
+"Blades must be stopped."
+
+# <TEXTSTRING_LEVELMSG_044>
+"Hive are near, chambers are fresh with their scent."
+
+# <TEXTSTRING_LEVELMSG_045>
+"Join us."
+
+# <TEXTSTRING_LEVELMSG_046>
+"Hive trapped behind powered bars."
+
+#
+#	END OF GATEWAY
+#
+#	MORE COLONY (FROM TEXTSTRING 162)
+#
+# <TEXTSTRING_LEVELMSG_047>
+"Welcome to the main Colony base, Marine. Looks like the colonists shit a brick and pulled out. There's an APC beyond the Main Gate. But the power's shut down. You'll have to open the gate remotely. Find the Generator Shed, turn on the power, and await further instructions."
+
+# <TEXTSTRING_LEVELMSG_048>
+"COM: You made it marine, let's get this APC prepped and moving."
+
+#
+#	END OF COLONY MESSAGING
+
+# <TEXTSTRING_LEVELMSG_049>
+"Mission Accomplished"
+#
+#
+#
+#
+#
+# INVASION MESSAGES BEGIN HERE
+#
+#
+# <TEXTSTRING_LEVELMSG_050>
+"Orders from above, you MUST shut down the cooling system before they'll authorize an airlift. You need to power down the five, repeat FIVE, ventilation fans, and make your way through the Processor to the landing platform. I'll be in radio contact."
+
+# <TEXTSTRING_LEVELMSG_051>
+""
+
+# <TEXTSTRING_LEVELMSG_052>
+"COM: Bad news Private; The Company says you've gotta turn off the ventilation fans before they'll authorize an evac."
+
+# <TEXTSTRING_LEVELMSG_053>
+"COM: OK Marine. Your location is directly under one of the ventilation fans. Blueprints say the pressure wheel's a level above you. Don't waste time!"
+
+# <TEXTSTRING_LEVELMSG_054>
+"COM: Keep it sharp Private; There's a cooling fan directly ahead to the right."
+
+# <TEXTSTRING_LEVELMSG_055>
+"Nice work, Private. Cooling systems degraded by twenty percent. Looks like the direct route is closed off. You'll have to go through the substructure and make your way down."
+
+# <TEXTSTRING_LEVELMSG_056>
+"COM: According to the computer, The route is closed off between you and the local control room. You'll need to go via the sub-structure. Make your way down."
+
+# <TEXTSTRING_LEVELMSG_057>
+"COM: Looks like the bugs got to the pressure hose for this door. There's a local pressure cylinder nearby. Find it and activate it!"
+
+# <TEXTSTRING_LEVELMSG_058>
+"COM: Good going - pressure door reactivated. Company reps say they're prepping a dropship for you. Guess we gotta believe em...."
+
+# <TEXTSTRING_LEVELMSG_059>
+"COM: Don't waste time - The Processor's fitting to blow real soon now. Find the lift upwards A.S.A.P."
+
+# <TEXTSTRING_LEVELMSG_060>
+"COM: Looks like you're in a subsidiary fuel room of some kind. Good. Keep it tight and keep climbing."
+
+# <TEXTSTRING_LEVELMSG_061>
+"COM: Pull back Private! You're heading into the ventilation fans! You'll be mince!"
+
+# <TEXTSTRING_LEVELMSG_062>
+"COM: Private, you need to access the door opposite the stairs."
+
+# <TEXTSTRING_LEVELMSG_063>
+"COM: Proceed down to Ventilation Control."
+
+# <TEXTSTRING_LEVELMSG_064>
+"Okay, Private. Two fans down, three to go. A dropship's being prepared for you right now."
+
+# <TEXTSTRING_LEVELMSG_065>
+"COM: Proceed left into the local Control Room."
+
+# <TEXTSTRING_LEVELMSG_066>
+"COM: There's a pressure wheel in the viewing gallery."
+
+# <TEXTSTRING_LEVELMSG_067>
+"The cooling towers are starting to vent. I'm reading serious power surges here. Keep it up. Two more fans to go."
+
+# <TEXTSTRING_LEVELMSG_068>
+"COM: Good work Marine, just one more fan."
+
+# <TEXTSTRING_LEVELMSG_069>
+"Great work, Private! Cooling system shutting down. But I wouldn't stick around if I were you - it's gonna start getting real hot down there. The airship's coming down but you don't have that much time. Get your ass up to the landing platform. I mean NOW !"
+
+# <TEXTSTRING_LEVELMSG_070>
+"COM: Good news, Marine - the Dropship's on its way. Get to the landing platform."
+
+# <TEXTSTRING_LEVELMSG_071>
+"COM: Remember your safety training and stand well back from the dropship. It ain't safe underneath it."
+
+# 
+# 
+# 
+#MORE AREA 52 MESSAGES START HERE 
+# 
+# 
+# 
+# 
+
+# <TEXTSTRING_LEVELMSG_072>
+"You should shut off that alarm."
+
+# <TEXTSTRING_LEVELMSG_073>
+"A security pass is needed to access the second level."
+
+# <TEXTSTRING_LEVELMSG_074>
+"You have picked up the second level security pass."
+
+# 
+#AREA 52 MESSAGES END HERE 
+# 
+
+# 
+# 
+# 
+#VAULTS MESSAGES START HERE 
+# 
+# 
+# 
+# 
+
+# <TEXTSTRING_LEVELMSG_075>
+"Proceed deeper into the installation."
+
+# <TEXTSTRING_LEVELMSG_076>
+"It is impossible to get up there."
+
+# <TEXTSTRING_LEVELMSG_077>
+"All doors have been locked. Find way to proceed."
+
+# <TEXTSTRING_LEVELMSG_078>
+"Destroy mainframe control system to unlock doors. There are four mainframe terminals in the area."
+
+# <TEXTSTRING_LEVELMSG_079>
+"Mainframe terminals still active."
+
+# <TEXTSTRING_LEVELMSG_080>
+"Two mainframe terminals still active."
+
+# <TEXTSTRING_LEVELMSG_081>
+"One mainframe terminal still active."
+
+# <TEXTSTRING_LEVELMSG_082>
+"Doors are unlocked. Continue with hunt."
+
+# <TEXTSTRING_LEVELMSG_083>
+"Holding pen was opened when mainframe was destroyed. Life-forms being held in base are now loose."
+
+# <TEXTSTRING_LEVELMSG_084>
+"This way leads deeper into installation."
+
+# <TEXTSTRING_LEVELMSG_085>
+"Systems shut down by humans. All doors locked. Must find manual override switch in control room attached to xenoborg-holding room."
+
+# <TEXTSTRING_LEVELMSG_086>
+"There is another way into this room."
+
+# <TEXTSTRING_LEVELMSG_087>
+"A xenoborg-holding room"
+
+# <TEXTSTRING_LEVELMSG_088>
+"A facehugger-holding room."
+
+# <TEXTSTRING_LEVELMSG_089>
+"An operating room."
+
+# <TEXTSTRING_LEVELMSG_090>
+"Central lift is controlled through here."
+
+# <TEXTSTRING_LEVELMSG_091>
+"Something has burnt hole in door."
+
+# <TEXTSTRING_LEVELMSG_092>
+"Security pass needed."
+
+# <TEXTSTRING_LEVELMSG_093>
+"This lift needs to be activated from the nearby control room."
+
+# <TEXTSTRING_LEVELMSG_094>
+"Loose facehuggers about."
+
+# <TEXTSTRING_LEVELMSG_095>
+"A control room."
+
+# <TEXTSTRING_LEVELMSG_096>
+"Installation systems reactivated."
+
+# <TEXTSTRING_LEVELMSG_097>
+"DUMMY LEVEL-SPECIFIC MSG 097"
+
+# <TEXTSTRING_LEVELMSG_098>
+"Where humans were holding xenomorphs."
+
+# <TEXTSTRING_LEVELMSG_099>
+"Fellow hunter has been moved from cell to experimentation chamber."
+
+#
+#Vaults messages continued at levelmsg_125
+#
+#
+
+# Derelict messages begin here:
+#
+# <TEXTSTRING_LEVELMSG_100>
+"Proceed through the tunnels and rendezvous with Op 3. They'll escort you out. We've had some light failures so you may need to use your image intensifier."
+
+# <TEXTSTRING_LEVELMSG_101>
+"Look alive, Private! You're in some serious shit. We're bugging - out now! Level 3 doors are already locked. So Get your ass to the Comm room. I'll brief you from there."
+
+# <TEXTSTRING_LEVELMSG_102>
+"COM: Security systems have locked down the doors. There should be a manual override somewhere."
+
+# <TEXTSTRING_LEVELMSG_103>
+"Okay, Private, We've got a security breach. Move your ass to the airlock. You've gotta go through the egg lab first. Open the blast doors by pulling on the override switch. And don't worry about those eggs, they've been sterilized. Now move it!"
+
+# <TEXTSTRING_LEVELMSG_104>
+"COM: OK marine, you should be near the airlock. Activate it and cycle through."
+
+# <TEXTSTRING_LEVELMSG_105>
+"COM: By the way Private, company says you ain't seeing anything down there, so don't waste time looking."
+
+# <TEXTSTRING_LEVELMSG_106>
+"Okay private We've lost contact with the Ops team. Careful, we've got some weird signals. Something's moving down there."
+
+# <TEXTSTRING_LEVELMSG_107>
+"COM: Nice to see you're awake now, marine!"
+
+# <TEXTSTRING_LEVELMSG_108>
+"God damn it! We're getting our asses kicked. Looks like you're on your own. Take the underground access duct to the main colony. Try using the override switch for the observation door. Just don't get yourself killed."
+
+# <TEXTSTRING_LEVELMSG_109>
+"COM: Right son, this is where it gets tricky. Most doors are locked - you need to find the override before you can proceed."
+
+# <TEXTSTRING_LEVELMSG_110>
+"DUMMY LEVEL-SPECIFIC MSG 110"
+
+# <TEXTSTRING_LEVELMSG_111>
+"COM: That's it! Now get your ass down to the main research floor."
+
+# <TEXTSTRING_LEVELMSG_112>
+"COM: Don't panic marine - you need to proceed carefully inside the artifact. There's a tunnel through it to the access ducts."
+
+# <TEXTSTRING_LEVELMSG_113>
+"IN CASE OF EMERGENCY BREAK GLASS"
+
+# <TEXTSTRING_LEVELMSG_114>
+"Thought we lost you back there. Okay, you're almost to the colony access duct. Stay sharp!"
+
+# <TEXTSTRING_LEVELMSG_115>
+"COM: The suits say you shouldn't be looking at that - I say get a move on and quit wasting time."
+
+#
+#	EARtHBOUND MESSAGE BEGINS HERE and some new gateway ooer a bit scruffy
+#
+
+# <TEXTSTRING_LEVELMSG_116>
+"Locked."
+
+# <TEXTSTRING_LEVELMSG_117>
+"Hive eggs have been taken, find them."
+
+# <TEXTSTRING_LEVELMSG_118>
+"Caution, the fans need to be stopped but drone guns guard the power source."
+
+# <TEXTSTRING_LEVELMSG_119>
+"Feel power running from lower chambers."
+
+# <TEXTSTRING_LEVELMSG_120>
+"Attention dock personnel! The R&D Tower has been breached. We are evacuating transit sections 1, 2, and 3. Security teams, remain at your posts. Everyone, please follow standard Company emergency procedures."
+
+# <TEXTSTRING_LEVELMSG_121>
+"Lebowski here? How you doing with those egg specimens? Get 'em down to Dock 4 ASAP. The Earthbound ship is ready to dock and load."
+
+# <TEXTSTRING_LEVELMSG_122>
+"Hive eggs are nearby."
+
+# <TEXTSTRING_LEVELMSG_123>
+"Kill the Predator threat."
+
+# <TEXTSTRING_LEVELMSG_124>
+"Join the eggs; they will need protection on the long passage to the human homeworld."
+#
+#	END OF EARTHBOUND MESSAGING
+#
+#Vaults messages continued from levelmsg_099
+#
+#
+
+# <TEXTSTRING_LEVELMSG_125>
+"Fellow warrior has been here."
+
+# <TEXTSTRING_LEVELMSG_126>
+"Human office. Security pass in here."
+
+# <TEXTSTRING_LEVELMSG_127>
+"Security pass collected."
+
+# <TEXTSTRING_LEVELMSG_128>
+"DUMMY LEVEL-SPECIFIC MSG 128"
+
+# <TEXTSTRING_LEVELMSG_129>
+"DUMMY LEVEL-SPECIFIC MSG 129"
+
+# <TEXTSTRING_LEVELMSG_130>
+"Defense system de-activated."
+
+# <TEXTSTRING_LEVELMSG_131>
+"Fellow hunter genetically defiled! Slay the abomination! Release your brother's spirit!"
+
+# <TEXTSTRING_LEVELMSG_132>
+"Activate the lift."
+
+# <TEXTSTRING_LEVELMSG_133>
+"Central lift is now operational."
+
+# <TEXTSTRING_LEVELMSG_134>
+"Door needs security pass."
+
+# <TEXTSTRING_LEVELMSG_135>
+"A lift."
+
+# <TEXTSTRING_LEVELMSG_136>
+"Get back inside ship."
+
+#
+#
+#VAULTS MESSAGES CONTINUES AT LINE 190
+#
+#
+
+
+#
+#
+# NOST03 MESSAGES BEGIN HERE
+#
+#
+
+# <TEXTSTRING_LEVELMSG_137>
+"COM: Security Pass picked up."
+
+# <TEXTSTRING_LEVELMSG_138>
+"This door leads to the main deck."
+
+# <TEXTSTRING_LEVELMSG_139>
+"Sabotage the ship and kill all crew."
+
+# <TEXTSTRING_LEVELMSG_140>
+"Attention crew. Mother has detected an alien lifeform onboard this ship. Garage Deck. At present time, there is no way it can access the other decks. Now I know some of you will be concerned. But rest assured every step is being taken to protect the ship and her crew. Captain out."
+
+# <TEXTSTRING_LEVELMSG_141>
+"Attention crew. The Alien has reached the main deck. There's no need to panic. I repeat, NO need to panic. The area is monitored. And Mother is confident that the xenomorph can be contained. Return to your stations and remain calm. Captain out."
+
+# <TEXTSTRING_LEVELMSG_142>
+"Attention crew. I'm getting garbled reports and false sightings. This is of no use to Mother or myself. The last reliable sighting indicates the Alien may have entered our ventilation system. But I need confirmation. I'm also authorizing the use of all weapons. I need you all to be vigilant - our lives may depend on it. Captain out."
+
+# <TEXTSTRING_LEVELMSG_143>
+"Sentry is guarding end-vents."
+
+# <TEXTSTRING_LEVELMSG_144>
+"Attention, This damned Alien can and will be stopped! There's only one of them and it only takes one of us to kill it! We have the brains, we have the guns, so let's DO THIS! Go out there, watch your backs, and do your jobs. Captain out. This is hopeless."
+
+# <TEXTSTRING_LEVELMSG_145>
+"Jones? It's me. I've selected a handful of synthetics to pilot the escape shuttle. At least a few of us might make it out of here alive. I need you to secure the shuttle . Got that? If we're gonna get out of here we're gonna NEED that shuttle!"
+
+# <TEXTSTRING_LEVELMSG_146>
+"The brain of the ship is vulnerable, it must be destroyed."
+
+# <TEXTSTRING_LEVELMSG_147>
+"This ship is dying, join the escapees."
+
+# <TEXTSTRING_LEVELMSG_148>
+"Join the escaping vessel."
+
+#	MORE NOST03 MESSAGES AT 195
+#
+
+# <TEXTSTRING_LEVELMSG_149>
+"DUMMY LEVEL-SPECIFIC MSG 149"
+#
+# Station Messages begin here
+#
+# <TEXTSTRING_LEVELMSG_150>
+"COM: Welcome to the orbital platform USS Odobenus. Please proceed through the airlock for decontamination."
+
+# <TEXTSTRING_LEVELMSG_151>
+"COM: Decontamination complete. Have a nice day."
+
+# <TEXTSTRING_LEVELMSG_152>
+"DUMMY LEVEL-SPECIFIC MSG 152"
+
+# <TEXTSTRING_LEVELMSG_153>
+"COM: You are now located in the secondary residential area."
+
+# <TEXTSTRING_LEVELMSG_154>
+"This just keeps getting better. We got hostiles in a parallel orbit - looks like they're gonna dock with the platform. The rest of us have pulled back to the cruisers. You need to get down to the living quarters. And one more thing: the Company has activated a new defense system. I don't have any specs on it yet. All know is that it's new and nasty as Hell. So watch yourself."
+
+# <TEXTSTRING_LEVELMSG_155>
+"COM: You'd better watch yourself, Private - The Company rep's just powered up the automated defenses, including some really nasty experimentals. They don't seem to want any security breaches."
+
+# <TEXTSTRING_LEVELMSG_156>
+"COM: Marine - there's an escape capsule at the end of each hydroponics section. Get to the algae tanks and the rest should be obvious."
+
+# <TEXTSTRING_LEVELMSG_157>
+"COM: Intruder detected in local control section. Defenses at maximum."
+
+# <TEXTSTRING_LEVELMSG_158>
+"Bad news. The hostiles have destroyed all the docking arms, so the only way off the platform is in one of the escape capsules. They're located at the end of the hydroponics garden. But in order to get there, you have to get passed this new defense system. Details are still classified but what I do know is that it's based on some kind of laser technology. Whatever you do, don't let it get a laser lock on you!"
+
+# <TEXTSTRING_LEVELMSG_159>
+"DUMMY LEVEL-SPECIFIC MSG 159"
+
+# <TEXTSTRING_LEVELMSG_160>
+"COM: You are now located in the hydroponic gardens."
+
+# <TEXTSTRING_LEVELMSG_161>
+"COM: Here's a hint, marine - the defenses are laser-targeted. If they get a lock-on, be somewhere else."
+
+#
+#
+#COLONY MESSAGE BEGINS HERE
+#
+#
+
+# <TEXTSTRING_LEVELMSG_162>
+"DUMMY LEVEL-SPECIFIC MSG 162"
+
+# <TEXTSTRING_LEVELMSG_163>
+"DUMMY LEVEL-SPECIFIC MSG 163"
+
+# <TEXTSTRING_LEVELMSG_164>
+"COM: This door isn't gonna work until the power is back on-line."
+
+# <TEXTSTRING_LEVELMSG_165>
+"COM: This leads to the Generator Shed."
+
+# <TEXTSTRING_LEVELMSG_166>
+"COM: Activate all 4 Generators."
+
+# <TEXTSTRING_LEVELMSG_167>
+"All right, Private. Main Base is back on-line. Now get inside the Colony Building and find Ops room, Level 3. You'll be able to unlock the Main Gate from there."
+
+# <TEXTSTRING_LEVELMSG_168>
+"You're on the home stretch. Stay focused, Marine get across that field and get to the APC."
+
+# <TEXTSTRING_LEVELMSG_169>
+"COM: Control Room - Nice going marine - you need to activate all 5 switches."
+
+# <TEXTSTRING_LEVELMSG_170>
+"Damn! Did you throw all FIVE switches? Well the Gate's locked down tight. You need a bypass kit. The Engineer had one - it might still be on him. His body is in Medlab on Level 2.Got that? Level 2."
+
+# <TEXTSTRING_LEVELMSG_171>
+"COM: Main Base doors are waking up."
+
+# <TEXTSTRING_LEVELMSG_172>
+"DUMMY LEVEL-SPECIFIC MSG 172"
+
+# <TEXTSTRING_LEVELMSG_173>
+"COM: The Main Gate."
+
+# <TEXTSTRING_LEVELMSG_174>
+"COM: The APC is waiting for you."
+
+#	COLONY MESSAGING CONTINUES AT TEXTSTRING 047
+#
+#Caverns messaging.
+#
+#
+
+# <TEXTSTRING_LEVELMSG_175>
+"All doors are locked."
+
+# <TEXTSTRING_LEVELMSG_176>
+"Need to access underground marine research posts."
+
+# <TEXTSTRING_LEVELMSG_177>
+"Door opened by device."
+
+# <TEXTSTRING_LEVELMSG_178>
+"The door above has opened."
+
+# <TEXTSTRING_LEVELMSG_179>
+"You need to get down here, but the lift is not going to work."
+
+# <TEXTSTRING_LEVELMSG_180>
+"Leads to the underground hive network."
+
+# <TEXTSTRING_LEVELMSG_181>
+"Door opened elsewhere."
+
+# <TEXTSTRING_LEVELMSG_182>
+"Doors controlled here."
+
+# <TEXTSTRING_LEVELMSG_183>
+"Doors have opened."
+
+# <TEXTSTRING_LEVELMSG_184>
+"DUMMY LEVEL-SPECIFIC MSG 184"
+
+# <TEXTSTRING_LEVELMSG_185>
+"The Queen is close. Good prize for hunter."
+
+# <TEXTSTRING_LEVELMSG_186>
+"Praetorian guards!"
+
+# <TEXTSTRING_LEVELMSG_187>
+"Now to fulfill your highest honor. Hunt and kill the Queen."
+
+# <TEXTSTRING_LEVELMSG_188>
+"COM: Congratulations, Sir; The destruction sequence has been terminated, but you must kill that predator."
+
+# <TEXTSTRING_LEVELMSG_189>
+"The base will self-destruct in T-10 seconds."
+
+# <TEXTSTRING_LEVELMSG_190>
+"The base will self-destruct in T-1 minute."
+
+# <TEXTSTRING_LEVELMSG_191>
+"The base will self-destruct in T-30 seconds."
+
+# <TEXTSTRING_LEVELMSG_192>
+"The base will self-destruct in T-5 seconds."
+
+# <TEXTSTRING_LEVELMSG_193>
+"Destruction initiated."
+
+# <TEXTSTRING_LEVELMSG_194>
+"Self-destruct sequence terminated."
+
+#
+#	EXTRA NOST03 MESSAGES
+#
+
+# <TEXTSTRING_LEVELMSG_195>
+"DUMMY LEVEL-SPECIFIC MSG 195"
+
+# <TEXTSTRING_LEVELMSG_196>
+"DUMMY LEVEL-SPECIFIC MSG 196"
+
+
+#
+#	EXTRA VAULTS MESSAGES
+#
+
+# <TEXTSTRING_LEVELMSG_197>
+"COM: You had better hurry up. The aliens will reach the upper communications level in less than a minute."
+
+# <TEXTSTRING_LEVELMSG_198>
+"COM: Sir, we have a problem. The predator that infiltrated the base has triggered the base's self-destruct. We have just had word that one of the company heads is still in the base. You must destroy the four liquid tanks in the basement to terminate the sequence. You have less than a minute!"
+
+# <TEXTSTRING_LEVELMSG_199>
+"COM: Sir, we have another problem. We have learned that the company head is in the upper communications level alone and unarmed. There appear to be some loose xenomorphs heading that way. You must locate him before it is too late."
+
+# <TEXTSTRING_LEVELMSG_200>
+"COM: The aliens have reached the upper communications level, sir. You have but a few seconds!"
+
+
+#
+# Sulaco messages begin here
+#
+
+
+
+# <TEXTSTRING_LEVELMSG_201>
+"Here's the latest. Tyrargo is overrun with Aliens, and it's gonna be tough going. So watch your back."
+
+# <TEXTSTRING_LEVELMSG_202>
+"COM: Don't like the look of this - better watch that motion tracker."
+
+# <TEXTSTRING_LEVELMSG_203>
+"COM: C'mon, Private! Ain't you got more important things to do than play about with that crane?"
+
+# <TEXTSTRING_LEVELMSG_204>
+"COM: Good, that's the switch - the hangar door is now unlocked."
+
+# <TEXTSTRING_LEVELMSG_205>
+"The crew has already bugged out. Don't bother looking for survivors. Make your way through the mess hall to engineering."
+
+# <TEXTSTRING_LEVELMSG_206>
+"COM: Door unlocked."
+
+# <TEXTSTRING_LEVELMSG_207>
+"COM: No time ta freshen up!"
+
+# <TEXTSTRING_LEVELMSG_208>
+"COM: Find the vents to access the mess hall - from there you can reach the reactor core."
+
+# <TEXTSTRING_LEVELMSG_209>
+"COM: Grating destroyed."
+
+# <TEXTSTRING_LEVELMSG_210>
+"COM: Platform lift activated."
+
+# <TEXTSTRING_LEVELMSG_211>
+"The doors to the reactor core are sealed. To open 'em, you'll have to re-activate the cooling systems. Once you're through, open the emergency exit and get outta there!"
+
+# <TEXTSTRING_LEVELMSG_212>
+"COM: Cooling systems activated."
+
+# <TEXTSTRING_LEVELMSG_213>
+"All right Marine, Thank you for your services, Private, you've been most.useful. However, I have to inform you that the Company is unable to evacuate you at this time.you understand it's nothing personal."
+
+# <TEXTSTRING_LEVELMSG_214>
+"Not much time so listen up, I'm opening the hangar door. Hurry, Marine! Move your ass outta there!"
+
+# <TEXTSTRING_LEVELMSG_215>
+"COM: This lift must be activated."
+
+# <TEXTSTRING_LEVELMSG_216>
+"COM: End."
+
+# <TEXTSTRING_LEVELMSG_217>
+"Three officers on board. Kill them."
+
+# <TEXTSTRING_LEVELMSG_218>
+"Use airducts to avoid sentry guns."
+
+# <TEXTSTRING_LEVELMSG_219>
+"Officer killed."
+
+
+#
+#
+#	Temp E3demosp messages
+#
+# <TEXTSTRING_LEVELMSG_220>
+"Warning. A predator has entered the base."
+
+# <TEXTSTRING_LEVELMSG_221>
+"Base self-destruct initiated. T-5 minutes and counting."
+
+# <TEXTSTRING_LEVELMSG_222>
+"4"
+
+# <TEXTSTRING_LEVELMSG_223>
+"3"
+
+# <TEXTSTRING_LEVELMSG_224>
+"2"
+
+# <TEXTSTRING_LEVELMSG_225>
+"1"
+
+# <TEXTSTRING_LEVELMSG_226>
+"Base atomized. Have a nice day."
+
+#
+#
+#	More Vaults-Bonus level massages.
+#
+#
+
+# <TEXTSTRING_LEVELMSG_227>
+"COM: The head of the company has been killed. This won't look good on your resume. You've failed in your mission!"
+
+# <TEXTSTRING_LEVELMSG_228>
+"COM: Well done, Sir. The area has been secured. The company wishes to express its deepest gratitude.  You have an extra half day's leave."
+
+# <TEXTSTRING_LEVELMSG_229>
+"COM: OK, Sir. The level is sealed off. Now you must clear the area of aliens and protect the head of the company."
+#
+
+#
+#TEXT FOR ALIEN BONUS TYRARGO LEVEL
+#
+
+
+# <TEXTSTRING_LEVELMSG_230>
+"Watch out for the predator!"
+
+# <TEXTSTRING_LEVELMSG_231>
+"DUMMY LEVEL-SPECIFIC MSG 231"
+
+# <TEXTSTRING_LEVELMSG_232>
+"DUMMY LEVEL-SPECIFIC MSG 232"
+
+# <TEXTSTRING_LEVELMSG_233>
+"DUMMY LEVEL-SPECIFIC MSG 233"
+
+# <TEXTSTRING_LEVELMSG_234>
+"DUMMY LEVEL-SPECIFIC MSG 234"
+
+# <TEXTSTRING_LEVELMSG_235>
+"DUMMY LEVEL-SPECIFIC MSG 235"
+
+# <TEXTSTRING_LEVELMSG_236>
+"DUMMY LEVEL-SPECIFIC MSG 236"
+
+#
+#MORE TEXT FOR CAVERNS
+#
+
+
+# <TEXTSTRING_LEVELMSG_237>
+"DUMMY LEVEL-SPECIFIC MSG 237"
+
+# <TEXTSTRING_LEVELMSG_238>
+"Unit three-two. We've collected specimen batch twenty-seven. Ready to pull out."
+
+# <TEXTSTRING_LEVELMSG_239>
+"All units. The Predator is heading for the breeding ground. I don't know what it's planning but it must not reach the hive."
+
+#
+#TEXT FOR ALIEN BONUS DERELICT LEVEL
+#
+
+
+
+# <TEXTSTRING_LEVELMSG_240>
+"The ship must be reclaimed from the creatures that have desecrated it. Kill the company heads that have sealed themselves in the base."
+
+# <TEXTSTRING_LEVELMSG_241>
+"You have killed one company head, but there is one still alive."
+
+# <TEXTSTRING_LEVELMSG_242>
+"Mission accomplished. An evacuation has been ordered. The Hive is safe again!"
+
+# <TEXTSTRING_LEVELMSG_243>
+"DUMMY LEVEL-SPECIFIC MSG 243"
+
+#
+#TEXT FOR ALIEN BONUS CAVERNS LEVEL
+#
+
+
+# <TEXTSTRING_LEVELMSG_244>
+"QUEEN: Worker, a predator is approaching the hive. Find it and kill it."
+
+# <TEXTSTRING_LEVELMSG_245>
+"QUEEN: The hive is now safe."
+
+# <TEXTSTRING_LEVELMSG_246>
+"All containment doors have been secured."
+
+# <TEXTSTRING_LEVELMSG_247>
+"Containment doors have opened."
+
+# <TEXTSTRING_LEVELMSG_248>
+"DUMMY LEVEL-SPECIFIC MSG 248"
+
+#
+# A VAULTS MARINE BONUS MESSAGE
+#
+
+
+# <TEXTSTRING_LEVELMSG_249>
+"COM: You may want to find Russell's minigun to help you with that predator. Russell's last com came from the predator-holding pen. "
+
+#
+# WATERFALL MESSAGES BEGIN HERE
+#
+
+# <TEXTSTRING_LEVELMSG_250>
+"Fight through defenses to access human's research facility."
+
+# <TEXTSTRING_LEVELMSG_251>
+"Jump here."
+
+# <TEXTSTRING_LEVELMSG_252>
+"Door activates below."
+
+# <TEXTSTRING_LEVELMSG_253>
+"Door unlocks."
+
+# <TEXTSTRING_LEVELMSG_254>
+"Unit 2, report in. Report in Unit 2. Unit 2, do you copy? Damn! His comm must be down."
+
+# <TEXTSTRING_LEVELMSG_255>
+"There is another way around."
+
+# <TEXTSTRING_LEVELMSG_256>
+"Second security area."
+
+# <TEXTSTRING_LEVELMSG_257>
+"All units report casualties. Repeat, all units report now! How bad are the casualties, people?"
+
+# <TEXTSTRING_LEVELMSG_258>
+"Door locked."
+
+# <TEXTSTRING_LEVELMSG_259>
+"Find way onto gantries above."
+
+# <TEXTSTRING_LEVELMSG_260>
+"Must be some important traffic coming through this way."
+
+# <TEXTSTRING_LEVELMSG_261>
+"Okay, Marines. We've got another Predator creature in here. Patrol in groups. Do NOT allow yourselves to be separated. We handled the last one and we can do it again. Stay frosty, Marines!"
+
+# <TEXTSTRING_LEVELMSG_262>
+"Platform lift activated."
+
+# <TEXTSTRING_LEVELMSG_263>
+"Entrance to research facility."
+
+# <TEXTSTRING_LEVELMSG_264>
+"Airlock activated."
+
+# <TEXTSTRING_LEVELMSG_265>
+"Dead."
+
+#
+# TEXT FOR THE MARINE WATERFALL BONUS LEVEL
+#
+
+# <TEXTSTRING_LEVELMSG_266>
+"COM: Intruder Alert! Protect the base."
+
+# <TEXTSTRING_LEVELMSG_267>
+"COM: Platform lift activated."
+
+# <TEXTSTRING_LEVELMSG_268>
+"COM: Door unlocked."
+
+# <TEXTSTRING_LEVELMSG_269>
+"COM: Lights activated."
+
+# <TEXTSTRING_LEVELMSG_270>
+"COM: Sentry gun de-activated."
+
+# <TEXTSTRING_LEVELMSG_271>
+"COM: A predator!"
+
+# <TEXTSTRING_LEVELMSG_272>
+"DUMMY LEVEL-SPECIFIC MSG 272"
+
+# <TEXTSTRING_LEVELMSG_273>
+"DUMMY LEVEL-SPECIFIC MSG 273"
+
+# <TEXTSTRING_LEVELMSG_274>
+"DUMMY LEVEL-SPECIFIC MSG 274"
+
+# <TEXTSTRING_LEVELMSG_275>
+"DUMMY LEVEL-SPECIFIC MSG 275"
+
+# <TEXTSTRING_LEVELMSG_276>
+"DUMMY LEVEL-SPECIFIC MSG 276"
+
+# <TEXTSTRING_LEVELMSG_277>
+"DUMMY LEVEL-SPECIFIC MSG 277"
+
+# <TEXTSTRING_LEVELMSG_278>
+"DUMMY LEVEL-SPECIFIC MSG 278"
+
+# <TEXTSTRING_LEVELMSG_279>
+"DUMMY LEVEL-SPECIFIC MSG 279"
+
+# <TEXTSTRING_LEVELMSG_280>
+"DUMMY LEVEL-SPECIFIC MSG 280"
+
+# <TEXTSTRING_LEVELMSG_281>
+"DUMMY LEVEL-SPECIFIC MSG 281"
+
+# <TEXTSTRING_LEVELMSG_282>
+"DUMMY LEVEL-SPECIFIC MSG 282"
+
+# <TEXTSTRING_LEVELMSG_283>
+"DUMMY LEVEL-SPECIFIC MSG 283"
+
+# <TEXTSTRING_LEVELMSG_284>
+"DUMMY LEVEL-SPECIFIC MSG 284"
+
+# <TEXTSTRING_LEVELMSG_285>
+"DUMMY LEVEL-SPECIFIC MSG 285"
+
+# <TEXTSTRING_LEVELMSG_286>
+"DUMMY LEVEL-SPECIFIC MSG 286"
+
+# <TEXTSTRING_LEVELMSG_287>
+"DUMMY LEVEL-SPECIFIC MSG 287"
+
+# <TEXTSTRING_LEVELMSG_288>
+"DUMMY LEVEL-SPECIFIC MSG 288"
+
+# <TEXTSTRING_LEVELMSG_289>
+"DUMMY LEVEL-SPECIFIC MSG 289"
+
+# <TEXTSTRING_LEVELMSG_290>
+"DUMMY LEVEL-SPECIFIC MSG 290"
+
+# <TEXTSTRING_LEVELMSG_291>
+"DUMMY LEVEL-SPECIFIC MSG 291"
+
+# <TEXTSTRING_LEVELMSG_292>
+"DUMMY LEVEL-SPECIFIC MSG 292"
+
+# <TEXTSTRING_LEVELMSG_293>
+"DUMMY LEVEL-SPECIFIC MSG 293"
+
+# <TEXTSTRING_LEVELMSG_294>
+"DUMMY LEVEL-SPECIFIC MSG 294"
+
+# <TEXTSTRING_LEVELMSG_295>
+"DUMMY LEVEL-SPECIFIC MSG 295"
+
+# <TEXTSTRING_LEVELMSG_296>
+"DUMMY LEVEL-SPECIFIC MSG 296"
+
+# <TEXTSTRING_LEVELMSG_297>
+"DUMMY LEVEL-SPECIFIC MSG 297"
+
+#
+# FURY 161 MESSAGES BEGIN HERE
+#
+
+# <TEXTSTRING_LEVELMSG_298>
+"Everyone's dead up here! Everyone! I'm the last. The escape vehicle is primed and I'm getting the Hell out!"
+
+# <TEXTSTRING_LEVELMSG_299>
+"Report in, section 3. Section 3? We've spotted an unidentified craft on approach. Headed straight for you! Could be a Predator ship. I suggest you get your ass out of their immediately."
+
+# <TEXTSTRING_LEVELMSG_300>
+"Area overrun by aliens. Good hunting."
+
+# <TEXTSTRING_LEVELMSG_301>
+"Door locked."
+
+# <TEXTSTRING_LEVELMSG_302>
+"Use platform lift on left."
+
+# <TEXTSTRING_LEVELMSG_303>
+"Follow gantries around to switch at top."
+
+# <TEXTSTRING_LEVELMSG_304>
+"Door unlocks."
+
+# <TEXTSTRING_LEVELMSG_305>
+"Pipe looks weak...."
+
+# <TEXTSTRING_LEVELMSG_306>
+"Fan deactivated."
+
+# <TEXTSTRING_LEVELMSG_307>
+"Must activate all switches in room."
+
+# <TEXTSTRING_LEVELMSG_308>
+"Access lower levels via elevator."
+
+# <TEXTSTRING_LEVELMSG_309>
+"Mess hall."
+
+# <TEXTSTRING_LEVELMSG_310>
+"Morgue."
+
+# <TEXTSTRING_LEVELMSG_311>
+"Human emergency escape vehicle has been salvaged."
+
+# <TEXTSTRING_LEVELMSG_312>
+"Killed it."
+
+# <TEXTSTRING_LEVELMSG_313>
+"Accessed lead smelting plant. Watch out for humans."
+
+# <TEXTSTRING_LEVELMSG_314>
+"Don't step in molten lead."
+
+# <TEXTSTRING_LEVELMSG_315>
+"Get into ship."
+
+# <TEXTSTRING_LEVELMSG_316>
+"Dead."
+
+#
+# GOODNESS GRACIOUS ME IT'S THE ALIEN VERSION OF FURY161 MESSAGES
+#
+
+# <TEXTSTRING_LEVELMSG_317>
+"Deactivate sentry guns and hunt human fodder."
+
+# <TEXTSTRING_LEVELMSG_318>
+"Sentry gun deactivated."
+
+# <TEXTSTRING_LEVELMSG_319>
+"Kill the predator!"
+
+jules bonus level messages
+
+BREAKOUT_P
+
+# <TEXTSTRING_LEVELMSG_320>
+"The Predator race has been defiled, restore honor - kill the Commanding Officer."
+
+# <TEXTSTRING_LEVELMSG_321>
+"The captive Aliens have broken loose and overrun the Base."
+
+# <TEXTSTRING_LEVELMSG_322>
+"Destroy the substations to stop the fans."
+
+# <TEXTSTRING_LEVELMSG_323>
+"The Officer is dead, honor is restored."
+
+STAT101_M
+
+# <TEXTSTRING_LEVELMSG_324>
+"COM: ALERT!!! Aliens are loose in the base, pullback to the bottom deck for immediate evac."
+
+# <TEXTSTRING_LEVELMSG_325>
+"COM: You have made it, Marine."
+
+NOST03_M
+
+# <TEXTSTRING_LEVELMSG_326>
+"COM: This ship is dead and infested - your mission is to power up the Mother Module."
+
+# <TEXTSTRING_LEVELMSG_327>
+"COM: Uh Oh - looks like power is off again - you will have to trigger local Generators so keep your eyes peeled."
+
+# <TEXTSTRING_LEVELMSG_328>
+"COM: The Mother Module requires a Security Pass - get searching Marine."
+
+# <TEXTSTRING_LEVELMSG_329>
+"COM: Mother Module is powering up - mission accomplished."
+
+TEMPLE_M
+
+# <TEXTSTRING_LEVELMSG_330>
+"COM: You're lucky to be alive, Private - the temple is outta control! Keep headin' up to reach evac."
+
+# <TEXTSTRING_LEVELMSG_331>
+"COM: Local generator needs to be powered to budge this lift."
+
+# <TEXTSTRING_LEVELMSG_332>
+"COM: Top access is blocked - override it by destroyin' the four local sub-stations."
+
+# <TEXTSTRING_LEVELMSG_333>
+"COM: The evac craft are in sight. Looks like ya made it!"
+
+END OF JULES BONUS MESSAGES
+
+# <TEXTSTRING_LEVELMSG_334>
+"DUMMY LEVEL-SPECIFIC MSG 334"
+
+# <TEXTSTRING_LEVELMSG_335>
+"DUMMY LEVEL-SPECIFIC MSG 335"
+
+# <TEXTSTRING_LEVELMSG_336>
+"DUMMY LEVEL-SPECIFIC MSG 336"
+
+# <TEXTSTRING_LEVELMSG_337>
+"DUMMY LEVEL-SPECIFIC MSG 337"
+
+# <TEXTSTRING_LEVELMSG_338>
+"DUMMY LEVEL-SPECIFIC MSG 338"
+
+# <TEXTSTRING_LEVELMSG_339>
+"DUMMY LEVEL-SPECIFIC MSG 339"
+
+# <TEXTSTRING_LEVELMSG_340>
+"DUMMY LEVEL-SPECIFIC MSG 340"
+
+# <TEXTSTRING_LEVELMSG_341>
+"DUMMY LEVEL-SPECIFIC MSG 341"
+
+# <TEXTSTRING_LEVELMSG_342>
+"DUMMY LEVEL-SPECIFIC MSG 342"
+
+# <TEXTSTRING_LEVELMSG_343>
+"DUMMY LEVEL-SPECIFIC MSG 343"
+
+# <TEXTSTRING_LEVELMSG_344>
+"DUMMY LEVEL-SPECIFIC MSG 344"
+
+# <TEXTSTRING_LEVELMSG_345>
+"DUMMY LEVEL-SPECIFIC MSG 345"
+
+# <TEXTSTRING_LEVELMSG_346>
+"DUMMY LEVEL-SPECIFIC MSG 346"
+
+#
+# TEMPLE MESSAGES BEGIN HERE
+#
+
+# <TEXTSTRING_LEVELMSG_347>
+"The labs are locked. Protect the security systems. We can't let the xenomorphs disrupt the experiments."
+
+# <TEXTSTRING_LEVELMSG_348>
+"All units! Lab integrity has been compromised. Get up there and take out that xenomorph!"
+
+# <TEXTSTRING_LEVELMSG_349>
+"What the Hell's going on down there? Don't let it get to the Hive - we can't contain it there!"
+
+# <TEXTSTRING_LEVELMSG_350>
+"Our temple has been violated. Eliminate intruders and seal the entrances."
+
+# <TEXTSTRING_LEVELMSG_351>
+"DUMMY LEVEL-SPECIFIC MSG 351"
+
+# <TEXTSTRING_LEVELMSG_352>
+"Destroy the supports and block the fuel pipes for the fire."
+
+# <TEXTSTRING_LEVELMSG_353>
+"Fire extinguished. Access lower temple areas."
+
+# <TEXTSTRING_LEVELMSG_354>
+"Destroy security systems and access laboratories."
+
+# <TEXTSTRING_LEVELMSG_355>
+"There is an easier way around."
+
+# <TEXTSTRING_LEVELMSG_356>
+"Bypass the sentry guns via these tunnels."
+
+# <TEXTSTRING_LEVELMSG_357>
+"Laboratory One unlocked. Destroy equipment and prevent further experiments."
+
+# <TEXTSTRING_LEVELMSG_358>
+"Laboratory Two unlocked. All experiments must stop!  Destroy equipment."
+
+# <TEXTSTRING_LEVELMSG_359>
+"Platform lift access to lower level activated."
+
+# <TEXTSTRING_LEVELMSG_360>
+"A door opens."
+
+# <TEXTSTRING_LEVELMSG_361>
+"This is the power generator room."
+
+# <TEXTSTRING_LEVELMSG_362>
+"Destroy the blockades and allow the doors to shut."
+
+# <TEXTSTRING_LEVELMSG_363>
+"Temple sealed. Return to our Hive."
+
+# <TEXTSTRING_LEVELMSG_364>
+"Find the tunnel down to our lair."
+
+#
+#  WHO WOULD HAVE THOUGHT IT?  PREDATOR MESSAGES FOR TEMPLE BONUS LEVEL!
+#
+
+
+# <TEXTSTRING_LEVELMSG_365>
+"Escape from hive and infiltrate facehugger shrine."
+
+# <TEXTSTRING_LEVELMSG_366>
+"Must kill praetorian guards to deactivate fire."
+
+# <TEXTSTRING_LEVELMSG_367>
+"Facehugger shrine."
+
+# <TEXTSTRING_LEVELMSG_368>
+"DUMMY LEVEL-SPECIFIC MSG 368"
+
+# <TEXTSTRING_LEVELMSG_369>
+"DUMMY LEVEL-SPECIFIC MSG 369"
+
+# <TEXTSTRING_LEVELMSG_370>
+"DUMMY LEVEL-SPECIFIC MSG 370"
+
+# <TEXTSTRING_LEVELMSG_371>
+"DUMMY LEVEL-SPECIFIC MSG 371"
+
+# <TEXTSTRING_LEVELMSG_372>
+"DUMMY LEVEL-SPECIFIC MSG 372"
+
+# <TEXTSTRING_LEVELMSG_373>
+"DUMMY LEVEL-SPECIFIC MSG 373"
+
+# <TEXTSTRING_LEVELMSG_374>
+"DUMMY LEVEL-SPECIFIC MSG 374"
+
+
+
+
+#
+#
+#SULACO_P BONUS LEVEL MESSAGES START HERE
+#
+#
+
+
+# <TEXTSTRING_LEVELMSG_375>
+"Find and destroy two xenoborgs and get back here."
+
+# <TEXTSTRING_LEVELMSG_376>
+"COM: Security alert! A predator has accessed section D."
+
+# <TEXTSTRING_LEVELMSG_377>
+"Hangar doors are already open!"
+
+# <TEXTSTRING_LEVELMSG_378>
+"Xenoborgs are stored behind these doors."
+
+# <TEXTSTRING_LEVELMSG_379>
+"Security has overridden the doors."
+
+# <TEXTSTRING_LEVELMSG_380>
+"COM: Warning! If the predator is not contained soon the base will be evacuated."
+
+# <TEXTSTRING_LEVELMSG_381>
+"COM: Message to all units. Prepare for evacuation. Opening evacuation doors."
+
+# <TEXTSTRING_LEVELMSG_382>
+"COM: Message to all units. Opening the doors has caused a security breach. The base has been infiltrated by xenomorphs."
+
+# <TEXTSTRING_LEVELMSG_383>
+"Return to section D airlock lift and escape!"
+
+# <TEXTSTRING_LEVELMSG_384>
+"Wait for a few moments for lift to activate."
+
+# <TEXTSTRING_LEVELMSG_385>
+"Do you copy? Damn it! Is anybody hearing this? We've encountered multiple hostiles, but they are not xenomorphs. I Repeat, they are NOT xenomorphs. Now These guys have some serious firepower and they're appearing out of thin air! We've taken heavy, heavy casualties so we've had to fall back and Dock 4 is no longer secure, I say again, we can no longer hold Dock 4. Now you've got to cancel the Earthbound cargo ship. I say again, call off the Earthbound ship..."
+
+# <TEXTSTRING_LEVELMSG_386>
+"Attention station personnel! There is an intruder in the R&D Tower. It Looks like we picked up a xenomorph stowaway. This security breakdown has been corrected and the xenomorph will soon be neutralized."
+
+# <TEXTSTRING_LEVELMSG_387>
+"Attention sub-station personnel! We must keep the xenomorph away from the local generators. Lock yourselves in and wait for back-up. This is NOT a drill!"
+
+# <TEXTSTRING_LEVELMSG_388>
+"This is Lebowski, I'm in the Holding Pens. Please halt all specimen transfers until further notice. The Marines have yet to neutralize the xenomorph. So much for military efficiency... "
+
+# <TEXTSTRING_LEVELMSG_389>
+"DUMMY LEVEL-SPECIFIC MSG 389"
+
+# <TEXTSTRING_LEVELMSG_390>
+"DUMMY LEVEL-SPECIFIC MSG 390"
+
+#
+# INVASION ALIEN DEMO BONUS LEVEL TEXT MESSAGES
+#
+
+# <TEXTSTRING_LEVELMSG_391>
+"Seek the planet surface to escape the installation."
+
+# <TEXTSTRING_LEVELMSG_392>
+"Power generator room."
+
+# <TEXTSTRING_LEVELMSG_393>
+"DUMMY LEVEL-SPECIFIC MSG 393"
+
+# <TEXTSTRING_LEVELMSG_394>
+"DUMMY LEVEL-SPECIFIC MSG 394"
+
+# <TEXTSTRING_LEVELMSG_395>
+"DUMMY LEVEL-SPECIFIC MSG 395"
+
+# <TEXTSTRING_LEVELMSG_396>
+"DUMMY LEVEL-SPECIFIC MSG 396"
+
+# <TEXTSTRING_LEVELMSG_397>
+"DUMMY LEVEL-SPECIFIC MSG 397"
+
+# <TEXTSTRING_LEVELMSG_398>
+"DUMMY LEVEL-SPECIFIC MSG 398"
+
+#
+# ONE DERELICT MESSAGE
+#
+
+# <TEXTSTRING_LEVELMSG_399>
+"COM: The doors will be locked, but there should be an emergency release on your left, behind the glass."
+
+#
+# ESCAPE MESSAGES BEGIN HERE
+#
+
+# <TEXTSTRING_LEVELMSG_400>
+"Leave lair and infiltrate human base, then escape."
+
+# <TEXTSTRING_LEVELMSG_401>
+"Door is welded shut."
+
+# <TEXTSTRING_LEVELMSG_402>
+"Door is locked."
+
+# <TEXTSTRING_LEVELMSG_403>
+"A door unlocks."
+
+# <TEXTSTRING_LEVELMSG_404>
+"A secret passage opens."
+
+# <TEXTSTRING_LEVELMSG_405>
+"Use vents to navigate base."
+
+# <TEXTSTRING_LEVELMSG_406>
+"Go through airlocks to access research laboratories."
+
+# <TEXTSTRING_LEVELMSG_407>
+"Seems humans are evacuating with eggs. Hitch a ride."
+
+# <TEXTSTRING_LEVELMSG_408>
+"Get on that ship."
+
+# <TEXTSTRING_LEVELMSG_409>
+"Break the glass."
+
+# <TEXTSTRING_LEVELMSG_410>
+"Let's see where eggs are being taken..."
+
+
+#
+#  UM... PREDATOR MESSAGES FOR ESCAPE BONUS LEVEL
+#
+
+
+# <TEXTSTRING_LEVELMSG_411>
+"Move through base. Kill all game."
+
+# <TEXTSTRING_LEVELMSG_412>
+"Use the airducts."
+
+# <TEXTSTRING_LEVELMSG_413>
+"A way into the hive. Kill those inside."
+
+#
+#  ESCAPE FMV SCRIPTS
+#
+
+# <TEXTSTRING_LEVELMSG_414>
+"Attention all personnel! A xenomorph has been contained in Biolab 2, but we believe another is still at large. The creature will be contained, keep the eggs moving on schedule."
+
+# <TEXTSTRING_LEVELMSG_415>
+"The xenomorph has bypassed the labs. We can't seal it off from here. Prepare for immediate evacuation."
+
+# <TEXTSTRING_LEVELMSG_416>
+"The xenomorph must be stopped! Do NOT let it get on the ship!"
+
+# <TEXTSTRING_LEVELMSG_417>
+"DUMMY LEVEL-SPECIFIC MSG 327"
+
+# <TEXTSTRING_LEVELMSG_418>
+"DUMMY LEVEL-SPECIFIC MSG 328"
+
+# <TEXTSTRING_LEVELMSG_419>
+"DUMMY LEVEL-SPECIFIC MSG 329"
+
+# <TEXTSTRING_LEVELMSG_420>
+"DUMMY LEVEL-SPECIFIC MSG 420"
+
+# <TEXTSTRING_LEVELMSG_421>
+"DUMMY LEVEL-SPECIFIC MSG 421"
+
+# <TEXTSTRING_LEVELMSG_422>
+"DUMMY LEVEL-SPECIFIC MSG 422"
+
+# <TEXTSTRING_LEVELMSG_423>
+"DUMMY LEVEL-SPECIFIC MSG 423"
+
+# <TEXTSTRING_LEVELMSG_424>
+"DUMMY LEVEL-SPECIFIC MSG 424"
+
+# <TEXTSTRING_LEVELMSG_425>
+"DUMMY LEVEL-SPECIFIC MSG 425"
+
+# <TEXTSTRING_LEVELMSG_426>
+"DUMMY LEVEL-SPECIFIC MSG 426"
+
+# <TEXTSTRING_LEVELMSG_427>
+"DUMMY LEVEL-SPECIFIC MSG 427"
+
+# <TEXTSTRING_LEVELMSG_428>
+"DUMMY LEVEL-SPECIFIC MSG 428"
+
+# <TEXTSTRING_LEVELMSG_429>
+"DUMMY LEVEL-SPECIFIC MSG 429"
+
+# <TEXTSTRING_LEVELMSG_430>
+"DUMMY LEVEL-SPECIFIC MSG 430"
+
+# <TEXTSTRING_LEVELMSG_431>
+"DUMMY LEVEL-SPECIFIC MSG 431"
+
+# <TEXTSTRING_LEVELMSG_432>
+"DUMMY LEVEL-SPECIFIC MSG 432"
+
+# <TEXTSTRING_LEVELMSG_433>
+"DUMMY LEVEL-SPECIFIC MSG 433"
+
+# <TEXTSTRING_LEVELMSG_434>
+"DUMMY LEVEL-SPECIFIC MSG 434"
+
+# <TEXTSTRING_LEVELMSG_435>
+"DUMMY LEVEL-SPECIFIC MSG 435"
+
+# <TEXTSTRING_LEVELMSG_436>
+"DUMMY LEVEL-SPECIFIC MSG 436"
+
+# <TEXTSTRING_LEVELMSG_437>
+"DUMMY LEVEL-SPECIFIC MSG 437"
+
+# <TEXTSTRING_LEVELMSG_438>
+"DUMMY LEVEL-SPECIFIC MSG 438"
+
+# <TEXTSTRING_LEVELMSG_439>
+"DUMMY LEVEL-SPECIFIC MSG 439"
+
+# <TEXTSTRING_LEVELMSG_440>
+"DUMMY LEVEL-SPECIFIC MSG 440"
+
+# <TEXTSTRING_LEVELMSG_441>
+"DUMMY LEVEL-SPECIFIC MSG 441"
+
+# <TEXTSTRING_LEVELMSG_442>
+"DUMMY LEVEL-SPECIFIC MSG 442"
+
+# <TEXTSTRING_LEVELMSG_443>
+"DUMMY LEVEL-SPECIFIC MSG 443"
+
+# <TEXTSTRING_LEVELMSG_444>
+"DUMMY LEVEL-SPECIFIC MSG 444"
+
+# <TEXTSTRING_LEVELMSG_445>
+"DUMMY LEVEL-SPECIFIC MSG 445"
+
+# <TEXTSTRING_LEVELMSG_446>
+"DUMMY LEVEL-SPECIFIC MSG 446"
+
+# <TEXTSTRING_LEVELMSG_447>
+"DUMMY LEVEL-SPECIFIC MSG 447"
+
+# <TEXTSTRING_LEVELMSG_448>
+"DUMMY LEVEL-SPECIFIC MSG 448"
+
+# <TEXTSTRING_LEVELMSG_449>
+"DUMMY LEVEL-SPECIFIC MSG 449"
+
+# <TEXTSTRING_LEVELMSG_450>
+"DUMMY LEVEL-SPECIFIC MSG 450"
+
+
+# End of level-specific messages
+
+# <TEXTSTRING_MAINMENU_TITLE>
+"Aliens Versus Predator"
+
+# <TEXTSTRING_MAINMENU_STARTSINGLEPLAYER>
+"Single Player"
+
+# <TEXTSTRING_MAINMENU_STARTSINGLEPLAYER_HELP>
+"Start a Single Player game."
+
+# <TEXTSTRING_MAINMENU_SINGLEPLAYER_ALIEN>
+"Select your species: Alien, Colonial Marine or Predator."
+
+# <TEXTSTRING_MAINMENU_SINGLEPLAYER_MARINE>
+"Select your species: Alien, Colonial Marine or Predator."
+
+# <TEXTSTRING_MAINMENU_SINGLEPLAYER_PREDATOR>
+"Select your species: Alien, Colonial Marine or Predator."
+
+# <TEXTSTRING_MAINMENU_MULTIPLAYER>
+"Multiplayer"
+
+# <TEXTSTRING_MAINMENU_MULTIPLAYER_HELP>
+"Join or host a multiplayer game."
+
+# <TEXTSTRING_MAINMENU_SKIRMISH>
+"Skirmish"
+
+# <TEXTSTRING_MAINMENU_SKIRMISH_HELP>
+"Configure and launch a single player skirmish game."
+
+# <TEXTSTRING_MAINMENU_GAMEPLAYOPTIONS>
+"Controls"
+
+# <TEXTSTRING_MAINMENU_GAMEPLAYOPTIONS_HELP>
+"Set up your controllers and keys for playing the game."
+
+# <TEXTSTRING_MAINMENU_CHANGEUSERPROFILE>
+"Change User Profile"
+
+# <TEXTSTRING_MAINMENU_CHANGEUSERPROFILE_HELP>
+"Select a different user profile; your current profile will be saved."
+
+# <TEXTSTRING_MAINMENU_CHEATOPTIONS>
+"Cheat Options"
+
+# <TEXTSTRING_MAINMENU_CHEATOPTIONS_HELP>
+"Access the cheat options menu."
+
+# <TEXTSTRING_MAINMENU_CHEATMODE>
+"Cheat Mode"
+
+# <TEXTSTRING_CHEATOPTIONS_1>
+"Pigsticking"
+
+# <TEXTSTRING_CHEATOPTIONS_2>
+"SlugTrail"
+
+# <TEXTSTRING_CHEATOPTIONS_3>
+"SniperMunch"
+
+# <TEXTSTRING_CHEATOPTIONS_4>
+"Terror"
+
+# <TEXTSTRING_CHEATOPTIONS_5>
+"SuperGore"
+
+# <TEXTSTRING_CHEATOPTIONS_6>
+"Grenade"
+
+# <TEXTSTRING_CHEATOPTIONS_7>
+"Mirror"
+
+# <TEXTSTRING_CHEATOPTIONS_8>
+"Pipecleaner"
+
+# <TEXTSTRING_CHEATOPTIONS_9>
+"DiscoInferno"
+
+# <TEXTSTRING_CHEATOPTIONS_10>
+"TripTastic"
+
+# <TEXTSTRING_CHEATOPTIONS_11>
+"MotionBlur"
+
+# <TEXTSTRING_CHEATOPTIONS_12>
+"UnderWater"
+
+# <TEXTSTRING_CHEATOPTIONS_13>
+"JohnWooMode"
+
+# <TEXTSTRING_CHEATOPTIONS_14>
+"WarpSpeed"
+
+# <TEXTSTRING_CHEATOPTIONS_15>
+"LandOfTheGiants"
+
+# <TEXTSTRING_CHEATOPTIONS_16>
+"ImpossibleMission"
+
+# <TEXTSTRING_CHEATOPTIONS_17>
+"RainbowBlood"
+
+# <TEXTSTRING_CHEATOPTIONS_18>
+"TickerTape"
+
+# <TEXTSTRING_CHEATOPTIONS_19>
+"Nausea"
+
+# <TEXTSTRING_CHEATOPTIONS_20>
+"FreeFall"
+
+# <TEXTSTRING_CHEATOPTIONS_21>
+"BallsOfFire"
+
+# <TEXTSTRING_CHEATOPTIONS_CHEATMODE_HELP>
+"Some cheat modes will only allow specific species and environments."
+
+# <TEXTSTRING_CHEATOPTIONS_SPECIES_HELP>
+"Choose the species you wish to play."
+
+# <TEXTSTRING_CHEATOPTIONS_ENVIRONMENT_HELP>
+"Choose the environment in which you will be playing. You may only select an environment that you have previously completed normally."
+
+# <TEXTSTRING_VIDEOOPTIONS_TITLE>
+"Video Card & Resolution"
+
+# <TEXTSTRING_VIDEOOPTIONS_TITLE_HELP>
+"Select a hardware card and resolution to run the game."
+
+# <TEXTSTRING_AVOPTIONS_TITLE>
+"Audio/Video Options"
+
+# <TEXTSTRING_AVOPTIONS_TITLE_HELP>
+"Configure the audio and video settings for the game."
+
+# <TEXTSTRING_AVOPTIONS_MUSICVOLUME>
+"Movie Volume"
+
+# <TEXTSTRING_AVOPTIONS_MUSICVOLUME_HELP>
+"Adjust the volume of the in-game and scene-setting movies."
+
+# <TEXTSTRING_AVOPTIONS_EFFECTSVOLUME>
+"Master Volume"
+
+# <TEXTSTRING_AVOPTIONS_EFFECTSVOLUME_HELP>
+"Adjust the volume of all in-game sound effects. (Also affects movie volume accordingly.)"
+
+# <TEXTSTRING_AVOPTIONS_INGAMEMOVIES>
+"In-game Movies"
+
+# <TEXTSTRING_AVOPTIONS_INGAMEMOVIES_HELP>
+"Choose whether to play in-game movies. This may affect performance on lower spec machines."
+
+# <TEXTSTRING_AVOPTIONS_INTROOUTROMOVIES>
+"Intro/Outro Movies"
+
+# <TEXTSTRING_AVOPTIONS_INTROOUTROMOVIES_HELP>
+"Choose whether to play scene-setting movies."
+
+# <TEXTSTRING_AVOPTIONS_USETHESESETTINGS>
+"Use These Settings"
+
+# <TEXTSTRING_AVOPTIONS_USETHESESETTINGS_HELP>
+"Accept these settings and return to the previous menu."
+
+# <TEXTSTRING_AVOPTIONS_GAMMASETTING>
+"Gamma Setting"
+
+# <TEXTSTRING_AVOPTIONS_GAMMASETTING_HELP>
+"Adjusts the brightness and contrast of the game."
+
+# <TEXTSTRING_MAINMENU_EXITGAME>
+"Exit Game"
+
+# <TEXTSTRING_MAINMENU_EXITGAME_HELP>
+"Quit the game and return to Windows."
+
+# <TEXTSTRING_USERPROFILE_SELECT>
+"Select User Profile"
+
+# <TEXTSTRING_USERPROFILE_NEW>
+"New Profile"
+
+# <TEXTSTRING_USERPROFILE_ENTERNAME>
+"Enter Name For New Profile"
+
+# <TEXTSTRING_USERPROFILE_HELP>
+"Press ENTER to select a profile, or BACKSPACE to delete a profile."
+
+# <TEXTSTRING_USERPROFILE_DELETE>
+"Delete Profile - Are You Sure?"
+
+# <TEXTSTRING_USERPROFILE_DELETE_HELP>
+"Deleting a profile will permanently remove it, and all game data saved in the profile will be lost."
+
+# <TEXTSTRING_USERPROFILE_ENTERINGNAME_HELP>
+"Please enter a name for your profile. Press BACKSPACE to delete characters and ENTER to finish"
+
+# <TEXTSTRING_USERPROFILE_USETHISNAME_HELP>
+"Use the above name for the profile."
+
+# <TEXTSTRING_EXITGAME_TITLE>
+"Exit Game - Are You Sure?"
+
+# <TEXTSTRING_LEVELSELECT_TITLE>
+"Select Episode"
+
+# <TEXTSTRING_LEVELSELECT_START>
+"Start"
+
+# <TEXTSTRING_LEVELSELECT_START_HELP>
+"Press ENTER to go to the species selection menu."
+
+# <TEXTSTRING_MULTIPLAYER_START2_HELP>
+"Press ENTER to start the game."
+
+# <TEXTSTRING_MULTIPLAYER_STARTGAME>
+"Host New Game"
+
+# <TEXTSTRING_MULTIPLAYER_STARTGAME_HELP>
+"Press ENTER to host a new multiplayer game , setting the options yourself."
+
+# <TEXTSTRING_MULTIPLAYER_JOINGAME>
+"Join Existing Game"
+
+# <TEXTSTRING_MULTIPLAYER_JOINGAME_HELP>
+"Press ENTER to join a multiplayer game hosted by another player."
+
+# <TEXTSTRING_MULTIPLAYER_CONTINUE>
+"Continue"
+
+# <TEXTSTRING_MULTIPLAYER_CONTINUETOCONFIG_HELP>
+"Continue to the configuration menu"
+
+# <TEXTSTRING_MULTIPLAYER_SPECIES>
+"Player Species"
+
+# <TEXTSTRING_MULTIPLAYER_SPECIES_HELP>
+"Select the species or type of marine you would like to play as."
+
+# <TEXTSTRING_MULTIPLAYER_MARINE>
+"Marine"
+
+# <TEXTSTRING_MULTIPLAYER_PREDATOR>
+"Predator"
+
+# <TEXTSTRING_MULTIPLAYER_ALIEN>
+"Alien"
+
+# <TEXTSTRING_MULTIPLAYER_MARINE_PULSERIFLE>
+"Marine - Pulse Rifle"
+
+# <TEXTSTRING_MULTIPLAYER_MARINE_SMARTGUN>
+"Marine - Smartgun"
+
+# <TEXTSTRING_MULTIPLAYER_MARINE_FLAMER>
+"Marine - Flamethrower"
+
+# <TEXTSTRING_MULTIPLAYER_MARINE_SADAR>
+"Marine - Sadar"
+
+# <TEXTSTRING_MULTIPLAYER_MARINE_GRENADELAUNCHER>
+"Marine - Grenade"
+
+# <TEXTSTRING_MULTIPLAYER_MARINE_MINIGUN>
+"Marine - Minigun"
+
+# <TEXTSTRING_MULTIPLAYER_MARINE_SKEETER>
+"Marine - Skeeter"
+
+# <TEXTSTRING_MULTIPLAYER_MARINE_PISTOLS>
+"Marine - Pistols"
+
+# <TEXTSTRING_MULTIPLAYER_PLAYERNAME>
+"Player Name"
+
+# <TEXTSTRING_MULTIPLAYER_PLAYERNAME_HELP>
+"Type in the name that you would like to appear as in the game."
+
+# <TEXTSTRING_MULTIPLAYER_SESSIONNAME>
+"Session Name"
+
+# <TEXTSTRING_MULTIPLAYER_FINDLOCAL>
+"Find Local Servers"
+
+# <TEXTSTRING_MULTIPLAYER_FINDLOCAL_HELP>
+"Press ENTER to search for games being played on a local network."
+
+# <TEXTSTRING_MULTIPLAYER_OPENADDRESS>
+"Open IP Address"
+
+# <TEXTSTRING_MULTIPLAYER_OPENADDRESS_HELP>
+"Press ENTER to specify an IP address of a computer to connect to."
+
+# <TEXTSTRING_MULTIPLAYER_ADDRESS>
+"IP Address"
+
+# <TEXTSTRING_MULTIPLAYER_LOADADDRESS>
+"Load IP Address"
+
+# <TEXTSTRING_MULTIPLAYER_LOADADDRESS_HELP>
+"Press ENTER to attempt to connect using the selected IP address"
+
+# <TEXTSTRING_MULTIPLAYER_TCPIP>
+"TCP/IP"
+
+# <TEXTSTRING_MULTIPLAYER_IPX>
+"IPX"
+
+# <TEXTSTRING_MULTIPLAYER_SERIAL>
+"Serial"
+
+# <TEXTSTRING_MULTIPLAYER_MODEM>
+"Modem"
+
+# <TEXTSTRING_MULTIPLAYER_PROTOCOL_HELP>
+"Select the network protocol to use for the multiplayer game."
+
+# <TEXTSTRING_MULTIPLAYER_NOCONNECTIONS>
+"No available connections"
+
+# <TEXTSTRING_MULTIPLAYER_NOCONNECTIONS_HELP>
+"Was Unable to setup TCPIP, IPX, serial or modem connection. Therefore it isn't possible to start a multiplayer game"
+
+# <TEXTSTRING_MULTIPLAYER_OKTOCONNECT>
+"Make Connection"
+
+# <TEXTSTRING_MULTIPLAYER_OKTOCONNECT_HELP>
+"Press ENTER to attempt to connect using the selected IP address."
+
+# <TEXTSTRING_MULTIPLAYER_SELECTSESSION>
+"Available Sessions"
+
+# <TEXTSTRING_MULTIPLAYER_SELECTSESSION_HELP>
+"Press ENTER to join the selected multiplayer session."
+
+# <TEXTSTRING_MULTIPLAYER_NOSESSIONSFOUND>
+"No sessions were found"
+
+# <TEXTSTRING_MULTIPLAYER_NOSESSIONSFOUND_HELP>
+"Was unable to find any multiplayer sessions. You may need to wait for the host to finish configuring the game."
+
+# <TEXTSTRING_MULTIPLAYER_ENVIRONMENT>
+"Environment"
+
+# <TEXTSTRING_MULTIPLAYER_GAMESTYLE>
+"Game Style"
+
+# <TEXTSTRING_MULTIPLAYER_DEATHMATCH>
+"Deathmatch"
+
+# <TEXTSTRING_MULTIPLAYER_DEATHMATCHTEAM>
+"Species Deathmatch"
+
+# <TEXTSTRING_MULTIPLAYER_LASTMANSTANDING>
+"Last Man Standing"
+
+# <TEXTSTRING_MULTIPLAYER_PREDATORTAG>
+"Predator Tag"
+
+# <TEXTSTRING_MULTIPLAYER_COOPERATIVE>
+"Cooperative"
+
+# <TEXTSTRING_MULTIPLAYER_ALIENTAG>
+"Alien Tag"
+
+# <TEXTSTRING_MULTIPLAYER_MAXALIEN>
+"Max Aliens"
+
+# <TEXTSTRING_MULTIPLAYER_MAXPREDATOR>
+"Max Predators"
+
+# <TEXTSTRING_MULTIPLAYER_MAXMARINE>
+"Max Marines"
+
+# <TEXTSTRING_MULTIPLAYER_MAXMARINE_GENERAL>
+"Max Standard Marines"
+
+# <TEXTSTRING_MULTIPLAYER_MAXMARINE_PULSERIFLE>
+"Max Pulse Rifle Marines"
+
+# <TEXTSTRING_MULTIPLAYER_MAXMARINE_SMARTGUN>
+"Max Smartgun Marines"
+
+# <TEXTSTRING_MULTIPLAYER_MAXMARINE_FLAMER>
+"Max Flamer Marines"
+
+# <TEXTSTRING_MULTIPLAYER_MAXMARINE_SADAR>
+"Max Sadar Marines"
+
+# <TEXTSTRING_MULTIPLAYER_MAXMARINE_GRENADE>
+"Max Grenade Marines"
+
+# <TEXTSTRING_MULTIPLAYER_MAXMARINE_MINIGUN>
+"Max Minigun Marines"
+
+# <TEXTSTRING_MULTIPLAYER_MAXMARINE_SKEETER>
+"Max Skeeter Marines"
+
+# <TEXTSTRING_MULTIPLAYER_MAXMARINE_PISTOLS>
+"Max Twin Pistol Marines"
+
+# <TEXTSTRING_MULTIPLAYER_ALLOW_SMARTGUN>
+"Allow Smartgun"
+
+# <TEXTSTRING_MULTIPLAYER_ALLOW_FLAMER>
+"Allow Flamethrower"
+
+# <TEXTSTRING_MULTIPLAYER_ALLOW_SADAR>
+"Allow Sadar"
+
+# <TEXTSTRING_MULTIPLAYER_ALLOW_GRENADELAUNCHER>
+"Allow Grenade Launcher"
+
+# <TEXTSTRING_MULTIPLAYER_ALLOW_MINIGUN>
+"Allow Minigun"
+
+# <TEXTSTRING_MULTIPLAYER_ALLOW_SKEETER>
+"Allow Skeeter"
+
+# <TEXTSTRING_MULTIPLAYER_ALLOW_MARINE_PISTOLS>
+"Allow Marine Pistols"
+
+# <TEXTSTRING_MULTIPLAYER_ALLOW_DISC>
+"Allow Disc"
+
+# <TEXTSTRING_MULTIPLAYER_ALLOW_PISTOL>
+"Allow Predator Pistol"
+
+# <TEXTSTRING_MULTIPLAYER_ALLOW_PLASMACASTER>
+"Allow Shoulder Cannon"
+
+# <TEXTSTRING_MULTIPLAYER_ALLOW_SPEARGUN>
+"Allow Speargun"
+
+# <TEXTSTRING_MULTIPLAYER_ALLOW_MEDICOMP>
+"Allow Medicomp"
+
+# <TEXTSTRING_MULTIPLAYER_DYNAMICSCORING>
+"Use Dynamic Scoring"
+
+# <TEXTSTRING_MULTIPLAYER_CHARACTERSCORING>
+"Use Species Scoring"
+
+# <TEXTSTRING_MULTIPLAYER_BASEKILLVALUE>
+"Base Kill Value"
+
+# <TEXTSTRING_MULTIPLAYER_ALIENVALUE>
+"Alien Value"
+
+# <TEXTSTRING_MULTIPLAYER_MARINEVALUE>
+"Marine Value"
+
+# <TEXTSTRING_MULTIPLAYER_PREDATORVALUE>
+"Predator Value"
+
+# <TEXTSTRING_MULTIPLAYER_SENDDECALS>
+"Send Decals"
+
+# <TEXTSTRING_MULTIPLAYER_SCORELIMIT>
+"Score Limit"
+
+# <TEXTSTRING_MULTIPLAYER_NOSCORELIMIT>
+"No Score Limit"
+
+# <TEXTSTRING_MULTIPLAYER_TIMELIMIT>
+"Time Limit"
+
+# <TEXTSTRING_MULTIPLAYER_NOTIMELIMIT>
+"No Time Limit"
+
+# <TEXTSTRING_MULTIPLAYER_INVULNTIME>
+"Invulnerability Time"
+
+# <TEXTSTRING_MULTIPLAYER_LIVES>
+"Lives"
+
+# <TEXTSTRING_MULTIPLAYER_INFINITE>
+"Infinite"
+
+# <TEXTSTRING_MULTIPLAYER_SHAREDLIVES>
+"Use Shared Lives"
+
+# <TEXTSTRING_MULTIPLAYER_RESPAWN_POINTS>
+"Object Respawn Score"
+
+# <TEXTSTRING_MULTIPLAYER_RESPAWN_POINTS_NO>
+"No Score Based Respawn"
+
+# <TEXTSTRING_MULTIPLAYER_RESPAWN_TIME>
+"Object Respawn Time"
+
+# <TEXTSTRING_MULTIPLAYER_RESPAWN_TIME_NO>
+"No Time Based Respawn"
+
+# <TEXTSTRING_MULTIPLAYER_GAMESPEED>
+"Game Speed"
+
+# <TEXTSTRING_MULTIPLAYER_70PERCENT>
+"70 %"
+
+# <TEXTSTRING_MULTIPLAYER_80PERCENT>
+"80 %"
+
+# <TEXTSTRING_MULTIPLAYER_90PERCENT>
+"90 %"
+
+# <TEXTSTRING_MULTIPLAYER_100PERCENT>
+"100 %"
+
+# <TEXTSTRING_MULTIPLAYER_PREDESTROYLIGHTS>
+"Pre-Destroy Lights"
+
+# <TEXTSTRING_MULTIPLAYER_NOFRIENDLYFIRE>
+"Disable Friendly Fire"
+
+# <TEXTSTRING_MULTIPLAYER_FALLINGDAMAGE>
+"Falling Damage"
+
+# <TEXTSTRING_MULTIPLAYER_PISTOLINFINITEAMMO>
+"Pistols Have Infinite Ammo"
+
+# <TEXTSTRING_MULTIPLAYER_SPECIALISTPISTOLS>
+"Specialists Have Pistols"
+
+# <TEXTSTRING_MULTIPLAYER_POINTS>
+"Points"
+
+# <TEXTSTRING_MULTIPLAYER_SECONDS>
+"Seconds"
+
+# <TEXTSTRING_MULTIPLAYER_MINUTES>
+"Minutes"
+
+# <TEXTSTRING_MULTIPLAYER_CONFIG>
+"Multiplayer Configuration"
+
+# <TEXTSTRING_MULTIPLAYER_SAVECONFIG>
+"Save Configuration"
+
+# <TEXTSTRING_MULTIPLAYER_SAVECONFIG_HELP>
+"Save the current game configuration"
+
+# <TEXTSTRING_MULTIPLAYER_LOADCONFIG>
+"Load Configuration"
+
+# <TEXTSTRING_MULTIPLAYER_LOADCONFIG_HELP>
+"Load a previously saved game configuration"
+
+# <TEXTSTRING_MULTIPLAYER_AI_ALIENVALUE>
+"AI Alien Value"
+
+# <TEXTSTRING_MULTIPLAYER_AI_PREDALIENVALUE>
+"AI Predalien Value"
+
+# <TEXTSTRING_MULTIPLAYER_AI_PRAETORIANVALUE>
+"AI Praetorian Value"
+
+# <TEXTSTRING_MULTIPLAYER_SCORE>
+"Score"
+
+# <TEXTSTRING_MULTIPLAYER_SCOREFOR>
+"Score For"
+
+# <TEXTSTRING_MULTIPLAYER_SCOREAGAINST>
+"Score Against"
+
+# <TEXTSTRING_MULTIPLAYER_TIME>
+"Time"
+
+# <TEXTSTRING_MULTIPLAYER_LIVES_LEFT>
+"Lives Left"
+
+# <TEXTSTRING_MULTIPLAYER_SPECIESSCORE>
+"Species Score"
+
+# <TEXTSTRING_MULTIPLAYER_ALIENS>
+"Aliens"
+
+# <TEXTSTRING_MULTIPLAYER_PREDALIENS>
+"Predaliens"
+
+# <TEXTSTRING_MULTIPLAYER_PRAETORIANS>
+"Praetorians"
+
+# <TEXTSTRING_MULTIPLAYER_WEAPON_RESPAWN>
+"Weapons have respawned"
+
+# <TEXTSTRING_MPHELP_SESSIONNAME>
+"This is the session name players will see when attempting to join a game."
+
+#<TEXTSTRING_MPHELP_GAMESTYLE_DEATHMATCH>
+"Every player against every other player."
+
+#<TEXTSTRING_MPHELP_GAMESTYLE_DEATHMATCHTEAM>
+"Each species against the others. Score is lost for killing your own species."
+
+#<TEXTSTRING_MPHELP_GAMESTYLE_LASTMANSTANDING>
+"All players enter as marines except the host who is an alien. When an alien kills a marine, that marine returns as an alien. The 'last man standing' marine gets bonus scores for killing aliens. When the last marine dies, the game is restarted with a new player chosen as the alien. The scores are reset after every player has started a game as an alien."
+
+#<TEXTSTRING_MPHELP_GAMESTYLE_PREDATORTAG>
+"All players enter as marines or aliens except the host who is a predator. Only the predator may score. The player who kills the predator assumes that character."
+
+#<TEXTSTRING_MPHELP_GAMESTYLE_COOPERATIVE>
+"All players are marines or predators. They must survive against computer controlled aliens, predaliens and praetorians."
+
+#<TEXTSTRING_MPHELP_GAMESTYLE_ALIENTAG>
+"All players enter as marines or predators except the host who is an alien. Only the alien may score. The player who kills the alien assumes that character."
+
+# <TEXTSTRING_MPHELP_ENVIRONMENT>
+"This is the environment that you will be playing in."
+
+# <TEXTSTRING_MPHELP_GAMESPEED>
+"If the game speed is set to less than 100% , then the speed of all movement within the game will be scaled down."
+
+# <TEXTSTRING_MPHELP_SCORELIMIT>
+"When this score is reached, the game will end."
+
+# <TEXTSTRING_MPHELP_TIMELIMIT>
+"When this time is up, the game will end."
+
+# <TEXTSTRING_MPHELP_INVULNTIME>
+"This is the time that a character is invulnerable for after respawning. Invulnerability is lost if you fire a weapon."
+
+# <TEXTSTRING_MPHELP_MAXCHARACTER>
+"This is the limit on the number of characters of this type that can join the game."
+
+# <TEXTSTRING_MPHELP_MAXSPECIALIST>
+"This is the limit on the number of this type of marine that can join the game. For a player to join as a marine there must be enough 'marine slots' , and also enough 'specialist slots' of the appropriate type "
+
+# <TEXTSTRING_MPHELP_ALLOWEAPON>
+"If this option is set to no then no weapons of this type will be available within the level. Also players won't be able to join as specialist marines of this type."
+
+# <TEXTSTRING_MPHELP_ALLOWEAPON_PRED>
+"If this option is set to no , then predators won't be given this weapon."
+
+# <TEXTSTRING_MPHELP_DYNAMICSCORING>
+"If this option is set to yes then the score for killing a player will change according to how the player is doing. The score is determined by comparing the points scored by the killed player to the points scored against that player. This option is ignored in last man standing games."
+
+# <TEXTSTRING_MPHELP_CHARACTERSCORING>
+"If this option is set to yes then the score for killing a player will depend on their species. This option is ignored in last man standing games."
+
+# <TEXTSTRING_MPHELP_BASEKILLVALUE>
+"This value is the number of points lost when a player commits suicide. It is also used as the score for killing a player if species based scoring is off."
+
+# <TEXTSTRING_MPHELP_ALIENVALUE>
+"This value is the number of points awarded for killing a player alien. This is only used if species based scoring is on."
+
+# <TEXTSTRING_MPHELP_MARINEVALUE>
+"This value is the number of points awarded for killing a player marine. This is only used if species based scoring is on."
+
+# <TEXTSTRING_MPHELP_PREDATORVALUE>
+"This value is the number of points awarded for killing a player predator. This is only used if species based scoring is on."
+
+# <TEXTSTRING_MPHELP_AIVALUE>
+"This is the number of points awarded for killing a computer controlled character of this type."
+
+# <TEXTSTRING_MPHELP_LIVES>
+"This defines the total lives of each player. Once a player's lives are gone , that player can only observe until the game restarts. The game will end when all players have lost their lives."
+
+# <TEXTSTRING_MPHELP_SHAREDLIVES>
+"This determines whether each player has their life limit , or all players have a common life limit. This option is ignored if there is no life limit."
+
+# <TEXTSTRING_MPHELP_RESPAWN_POINTS>
+"All weapon and health pickups will respawn whenever the total points scored by all player passes a multiple of this value. If this value is set to 0 then objects will never respawn as a result of score. Pickups may still respawn based on time , if the option below is not set to 'No Time Based Respawn'."
+
+# <TEXTSTRING_MPHELP_RESPAWN_TIME>
+"This determines how frequently weapons and health pickups respawn in the game. If this value is set to 0 then objects will never respawn as a result of time passing. Pickups may still respawn based on score , if the option above is not set to 'No Score Based Respawn'."
+
+# <TEXTSTRING_MPHELP_PREDESTROYLIGHTS>
+"If this option is turned on then all destructable lights will start the game destroyed."
+
+# <TEXTSTRING_MPHELP_NOFRIENDLYFIRE>
+"If this option is turned on then you can't harm players on the same team as you."
+
+# <TEXTSTRING_MPHELP_FALLINGDAMAGE>
+"This turns falling damage on and off."
+
+# <TEXTSTRING_MPHELP_PISTOLINFINITEAMMO>
+"If on, all pistols have infinite ammo."
+
+# <TEXTSTRING_MPHELP_SPECIALISTPISTOLS>
+"If on, all specialists have backup pistols."
+
+# <TEXTSTRING_MPHELP_IPADDRESS>
+"Type the IP address that you want to connect to."
+
+# <TEXTSTRING_MPHELP_LOADADDRESS>
+"Use a previously saved IP address."
+
+# <TEXTSTRING_MPHELP_ADDRESSDESCRIPTION>
+"Type a filename here if you want this IP address saved for later use."
+
+#
+#Multiplayer console messages
+#
+
+# <TEXTSTRING_MULTIPLAYERCONSOLE_KILLEDBY>
+"%1 has been killed by %2"
+
+# <TEXTSTRING_MULTIPLAYERCONSOLE_SUICIDE>
+"%1 has commited suicide"
+
+# <TEXTSTRING_MULTIPLAYERCONSOLE_LEAVEGAME>
+"%1 has left the game"
+
+# <TEXTSTRING_MULTIPLAYERCONSOLE_JOINGAME>
+"%1 has joined the game"
+
+# <TEXTSTRING_MULTIPLAYERCONSOLE_CONNECTGAME>
+"%1 has connected to the game"
+
+# <TEXTSTRING_MULTIPLAYERCONSOLE_NEWHOST>
+"This machine is now host"
+
+# <TEXTSTRING_MULTIPLAYER_PRESSKEYTORESTARTGAME>
+"Press any key to restart game"
+
+# <TEXTSTRING_MULTIPLAYER_WAITFORRESTARTGAME>
+"Please wait for the host to restart the game"
+
+# <TEXTSTRING_MULTIPLAYERCONSOLE_ALIEN_KILLED>
+"%1 has killed an alien"
+
+# <TEXTSTRING_MULTIPLAYERCONSOLE_PREDALIEN_KILLED>
+"%1 has killed a predalien"
+
+# <TEXTSTRING_MULTIPLAYERCONSOLE_PRAETORIAN_KILLED>
+"%1 has killed a praetorian"
+
+# <TEXTSTRING_MULTIPLAYERCONSOLE_KILLEDBY_ALIEN>
+"%1 has been killed by an Alien"
+
+# <TEXTSTRING_MULTIPLAYERCONSOLE_KILLEDBY_PREDALIEN>
+"%1 has been killed by a Predalien"
+
+# <TEXTSTRING_MULTIPLAYERCONSOLE_KILLEDBY_PRAETORIAN>
+"%1 has been killed by a Praetorian"
+
+# <TEXTSTRING_MULTIPLAYERCONSOLE_PLAYERSEEN>
+"You see %1"
+
+#
+#Strings for the last man standing game
+#
+
+# <TEXTSTRING_MULTIPLAYER_LMS_ALLMARINESDEAD>
+"All marines are dead."
+
+# <TEXTSTRING_MULTIPLAYER_LMS_WAITFORHOST>
+"Please wait for the host to restart"
+
+# <TEXTSTRING_MULTIPLAYER_LMS_HOSTPRESSOPERATE>
+"Press operate to restart."
+
+# <TEXTSTRING_MULTIPLAYER_LMS_GO>
+"Go!"
+
+# <TEXTSTRING_MULTIPLAYER_LMS_LASTMANSTANDING>
+"%1 is the last man standing."
+
+# <TEXTSTRING_MULTIPLAYER_LMS_WILLBEALIEN>
+"%1 will be the alien."
+
+# <TEXTSTRING_MULTIPLAYERLEVELS_1>
+"Sewer"
+
+# <TEXTSTRING_MULTIPLAYERLEVELS_2>
+"Massacre"
+
+# <TEXTSTRING_MULTIPLAYERLEVELS_3>
+"Statue"
+
+# <TEXTSTRING_MULTIPLAYERLEVELS_4>
+"Jockey"
+
+# <TEXTSTRING_MULTIPLAYERLEVELS_5>
+"Hive"
+
+# <TEXTSTRING_MULTIPLAYERLEVELS_6>
+"Leadworks"
+
+# <TEXTSTRING_MULTIPLAYERLEVELS_7>
+"Hadley's Hope"
+
+# <TEXTSTRING_MULTIPLAYERLEVELS_8>
+"Meat Factory"
+
+# <TEXTSTRING_MULTIPLAYERLEVELS_9>
+"Nostromo"
+
+# <TEXTSTRING_MULTIPLAYERLEVELS_10>
+"Subway"
+
+# <TEXTSTRING_MULTIPLAYERLEVELS_11>
+"Elevator"
+
+# <TEXTSTRING_MULTIPLAYERLEVELS_12>
+"Lab 14"
+
+# <TEXTSTRING_MULTIPLAYERLEVELS_13>
+"Compound"
+
+# <TEXTSTRING_MULTIPLAYERLEVELS_14>
+"Office"
+
+# <TEXTSTRING_COOPLEVEL_1>
+"Stranded"
+
+# <TEXTSTRING_COOPLEVEL_2>
+"Hive"
+
+# <TEXTSTRING_COOPLEVEL_3>
+"Trapped"
+
+# <TEXTSTRING_COOPLEVEL_4>
+"Sewer"
+
+# <TEXTSTRING_COOPLEVEL_5>
+"Jockey"
+
+# <TEXTSTRING_COOPLEVEL_6>
+"Leadworks"
+
+# <TEXTSTRING_COOPLEVEL_7>
+"Hadley's Hope"
+
+# <TEXTSTRING_COOPLEVEL_8>
+"Meat Factory"
+
+# <TEXTSTRING_COOPLEVEL_9>
+"Nostromo"
+
+# <TEXTSTRING_COOPLEVEL_10>
+"Subway"
+
+# <TEXTSTRING_COOPLEVEL_11>
+"Elevator"
+
+# <TEXTSTRING_COOPLEVEL_12>
+"Lab 14"
+
+# <TEXTSTRING_COOPLEVEL_13>
+"Compound"
+
+# <TEXTSTRING_START_MARINE_DEMO>
+"Start Marine Demo"
+
+# <TEXTSTRING_START_PREDATOR_DEMO>
+"Start Predator Demo"
+
+# <TEXTSTRING_START_ALIEN_DEMO>
+"Start Alien Demo"
+
+# <TEXTSTRING_START_DEATHMATCH_DEMO>
+"Start Deathmatch Demo"
+
+
+# For the PC mouse options menu
+
+# <TEXTSTRING_MOUSECONTROLS_TITLE>
+"Mouse Configuration"
+
+# <TEXTSTRING_MOUSECONTROLS_TITLE_HELP>
+"Configure your mouse for playing the game."
+
+# <TEXTSTRING_MOUSECONTROLS_XSENSITIVITY>
+"Horizontal Sensitivity"
+
+# <TEXTSTRING_MOUSECONTROLS_XSENSITIVITY_HELP>
+"Choose sensitivity level: right is more, left is less."
+
+# <TEXTSTRING_MOUSECONTROLS_YSENSITIVITY>
+"Vertical Sensitivity"
+
+# <TEXTSTRING_MOUSECONTROLS_YSENSITIVITY_HELP>
+"Choose sensitivity level: right is more, left is less."
+
+# <TEXTSTRING_MOUSECONTROLS_VERTICAL_AXIS>
+"Vertical Axis"
+
+# <TEXTSTRING_MOUSECONTROLS_VERTICAL_AXIS_HELP>
+"Choose a function for the vertical axis."
+
+# <TEXTSTRING_MOUSECONTROLS_HORIZONTAL_AXIS>
+"Horizontal Axis"
+
+# <TEXTSTRING_MOUSECONTROLS_HORIZONTAL_AXIS_HELP>
+"Choose a function for the horizontal axis."
+
+# <TEXTSTRING_MOUSECONTROLS_LOOKING>
+"Looking"
+
+# <TEXTSTRING_MOUSECONTROLS_MOVEMENT>
+"Movement"
+
+# <TEXTSTRING_MOUSECONTROLS_SIDESTEPPING>
+"Sidestepping"
+
+# <TEXTSTRING_MOUSECONTROLS_TURNING>
+"Turning"
+
+# <TEXTSTRING_MOUSECONTROLS_INVERTVERTICAL>
+"Invert Vertical Axis"
+
+# <TEXTSTRING_MOUSECONTROLS_INVERTVERTICAL_HELP>
+"Reverses the vertical axis of the mouse, e.g. moving upwards will cause your character to look down."
+
+# <TEXTSTRING_JOYSTICKCONTROLS_INVERTVERTICAL_HELP>
+"Reverses the vertical axis of the joystick, e.g. pushing upwards will cause your character to look down."
+
+# <TEXTSTRING_MOUSECONTROLS_AUTOCENTRE>
+"Auto-centre"
+
+# <TEXTSTRING_MOUSECONTROLS_AUTOCENTRE_HELP>
+"When moving, snaps the characters view back to looking directly ahead."
+
+# <TEXTSTRING_MOUSECONTROLS_SAVETHESESETTINGS>
+"Use These Settings"
+
+# <TEXTSTRING_MOUSECONTROLS_SAVETHESESETTINGS_HELP>
+# Note! this is used as a general string, not just for the mouse settings
+"Accept these settings and return to the previous menu."
+
+# <TEXTSTRING_CONTROLS_RESETTODEFAULT>
+"Reset To Defaults"
+
+# <TEXTSTRING_CONTROLS_RESETTODEFAULT_HELP>
+"Resets all variables to their defaults. Does not return to the previous menu."
+
+# <TEXTSTRING_JOYSTICKCONTROLS_TITLE>
+"Joystick Configuration"
+
+# <TEXTSTRING_JOYSTICKCONTROLS_TITLE_HELP>
+"Configure your joystick for playing the game."
+
+# <TEXTSTRING_JOYSTICKCONTROLS_ENABLED>
+"Joystick Enabled"
+
+# <TEXTSTRING_JOYSTICKCONTROLS_ENABLED_HELP>
+"Sets whether you may use a joystick for playing the game."
+
+# <TEXTSTRING_JOYSTICKCONTROLS_IGNORED>
+"Ignored"
+
+# <TEXTSTRING_JOYSTICKCONTROLS_MOVEMENT>
+"Movement"
+
+# <TEXTSTRING_JOYSTICKCONTROLS_POVHATREVERSED>
+"POV Hat Invert Vertical Axis"
+
+# <TEXTSTRING_JOYSTICKCONTROLS_POVHATREVERSED_HELP>
+"Reverses the HAT vertical axis."
+
+# <TEXTSTRING_JOYSTICKCONTROLS_POVHATVERTICAL>
+"POV Hat Vertical Axis"
+
+# <TEXTSTRING_JOYSTICKCONTROLS_POVHATVERTICAL_HELP>
+"Choose a function for the POV hat vertical axis."
+
+# <TEXTSTRING_JOYSTICKCONTROLS_POVHATHORIZONTAL>
+"POV Hat Horizontal Axis"
+
+# <TEXTSTRING_JOYSTICKCONTROLS_POVHATHORIZONTAL_HELP>
+"Choose a function for the POV hat horizontal axis."
+
+# <TEXTSTRING_JOYSTICKCONTROLS_RUDDERENABLED>
+"Rudder Enabled"
+
+# <TEXTSTRING_JOYSTICKCONTROLS_RUDDERENABLED_HELP>
+"Sets whether you may use a joystick rudder for playing the game."
+
+# <TEXTSTRING_JOYSTICKCONTROLS_RUDDERAXIS>
+"Rudder Axis"
+
+# <TEXTSTRING_JOYSTICKCONTROLS_RUDDERAXIS_HELP>
+"Choose a function for the rudder axis."
+
+# <TEXTSTRING_PREDATORKEYCONTROLS_TITLE>
+"Predator Key Configuration"
+
+# <TEXTSTRING_PREDATORKEYCONTROLS_TITLE_HELP>
+"Configure the Predator key controls for playing the game. This does not affect other species."
+
+# <TEXTSTRING_ALIENKEYCONTROLS_TITLE>
+"Alien Key Configuration"
+
+# <TEXTSTRING_ALIENKEYCONTROLS_TITLE_HELP>
+"Configure the Alien key controls for playing the game. This does not affect other species."
+
+# <TEXTSTRING_MARINEKEYCONTROLS_TITLE>
+"Marine Key Configuration"
+
+# <TEXTSTRING_MARINEKEYCONTROLS_TITLE_HELP>
+"Configure the Marine key controls for playing the game. This does not affect other species."
+
+# <TEXTSTRING_KEYCONTROLS_HELP>
+"Use the cursor keys to navigate. To change a setting, press ENTER followed by the key of your choice (this includes mouse and joystick buttons). Press BACKSPACE to erase a setting. Any settings which are shown in yellow indicate key clashing."
+
+# Start of the episode names
+#
+# <TEXTSTRING_MARINELEVELS_1>
+"Episode I: Derelict"
+
+# <TEXTSTRING_MARINELEVELS_2>
+"Episode II: Colony"
+
+# <TEXTSTRING_MARINELEVELS_3>
+"Episode III: Invasion"
+
+# <TEXTSTRING_MARINELEVELS_4>
+"Episode IV: Orbital"
+
+# <TEXTSTRING_MARINELEVELS_5>
+"Episode V: Tyrargo"
+
+# <TEXTSTRING_MARINELEVELS_6>
+"Episode VI: Hangar"
+
+# <TEXTSTRING_MARINELEVELS_7>
+"Bonus I: Temple"
+
+# <TEXTSTRING_MARINELEVELS_8>
+"Bonus II: Vaults"
+
+# <TEXTSTRING_MARINELEVELS_9>
+"Bonus III: Ferarco"
+
+# <TEXTSTRING_MARINELEVELS_10>
+"Bonus IV: Gateway"
+
+# <TEXTSTRING_MARINELEVELS_11>
+"Bonus V: Waterfall"
+
+# <TEXTSTRING_PREDATORLEVELS_1>
+"Episode I: Waterfall"
+
+# <TEXTSTRING_PREDATORLEVELS_2>
+"Episode II: Area 52"
+		  
+# <TEXTSTRING_PREDATORLEVELS_3>
+"Episode III: Vaults"
+
+# <TEXTSTRING_PREDATORLEVELS_4>
+"Episode IV: Fury 161"
+
+# <TEXTSTRING_PREDATORLEVELS_5>
+"Episode V: Caverns"
+
+# <TEXTSTRING_PREDATORLEVELS_6>
+"Episode VI: Battle"
+
+# <TEXTSTRING_PREDATORLEVELS_7>
+"Bonus I: Invasion"
+
+# <TEXTSTRING_PREDATORLEVELS_8>
+"Bonus II: Escape"
+
+# <TEXTSTRING_PREDATORLEVELS_9>
+"Bonus III: Temple"
+
+# <TEXTSTRING_PREDATORLEVELS_10>
+"Bonus IV: Earthbound"
+
+# <TEXTSTRING_PREDATORLEVELS_11>
+"Bonus V: Tyrargo"
+
+# <TEXTSTRING_ALIENLEVELS_1>
+"Episode I: Temple"
+
+# <TEXTSTRING_ALIENLEVELS_2>
+"Episode II: Escape"
+
+# <TEXTSTRING_ALIENLEVELS_3>
+"Episode III: Ferarco"
+
+# <TEXTSTRING_ALIENLEVELS_4>
+"Episode IV: Gateway"
+
+# <TEXTSTRING_ALIENLEVELS_5>
+"Episode V: Earthbound"
+
+# <TEXTSTRING_ALIENLEVELS_6>
+"Bonus I: Invasion"
+
+# <TEXTSTRING_ALIENLEVELS_7>
+"Bonus II: Derelict"
+
+# <TEXTSTRING_ALIENLEVELS_8>
+"Bonus III: Tyrargo"
+
+# <TEXTSTRING_ALIENLEVELS_9>
+"Bonus IV: Caverns"
+
+# <TEXTSTRING_ALIENLEVELS_10>
+"Bonus V: Fury 161"
+
+# <TEXTSTRING_MARINELEVELSBRIEFING_1>
+"Weyland-Yutani Bioweapons Research Facility on LV-426."
+# <TEXTSTRING_MARINELEVELSBRIEFING_1B>
+"2154 - Ten years after Hadleys Hope Incident."
+# <TEXTSTRING_MARINELEVELSBRIEFING_1C>
+"Massive biocontainment failure."
+# <TEXTSTRING_MARINELEVELSBRIEFING_1D>
+"Scientific & Civilian personnel evacuation complete."
+# <TEXTSTRING_MARINELEVELSBRIEFING_1E>
+""
+
+
+# <TEXTSTRING_MARINELEVELSBRIEFING_2>
+"Weyland-Yutani Scientific & Civilian Support Installation."
+# <TEXTSTRING_MARINELEVELSBRIEFING_2B>
+"Severe Xenomorph infestation."
+# <TEXTSTRING_MARINELEVELSBRIEFING_2C>
+"Research teams and support engineers evacuated."
+# <TEXTSTRING_MARINELEVELSBRIEFING_2D>
+"Power generators offline."
+# <TEXTSTRING_MARINELEVELSBRIEFING_2E>
+""
+
+# <TEXTSTRING_MARINELEVELSBRIEFING_3>
+"Weyland-Yutani Atmosphere Processor."
+# <TEXTSTRING_MARINELEVELSBRIEFING_3B>
+"Extreme Xenomorph infestation apparent."
+# <TEXTSTRING_MARINELEVELSBRIEFING_3C>
+"Civilian support personnel missing - presumed infected."
+# <TEXTSTRING_MARINELEVELSBRIEFING_3D>
+"Control mechanisms damaged - systems critical."
+# <TEXTSTRING_MARINELEVELSBRIEFING_3E>
+""
+
+# <TEXTSTRING_MARINELEVELSBRIEFING_4>
+"USCM Low-Orbit Operations Platform 'Odobenus'."
+# <TEXTSTRING_MARINELEVELSBRIEFING_4B>
+"Integrity compromised - internal pressure dropping."
+# <TEXTSTRING_MARINELEVELSBRIEFING_4C>
+"Biocontainment failure due to external damage."
+# <TEXTSTRING_MARINELEVELSBRIEFING_4D>
+"Security systems online."
+# <TEXTSTRING_MARINELEVELSBRIEFING_4E>
+""
+
+# <TEXTSTRING_MARINELEVELSBRIEFING_5>
+"USCM Costanoga class cruiser 'Tyrargo'."
+# <TEXTSTRING_MARINELEVELSBRIEFING_5B>
+"Biocontainment systems sabotaged."
+# <TEXTSTRING_MARINELEVELSBRIEFING_5C>
+"Crew complement evacuated or MIA"
+# <TEXTSTRING_MARINELEVELSBRIEFING_5D>
+"Hangar deck security systems inactive."
+# <TEXTSTRING_MARINELEVELSBRIEFING_5E>
+""
+
+# <TEXTSTRING_MARINELEVELSBRIEFING_6>
+"USCM Cruiser 'Tyrargo' Hangar Deck."
+# <TEXTSTRING_MARINELEVELSBRIEFING_6B>
+"Security systems inactive."
+# <TEXTSTRING_MARINELEVELSBRIEFING_6C>
+"Extensive damage reported."
+# <TEXTSTRING_MARINELEVELSBRIEFING_6D>
+""
+# <TEXTSTRING_MARINELEVELSBRIEFING_6E>
+""
+
+# <TEXTSTRING_MARINEBONUSLEVELBRIEFING_1>
+"Temple of unknown origin."
+# <TEXTSTRING_MARINEBONUSLEVELBRIEFING_1B>
+"USCM investigation halted due to Xenomorph infestation."
+# <TEXTSTRING_MARINEBONUSLEVELBRIEFING_1C>
+""
+# <TEXTSTRING_MARINEBONUSLEVELBRIEFING_1D>
+"Special equipment - Jetpack"
+# <TEXTSTRING_MARINEBONUSLEVELBRIEFING_1E>
+""
+
+# <TEXTSTRING_MARINEBONUSLEVELBRIEFING_2>
+"Xenobiological Storage Facility"
+# <TEXTSTRING_MARINEBONUSLEVELBRIEFING_2B>
+"Massive biocontainment failure."
+# <TEXTSTRING_MARINEBONUSLEVELBRIEFING_2C>
+"Predator infiltration detected."
+# <TEXTSTRING_MARINEBONUSLEVELBRIEFING_2D>
+"Base self-destruct sequence initiated."
+# <TEXTSTRING_MARINEBONUSLEVELBRIEFING_2E>
+""
+
+# <TEXTSTRING_MARINEBONUSLEVELBRIEFING_3>
+"Weyland-Yutani General Purpose Freighter 'Ferarco'."
+# <TEXTSTRING_MARINEBONUSLEVELBRIEFING_3B>
+"Suspected Xenomorph infestation of vessel."
+# <TEXTSTRING_MARINEBONUSLEVELBRIEFING_3C>
+"USCM specialist dispatched for recon."
+# <TEXTSTRING_MARINEBONUSLEVELBRIEFING_3D>
+"Special equipment - Jetpack."
+# <TEXTSTRING_MARINEBONUSLEVELBRIEFING_3E>
+""
+
+# <TEXTSTRING_MARINEBONUSLEVELBRIEFING_4>
+"Deep Space Freight Terminal 'Gateway'."
+# <TEXTSTRING_MARINEBONUSLEVELBRIEFING_4B>
+"Weyland-Yutani secure R&D Tower."
+# <TEXTSTRING_MARINEBONUSLEVELBRIEFING_4C>
+"Evacuation in progress."
+# <TEXTSTRING_MARINEBONUSLEVELBRIEFING_4D>
+"Special equipment - Jetpack."
+# <TEXTSTRING_MARINEBONUSLEVELBRIEFING_4E>
+""
+
+# <TEXTSTRING_MARINEBONUSLEVELBRIEFING_5>
+"Entrance to Weyland-Yutani 'Area 52' Installation."
+# <TEXTSTRING_MARINEBONUSLEVELBRIEFING_5B>
+"Go out there and kill things."
+# <TEXTSTRING_MARINEBONUSLEVELBRIEFING_5C>
+""
+# <TEXTSTRING_MARINEBONUSLEVELBRIEFING_5D>
+""
+# <TEXTSTRING_MARINEBONUSLEVELBRIEFING_5E>
+""
+
+
+# <TEXTSTRING_PREDATORLEVELSBRIEFING_1>
+"Entrance to Weyland-Yutani 'Area 52' Installation"
+# <TEXTSTRING_PREDATORLEVELSBRIEFING_1B>
+"Security patrol teams on alert status."
+# <TEXTSTRING_PREDATORLEVELSBRIEFING_1C>
+""
+# <TEXTSTRING_PREDATORLEVELSBRIEFING_1D>
+""
+# <TEXTSTRING_PREDATORLEVELSBRIEFING_1E>
+""
+
+# <TEXTSTRING_PREDATORLEVELSBRIEFING_2>
+"'Area 52' Xenobiological Research Installation."
+# <TEXTSTRING_PREDATORLEVELSBRIEFING_2B>
+"Location of contained Predator ship."
+# <TEXTSTRING_PREDATORLEVELSBRIEFING_2C>
+"Unauthorized access detected."
+# <TEXTSTRING_PREDATORLEVELSBRIEFING_2D>
+"Security personnel mobilized."
+# <TEXTSTRING_PREDATORLEVELSBRIEFING_2E>
+""
+
+# <TEXTSTRING_PREDATORLEVELSBRIEFING_3>
+"Xenobiological Storage Facility."
+# <TEXTSTRING_PREDATORLEVELSBRIEFING_3B>
+"Captive Predator moved from holding pen to experimentation cell."
+# <TEXTSTRING_PREDATORLEVELSBRIEFING_3C>
+""
+# <TEXTSTRING_PREDATORLEVELSBRIEFING_3D>
+"Pistol and Disc collected from Predator ship."
+# <TEXTSTRING_PREDATORLEVELSBRIEFING_3E>
+""
+
+# <TEXTSTRING_PREDATORLEVELSBRIEFING_4>
+"'Fury 161' Smelting Plant."
+# <TEXTSTRING_PREDATORLEVELSBRIEFING_4B>
+"Extensive Xenomorph infestation."
+# <TEXTSTRING_PREDATORLEVELSBRIEFING_4C>
+""
+# <TEXTSTRING_PREDATORLEVELSBRIEFING_4D>
+"USCM Recon Team en route."
+# <TEXTSTRING_PREDATORLEVELSBRIEFING_4E>
+""
+
+# <TEXTSTRING_PREDATORLEVELSBRIEFING_5>
+"USCM Controlled Xenomorph Habitat."
+# <TEXTSTRING_PREDATORLEVELSBRIEFING_5B>
+"Specimen acquisition in progress."
+# <TEXTSTRING_PREDATORLEVELSBRIEFING_5C>
+""									  
+# <TEXTSTRING_PREDATORLEVELSBRIEFING_5D>
+"Queen activity detected."
+# <TEXTSTRING_PREDATORLEVELSBRIEFING_5E>
+""
+
+# <TEXTSTRING_PREDATORLEVELSBRIEFING_6>
+"Queen's Birthing Chamber."
+# <TEXTSTRING_PREDATORLEVELSBRIEFING_6B>
+""
+# <TEXTSTRING_PREDATORLEVELSBRIEFING_6C>
+""
+# <TEXTSTRING_PREDATORLEVELSBRIEFING_6D>
+""
+# <TEXTSTRING_PREDATORLEVELSBRIEFING_6E>
+""
+
+# <TEXTSTRING_PREDATORBONUSLEVELBRIEFING_1>
+"Weyland-Yutani Atmosphere Processor."
+# <TEXTSTRING_PREDATORBONUSLEVELBRIEFING_1B>
+"Extreme Xenomorph infestation apparent."
+# <TEXTSTRING_PREDATORBONUSLEVELBRIEFING_1C>
+"USCM team in control of lower areas."
+# <TEXTSTRING_PREDATORBONUSLEVELBRIEFING_1D>
+""
+# <TEXTSTRING_PREDATORBONUSLEVELBRIEFING_1E>
+""
+
+# <TEXTSTRING_PREDATORBONUSLEVELBRIEFING_2>
+"Weyland-Yutani field laboratory."
+# <TEXTSTRING_PREDATORBONUSLEVELBRIEFING_2B>
+"Investigation of adjacent temple in progress."
+# <TEXTSTRING_PREDATORBONUSLEVELBRIEFING_2C>
+""
+# <TEXTSTRING_PREDATORBONUSLEVELBRIEFING_2D>
+"Special equipment - Grappling hook."
+# <TEXTSTRING_PREDATORBONUSLEVELBRIEFING_2E>
+""
+
+# <TEXTSTRING_PREDATORBONUSLEVELBRIEFING_3>
+"Temple of unknown origin."
+# <TEXTSTRING_PREDATORBONUSLEVELBRIEFING_3B>
+"USCM evacuation in progress."
+# <TEXTSTRING_PREDATORBONUSLEVELBRIEFING_3C>
+"Severe Xenomorph infestation."
+# <TEXTSTRING_PREDATORBONUSLEVELBRIEFING_3D>
+"Special equipment - Grappling hook."
+# <TEXTSTRING_PREDATORBONUSLEVELBRIEFING_3E>
+""
+
+# <TEXTSTRING_PREDATORBONUSLEVELBRIEFING_4>
+"Gateway Docking Umbilical."
+# <TEXTSTRING_PREDATORBONUSLEVELBRIEFING_4B>
+"Massive containment breach."
+# <TEXTSTRING_PREDATORBONUSLEVELBRIEFING_4C>
+"Unknown intruder detected in Dock 4."
+# <TEXTSTRING_PREDATORBONUSLEVELBRIEFING_4D>
+"Special equipment - Grappling hook."
+# <TEXTSTRING_PREDATORBONUSLEVELBRIEFING_4E>
+""
+
+# <TEXTSTRING_PREDATORBONUSLEVELBRIEFING_5>
+"USCM Costanoga class cruiser 'Tyrargo'."
+# <TEXTSTRING_PREDATORBONUSLEVELBRIEFING_5B>
+"Xenoborg cargo in transit."
+# <TEXTSTRING_PREDATORBONUSLEVELBRIEFING_5C>
+""
+# <TEXTSTRING_PREDATORBONUSLEVELBRIEFING_5D>
+""
+# <TEXTSTRING_PREDATORBONUSLEVELBRIEFING_5E>
+""
+
+# <TEXTSTRING_ALIENLEVELSBRIEFING_1>
+"Temple of unknown origin."
+# <TEXTSTRING_ALIENLEVELSBRIEFING_1B>
+"Phase 2 of USCM investigation in progress."
+# <TEXTSTRING_ALIENLEVELSBRIEFING_1C>
+"Lower levels of artifact secured."
+# <TEXTSTRING_ALIENLEVELSBRIEFING_1D>
+""
+# <TEXTSTRING_ALIENLEVELSBRIEFING_1E>
+""
+
+# <TEXTSTRING_ALIENLEVELSBRIEFING_2>
+"Weyland-Yutani Field Laboratory."
+# <TEXTSTRING_ALIENLEVELSBRIEFING_2B>
+"Preliminary specimen analysis and sterilization in progress."
+# <TEXTSTRING_ALIENLEVELSBRIEFING_2C>
+"Low orbit transit shuttle expected."
+# <TEXTSTRING_ALIENLEVELSBRIEFING_2D>
+""
+# <TEXTSTRING_ALIENLEVELSBRIEFING_2E>
+""
+
+# <TEXTSTRING_ALIENLEVELSBRIEFING_3>
+"Weyland-Yutani General Purpose Freighter 'Ferarco'."
+# <TEXTSTRING_ALIENLEVELSBRIEFING_3B>
+"Crew complement 50."
+# <TEXTSTRING_ALIENLEVELSBRIEFING_3C>
+"Cargo - Unknown."
+# <TEXTSTRING_ALIENLEVELSBRIEFING_3D>
+"Destination - Unknown."
+# <TEXTSTRING_ALIENLEVELSBRIEFING_3E>
+""
+
+# <TEXTSTRING_ALIENLEVELSBRIEFING_4>
+"Deep Space Freight Terminal 'Gateway'."
+# <TEXTSTRING_ALIENLEVELSBRIEFING_4B>
+"Weyland-Yutani secure R&D tower."
+# <TEXTSTRING_ALIENLEVELSBRIEFING_4C>
+"Specimen containment systems nominal."
+# <TEXTSTRING_ALIENLEVELSBRIEFING_4D>
+""
+# <TEXTSTRING_ALIENLEVELSBRIEFING_4E>
+""
+
+# <TEXTSTRING_ALIENLEVELSBRIEFING_5>
+"Gateway Docking Umbilical."
+# <TEXTSTRING_ALIENLEVELSBRIEFING_5B>
+"Specimen relay in progress."
+# <TEXTSTRING_ALIENLEVELSBRIEFING_5C>
+"R&D tower locked off due to containment breach."
+# <TEXTSTRING_ALIENLEVELSBRIEFING_5D>
+"Earthbound shuttle craft approaching."
+# <TEXTSTRING_ALIENLEVELSBRIEFING_5E>
+""
+
+# <TEXTSTRING_ALIENBONUSLEVELBRIEFING_1>
+"Weyland-Yutani Atmosphere Processor."
+# <TEXTSTRING_ALIENBONUSLEVELBRIEFING_1B>
+"USCM personnel attempting repair of systems."
+# <TEXTSTRING_ALIENBONUSLEVELBRIEFING_1C>
+"Temporary power generators installed."
+# <TEXTSTRING_ALIENBONUSLEVELBRIEFING_1D>
+"Xenomorph infestation under control by USCM teams."
+# <TEXTSTRING_ALIENBONUSLEVELBRIEFING_1E>
+""
+
+# <TEXTSTRING_ALIENBONUSLEVELBRIEFING_2>
+"Weyland-Yutani Bioweapons Research Facility on LV-426."
+# <TEXTSTRING_ALIENBONUSLEVELBRIEFING_2B>
+"Heavy USCM presence."
+# <TEXTSTRING_ALIENBONUSLEVELBRIEFING_2C>
+""
+# <TEXTSTRING_ALIENBONUSLEVELBRIEFING_2D>
+""
+# <TEXTSTRING_ALIENBONUSLEVELBRIEFING_2E>
+""
+
+# <TEXTSTRING_ALIENBONUSLEVELBRIEFING_3>
+"USCM Costanoga class cruiser 'Tyrargo'."
+# <TEXTSTRING_ALIENBONUSLEVELBRIEFING_3B>
+"Full crew complement."
+# <TEXTSTRING_ALIENBONUSLEVELBRIEFING_3C>
+"Hangar deck security systems active."
+# <TEXTSTRING_ALIENBONUSLEVELBRIEFING_3D>
+""
+# <TEXTSTRING_ALIENBONUSLEVELBRIEFING_3E>
+""
+
+# <TEXTSTRING_ALIENBONUSLEVELBRIEFING_4>
+"USCM controlled Xenomorph habitat."
+# <TEXTSTRING_ALIENBONUSLEVELBRIEFING_4B>
+"USCM specimen acquisition in progress."
+# <TEXTSTRING_ALIENBONUSLEVELBRIEFING_4C>
+"Predator threat approaching."
+# <TEXTSTRING_ALIENBONUSLEVELBRIEFING_4D>
+""
+# <TEXTSTRING_ALIENBONUSLEVELBRIEFING_4E>
+""
+
+# <TEXTSTRING_ALIENBONUSLEVELBRIEFING_5>
+"'Fury 161' Smelting plant."
+# <TEXTSTRING_ALIENBONUSLEVELBRIEFING_5B>
+"Strong USCM presence attempting Xenomorph neutralization."
+# <TEXTSTRING_ALIENBONUSLEVELBRIEFING_5C>
+""
+# <TEXTSTRING_ALIENBONUSLEVELBRIEFING_5D>
+""
+# <TEXTSTRING_ALIENBONUSLEVELBRIEFING_5E>
+""
+
+# <TEXTSTRING_INGAMEMENU_RESUMEGAME>
+"Resume Play"
+
+# <TEXTSTRING_INGAMEMENU_RESTARTMISSION>
+"Restart Mission"
+
+# <TEXTSTRING_INGAMEMENU_QUITTOMAINMENU>
+"Abort Play"
+
+# <TEXTSTRING_DIFFICULTY_LEVEL>
+"Difficulty Level"
+
+# <TEXTSTRING_DIFFICULTY_EASY>
+"Training"
+
+# <TEXTSTRING_DIFFICULTY_MEDIUM>
+"Realistic"
+
+# <TEXTSTRING_DIFFICULTY_HARD>
+"Director's Cut"
+
+# <TEXTSTRING_DIFFICULTY_EASY_HELP>
+"Play on Training Mode - Easy difficulty."
+
+# <TEXTSTRING_DIFFICULTY_MEDIUM_HELP>
+"Play on Realistic - Medium difficulty."
+
+# <TEXTSTRING_DIFFICULTY_HARD_HELP>
+"Play on Director's Cut - Hard difficulty."
+
+# <TEXTSTRING_NOTYETCOMPLETED>
+"Not yet completed"
+
+# <TEXTSTRING_COMPLETED_ON_EASY>
+"Completed on Training"
+
+# <TEXTSTRING_COMPLETED_ON_MEDIUM>
+"Completed on Realistic"
+
+# <TEXTSTRING_COMPLETED_ON_HARD>
+"Completed on Director's Cut"
+
+# <TEXTSTRING_COMPLETED>
+"Completed"
+
+# <TEXTSTRING_NOTYETAVAILABLE_1>
+"Not yet available - to access complete game on Realistic"
+
+# <TEXTSTRING_NOTYETAVAILABLE_2>
+"Not yet available - to access complete game on Director's Cut"
+
+# <TEXTSTRING_DETAILLEVELS_TITLE>
+"Detail Levels Menu"
+
+# <TEXTSTRING_DETAILLEVELS_TITLE_HELP>
+"Configure the graphical effects for playing the game. Adjusting these can improve performance on lower spec machines."
+
+# <TEXTSTRING_DETAILLEVELS_DECALNUMBER>
+"Number of Decals"
+
+# <TEXTSTRING_DETAILLEVELS_DECALNUMBER_HELP>
+"Sets how many bulletholes, blood splashes and acid burns are displayed in game."
+
+# <TEXTSTRING_DETAILLEVELS_LIGHTCORONAS>
+"Light Coronas"
+
+# <TEXTSTRING_DETAILLEVELS_LIGHTCORONAS_HELP>
+"Switches glowing light coronas on or off. Can improve performance if disabled."
+
+# <TEXTSTRING_DETAILLEVELS_DECALSONCHARACTERS>
+"Decals On Characters"
+
+# <TEXTSTRING_DETAILLEVELS_DECALSONCHARACTERS_HELP>
+"Switches whether you see bulletholes on character models. Can improve performance if disabled."
+
+# <TEXTSTRING_DETAILLEVELS_DEFORMABLEEXPLOSIONS>
+"Deformable Explosions"
+
+# <TEXTSTRING_DETAILLEVELS_DEFORMABLEEXPLOSIONS_HELP>
+"Sets whether explosions dynamically deform to the environment. Can improve performance if disabled."
+
+# <TEXTSTRING_DETAILLEVELS_CHARACTERCOMPLEXITY>
+"Character Complexity"
+
+# <TEXTSTRING_DETAILLEVELS_CHARACTERCOMPLEXITY_HELP>
+"Selects the complexity of the in-game character models. Lower settings can improve performance."
+
+# <TEXTSTRING_DETAILLEVELS_PARTICLECOMPLEXITY>
+"Complex Particle Effects"
+
+# <TEXTSTRING_DETAILLEVELS_PARTICLECOMPLEXITY_HELP>
+"Reduces the amount of flame, smoke and other particles in the game. Can improve performance if disabled."
+
+# <TEXTSTRING_DETAILLEVELS_VERYLOW>
+"Very Low"
+
+# <TEXTSTRING_DETAILLEVELS_LOW>
+"Low"
+
+# <TEXTSTRING_DETAILLEVELS_MEDIUM>
+"Medium"
+
+# <TEXTSTRING_DETAILLEVELS_HIGH>
+"High (Default)"
+
+# <TEXTSTRING_DETAILLEVELS_OFF>
+"Off"
+
+# <TEXTSTRING_DETAILLEVELS_ON>
+"On (Default)"
+
+# <TEXTSTRING_LEVELBRIEFING_TITLE>
+"Mission Briefing"
+
+# <TEXTSTRING_CONTINUE>
+"Continue"
+
+# <TEXTSTRING_NO>
+"No"
+
+# <TEXTSTRING_YES>
+"Yes"
+
+# <TEXTSTRING_MISSION_ACCOMPLISHED>
+"MISSION ACCOMPLISHED"
+
+# <TEXTSTRING_INGAME_PRESSANYKEYTOCONTINUE>
+"Press any key to continue"
+
+# <TEXTSTRING_INGAME_MESSAGENUMBER>
+"Message Number:"
+
+# <TEXTSTRING_INGAME_CHEATACTIVATED>
+"CHEAT MODE ACTIVATED"
+
+# <TEXTSTRING_INGAME_MEDIKIT>
+"Medikit"
+
+# <TEXTSTRING_INGAME_AMMO>
+"Ammo"
+
+# <TEXTSTRING_INGAME_PULSERIFLE>
+"Pulse Rifle"
+
+# <TEXTSTRING_INGAME_SMARTGUN>
+"Smartgun"
+
+# <TEXTSTRING_INGAME_FLAMETHROWER>
+"Flamethrower"
+
+# <TEXTSTRING_INGAME_SADAR>
+"SADAR"
+
+# <TEXTSTRING_INGAME_GRENADELAUNCHER>
+"Grenade Launcher"
+
+# <TEXTSTRING_INGAME_MINIGUN>
+"Minigun"
+
+# <TEXTSTRING_INGAME_MARINE_PISTOL>
+"Pistol"
+
+# <TEXTSTRING_INGAME_SKEETER>
+"Skeeter Launcher"
+
+# <TEXTSTRING_INGAME_TWOPISTOLS>
+"Pistols"
+
+# <TEXTSTRING_INGAME_CLAW>
+"Claw"
+
+# <TEXTSTRING_INGAME_TAIL>
+"Tail"
+
+# <TEXTSTRING_INGAME_WRISTBLADE>
+"Wristblade"
+
+# <TEXTSTRING_INGAME_PISTOL>
+"Pistol"
+
+# <TEXTSTRING_INGAME_RIFLE>
+"Speargun"
+
+# <TEXTSTRING_INGAME_SHOULDERCANNON>
+"Shoulder Cannon"
+
+# <TEXTSTRING_INGAME_DISC>
+"Disc"
+
+# <TEXTSTRING_INGAME_MEDICOMP>
+# The predator medical/heal thing
+"Medicomp"
+
+# <TEXTSTRING_INGAME_INTENSIFIERON>
+"Image Intensifier Activated"
+
+# <TEXTSTRING_INGAME_INTENSIFIEROFF>
+"Image Intensifier Deactivated"
+
+# <TEXTSTRING_INGAME_HEALTH>
+"Health"
+
+# <TEXTSTRING_INGAME_ARMOUR>
+"Armor"
+
+# <TEXTSTRING_INGAME_FREEMODE>
+"Free Mode"
+
+# <TEXTSTRING_INGAME_TRACKMODE>
+"Track Mode"
+
+# <TEXTSTRING_PREDATOR_KEY_FORWARD>
+"Forward"
+
+# <TEXTSTRING_PREDATOR_KEY_BACKWARD>
+"Backward"
+
+# <TEXTSTRING_PREDATOR_KEY_LEFT>
+"Left"
+
+# <TEXTSTRING_PREDATOR_KEY_RIGHT>
+"Right"
+
+# <TEXTSTRING_PREDATOR_KEY_STRAFE>
+"Strafe"
+
+# <TEXTSTRING_PREDATOR_KEY_STRAFE_LEFT>
+"Strafe Left"
+
+# <TEXTSTRING_PREDATOR_KEY_STRAFE_RIGHT>
+"Strafe Right"
+
+# <TEXTSTRING_PREDATOR_KEY_LOOK_UP>
+"Look Up"
+
+# <TEXTSTRING_PREDATOR_KEY_LOOK_DOWN>
+"Look Down"
+
+# <TEXTSTRING_PREDATOR_KEY_CENTRE_VIEW>
+"Centre View"
+
+# <TEXTSTRING_PREDATOR_KEY_WALK>
+"Walk"
+
+# <TEXTSTRING_PREDATOR_KEY_CROUCH>
+"Crouch"
+
+# <TEXTSTRING_PREDATOR_KEY_JUMP>
+"Jump"
+
+# <TEXTSTRING_PREDATOR_KEY_OPERATE>
+"Operate"
+
+# <TEXTSTRING_PREDATOR_KEY_FIRE_PRIMARY>
+"Fire Primary"
+
+# <TEXTSTRING_PREDATOR_KEY_FIRE_SECONDARY>
+"Fire Secondary"
+
+# <TEXTSTRING_PREDATOR_KEY_NEXT_WEAPON>
+"Next Weapon"
+
+# <TEXTSTRING_PREDATOR_KEY_PREVIOUS_WEAPON>
+"Previous Weapon"
+
+# <TEXTSTRING_PREDATOR_KEY_FLASHBACK_WEAPON>
+"Flashback Weapon"
+
+# <TEXTSTRING_PREDATOR_KEY_CLOAK>
+"Cloak"
+
+# <TEXTSTRING_PREDATOR_KEY_CYCLE_VISION>
+"Cycle Vision Modes"
+
+# <TEXTSTRING_PREDATOR_KEY_ZOOM_IN>
+"Zoom In"
+
+# <TEXTSTRING_PREDATOR_KEY_ZOOM_OUT>
+"Zoom Out"
+
+# <TEXTSTRING_PREDATOR_KEY_GRAPPLING_HOOK>
+"Grappling Hook"
+
+# <TEXTSTRING_PREDATOR_KEY_RECALLDISC>
+"Recall Disc"
+
+# <TEXTSTRING_PREDATOR_KEY_TAUNT>
+"Taunt"
+
+# <ADDITIONAL_TEXTSTRING_PREDATOR_KEY_MESSAGEHISTORY>
+"Message History"
+
+# <ADDITIONAL_TEXTSTRING_PREDATOR_KEY_SAY>
+"Say"
+
+# <ADDITIONAL_TEXTSTRING_PREDATOR_KEY_SPECIESSAY>
+"Species Say"
+
+# <ADDITIONAL_TEXTSTRING_PREDATOR_KEY_SHOWSCORES>
+"Show Scores"
+
+# now for the Marine's keys
+
+# <TEXTSTRING_MARINE_KEY_FORWARD>
+"Forward"
+
+# <TEXTSTRING_MARINE_KEY_BACKWARD>
+"Backward"
+
+# <TEXTSTRING_MARINE_KEY_LEFT>
+"Left"
+
+# <TEXTSTRING_MARINE_KEY_RIGHT>
+"Right"
+
+# <TEXTSTRING_MARINE_KEY_STRAFE>
+"Strafe"
+
+# <TEXTSTRING_MARINE_KEY_STRAFE_LEFT>
+"Strafe Left"
+
+# <TEXTSTRING_MARINE_KEY_STRAFE_RIGHT>
+"Strafe Right"
+
+# <TEXTSTRING_MARINE_KEY_LOOK_UP>
+"Look Up"
+
+# <TEXTSTRING_MARINE_KEY_LOOK_DOWN>
+"Look Down"
+
+# <TEXTSTRING_MARINE_KEY_CENTRE_VIEW>
+"Centre View"
+
+# <TEXTSTRING_MARINE_KEY_WALK>
+"Walk"
+
+# <TEXTSTRING_MARINE_KEY_CROUCH>
+"Crouch"
+
+# <TEXTSTRING_MARINE_KEY_JUMP>
+"Jump"
+
+# <TEXTSTRING_MARINE_KEY_OPERATE>
+"Operate"
+
+# <TEXTSTRING_MARINE_KEY_FIRE_PRIMARY>
+"Fire Primary"
+
+# <TEXTSTRING_MARINE_KEY_FIRE_SECONDARY>
+"Fire Secondary"
+
+# <TEXTSTRING_MARINE_KEY_NEXT_WEAPON>
+"Next Weapon"
+
+# <TEXTSTRING_MARINE_KEY_PREVIOUS_WEAPON>
+"Previous Weapon"
+
+# <TEXTSTRING_MARINE_KEY_FLASHBACK_WEAPON>
+"Flashback Weapon"
+
+# <TEXTSTRING_MARINE_KEY_IMAGE_INTENSIFIER>
+"Image Intensifier"
+
+# <TEXTSTRING_MARINE_KEY_THROW_FLARE>
+"Throw Flare"
+
+# <TEXTSTRING_MARINE_KEY_JETPACK>
+"Jetpack"
+
+# <TEXTSTRING_MARINE_KEY_TAUNT>
+"Taunt"
+
+# <ADDITIONAL_TEXTSTRING_MARINE_KEY_MESSAGEHISTORY>
+"Message History"
+
+# <ADDITIONAL_TEXTSTRING_MARINE_KEY_SAY>
+"Say"
+
+# <ADDITIONAL_TEXTSTRING_MARINE_KEY_SPECIESSAY>
+"Species Say"
+
+# <ADDITIONAL_TEXTSTRING_MARINE_KEY_SHOWSCORES>
+"Show Scores"
+
+
+# alien's keys
+
+# <TEXTSTRING_ALIEN_KEY_FORWARD>
+"Forward"
+
+# <TEXTSTRING_ALIEN_KEY_BACKWARD>
+"Backward"
+
+# <TEXTSTRING_ALIEN_KEY_LEFT>
+"Left"
+
+# <TEXTSTRING_ALIEN_KEY_RIGHT>
+"Right"
+
+# <TEXTSTRING_ALIEN_KEY_STRAFE>
+"Strafe"
+
+# <TEXTSTRING_ALIEN_KEY_STRAFE_LEFT>
+"Strafe Left"
+
+# <TEXTSTRING_ALIEN_KEY_STRAFE_RIGHT>
+"Strafe Right"
+
+# <TEXTSTRING_ALIEN_KEY_LOOK_UP>
+"Look Up"
+
+# <TEXTSTRING_ALIEN_KEY_LOOK_DOWN>
+"Look Down"
+
+# <TEXTSTRING_ALIEN_KEY_CENTRE_VIEW>
+"Centre View"
+
+# <TEXTSTRING_ALIEN_KEY_WALK>
+"Walk"
+
+# <TEXTSTRING_ALIEN_KEY_CROUCH>
+"Crouch/Climb"
+
+# <TEXTSTRING_ALIEN_KEY_JUMP>
+"Jump"
+
+# <TEXTSTRING_ALIEN_KEY_OPERATE>
+"Operate"
+
+# <TEXTSTRING_ALIEN_KEY_FIRE_PRIMARY>
+"Claw Attack"
+
+# <TEXTSTRING_ALIEN_KEY_FIRE_SECONDARY>
+"Tail Attack"
+
+# <TEXTSTRING_ALIEN_KEY_ALTERNATE_VISION>
+"Navigate/Hunt Toggle"
+
+# <TEXTSTRING_ALIEN_KEY_TAUNT>
+"Taunt"
+
+# <ADDITIONAL_TEXTSTRING_ALIEN_KEY_MESSAGEHISTORY>
+"Message History"
+
+# <ADDITIONAL_TEXTSTRING_ALIEN_KEY_SAY>
+"Say"
+
+# <ADDITIONAL_TEXTSTRING_ALIEN_KEY_SPECIESSAY>
+"Species Say"
+
+# <ADDITIONAL_TEXTSTRING_ALIEN_KEY_SHOWSCORES>
+"Show Scores"
+
+
+# Next, the actual names of keys
+
+# <TEXTSTRING_KEYS_LEFT>
+"LEFT"
+
+# <TEXTSTRING_KEYS_RIGHT>
+"RIGHT"
+
+# <TEXTSTRING_KEYS_UP>
+"UP"
+
+# <TEXTSTRING_KEYS_DOWN>
+"DOWN"
+
+# <TEXTSTRING_KEYS_RETURN>
+"RETURN"
+
+# <TEXTSTRING_KEYS_TAB>
+"TAB"
+
+# <TEXTSTRING_KEYS_INSERT>
+"INSERT"
+
+# <TEXTSTRING_KEYS_DELETE>
+"DELETE"
+
+# <TEXTSTRING_KEYS_END>
+"END"
+
+# <TEXTSTRING_KEYS_HOME>
+"HOME"
+
+# <TEXTSTRING_KEYS_PGUP>
+"PAGEUP"
+
+# <TEXTSTRING_KEYS_PGDOWN>
+"PAGEDOWN"
+
+# <TEXTSTRING_KEYS_BACKSP>
+"BACKSP"
+
+# <TEXTSTRING_KEYS_COMMA>
+"COMMA"
+
+# <TEXTSTRING_KEYS_PERIOD>
+"PERIOD"
+
+# <TEXTSTRING_KEYS_SPACE>
+"SPACE"
+
+# <TEXTSTRING_KEYS_LSHIFT>
+"LSHIFT"
+
+# <TEXTSTRING_KEYS_RSHIFT>
+"RSHIFT"
+
+# <TEXTSTRING_KEYS_LALT>
+"LALT"
+
+# <TEXTSTRING_KEYS_RALT>
+"RALT"
+
+# <TEXTSTRING_KEYS_LCTRL>
+"LCTRL"
+
+# <TEXTSTRING_KEYS_RCTRL>
+"RCTRL"
+
+# <TEXTSTRING_KEYS_CAPS>
+"CAPSLOCK"
+
+# <TEXTSTRING_KEYS_NUMLOCK>
+"NUMLOCK"
+
+# <TEXTSTRING_KEYS_SCRLOCK>
+"SCRLOCK"
+
+# <TEXTSTRING_KEYS_PAD0>
+"PAD0"
+
+# <TEXTSTRING_KEYS_PAD1>
+"PAD1"
+
+# <TEXTSTRING_KEYS_PAD2>
+"PAD2"
+
+# <TEXTSTRING_KEYS_PAD3>
+"PAD3"
+
+# <TEXTSTRING_KEYS_PAD4>
+"PAD4"
+
+# <TEXTSTRING_KEYS_PAD5>
+"PAD5"
+
+# <TEXTSTRING_KEYS_PAD6>
+"PAD6"
+
+# <TEXTSTRING_KEYS_PAD7>
+"PAD7"
+
+# <TEXTSTRING_KEYS_PAD8>
+"PAD8"
+
+# <TEXTSTRING_KEYS_PAD9>
+"PAD9"
+
+# <TEXTSTRING_KEYS_PADSUB>
+"PADSUB"
+
+# <TEXTSTRING_KEYS_PADADD>
+"PADADD"
+
+# <TEXTSTRING_KEYS_PADDEL>
+"PADDEL"
+
+# <TEXTSTRING_KEYS_NUMPADENTER>
+"PADENTER"
+
+# <TEXTSTRING_KEYS_NUMPADDIVIDE>
+"PADDIVIDE"
+
+# <TEXTSTRING_KEYS_NUMPADMULTIPLY>
+"PADMULTIPLY"
+
+# <TEXTSTRING_KEYS_LBRACKET>	
+"LBRACKET"
+
+# <TEXTSTRING_KEYS_RBRACKET>	
+"RBRACKET"
+
+# <TEXTSTRING_KEYS_SEMICOLON>	
+"SEMICOLON"
+
+# <TEXTSTRING_KEYS_APOSTROPHE>	
+"APOSTROPHE"
+
+# <TEXTSTRING_KEYS_GRAVE>		
+"GRAVE"
+
+# <TEXTSTRING_KEYS_BACKSLASH>	
+"BACKSLASH"
+
+# <TEXTSTRING_KEYS_SLASH>
+"SLASH"
+
+# <TEXTSTRING_KEYS_CAPITAL>
+"CAPITAL"
+
+# <TEXTSTRING_KEYS_MINUS>
+"MINUS"
+
+# <TEXTSTRING_KEYS_EQUALS>
+"EQUALS"
+
+# <TEXTSTRING_KEYS_LWIN>
+"LWINDOWS"
+
+# <TEXTSTRING_KEYS_RWIN>
+"RWINDOWS"
+
+# <TEXTSTRING_KEYS_APPS>
+"APPSMENU"
+
+# <TEXTSTRING_KEYS_F1>
+"F1"
+
+# <TEXTSTRING_KEYS_F2>
+"F2"
+
+# <TEXTSTRING_KEYS_F3>
+"F3"
+
+# <TEXTSTRING_KEYS_F4>
+"F4"
+
+# <TEXTSTRING_KEYS_F5>
+"F5"
+
+# <TEXTSTRING_KEYS_F6>
+"F6"
+					
+# <TEXTSTRING_KEYS_F7>
+"F7"
+
+# <TEXTSTRING_KEYS_F8>
+"F8"				
+
+# <TEXTSTRING_KEYS_F9>
+"F9"
+
+# <TEXTSTRING_KEYS_F10>
+"F10"
+
+# <TEXTSTRING_KEYS_F11>
+"F11"
+
+# <TEXTSTRING_KEYS_F12>
+"F12"
+
+# <TEXTSTRING_KEYS_JOYSTICKBUTTON_1>
+"JOYBUTTON1"
+
+# <TEXTSTRING_KEYS_JOYSTICKBUTTON_2>
+"JOYBUTTON2"
+
+# <TEXTSTRING_KEYS_JOYSTICKBUTTON_3>
+"JOYBUTTON3"
+
+# <TEXTSTRING_KEYS_JOYSTICKBUTTON_4>
+"JOYBUTTON4"
+
+# <TEXTSTRING_KEYS_JOYSTICKBUTTON_5>
+"JOYBUTTON5"
+
+# <TEXTSTRING_KEYS_JOYSTICKBUTTON_6>
+"JOYBUTTON6"
+
+# <TEXTSTRING_KEYS_JOYSTICKBUTTON_7>
+"JOYBUTTON7"
+
+# <TEXTSTRING_KEYS_JOYSTICKBUTTON_8>
+"JOYBUTTON8"
+
+# <TEXTSTRING_KEYS_JOYSTICKBUTTON_9>
+"JOYBUTTON9"
+
+# <TEXTSTRING_KEYS_JOYSTICKBUTTON_10>
+"JOYBUTTON10"
+
+# <TEXTSTRING_KEYS_LMOUSE>
+"MOUSE1"
+
+# <TEXTSTRING_KEYS_RMOUSE>
+"MOUSE2"
+
+# <TEXTSTRING_KEYS_MMOUSE>
+"MOUSE3"
+
+# <TEXTSTRING_KEYS_MOUSEBUTTON4>
+"MOUSE4"
+
+# <TEXTSTRING_KEYS_MOUSEWHEELUP>
+"MWHEELUP"
+
+# <TEXTSTRING_KEYS_MOUSEWHEELDOWN>
+"MWHEELDOWN"
+
+# Short names for the different types of ammunition to potentially appear on a status panel
+# (added 20/11/97 by DHM; I've taken the names from Lee Brimmicombe-Wood's book except where
+# noted as placeholder)
+# Do the fonts contain numbers? lower case for the mm? dashes?
+
+# <TEXTSTRING_AMMO_SHORTNAME_UNKNOWN>
+# Ammunition name for use on weapon status panel: what to use when the ammo type doesn't have a sensible name
+"No Ammo"
+
+# <TEXTSTRING_AMMO_SHORTNAME_10MM_CULW>
+# Ammunition name for use on weapon status panel: 10MM_CULW
+"Pulse Ammo"
+
+# <TEXTSTRING_AMMO_SHORTNAME_SHOTGUN>
+# Ammunition name for use on weapon status panel: SHOTGUN (placeholder)
+"Shotgun"
+
+# <TEXTSTRING_AMMO_SHORTNAME_SMARTGUN>
+# Ammunition name for use on weapon status panel: SMARTGUN
+"Smart ammo"
+
+# <TEXTSTRING_AMMO_SHORTNAME_FLAMETHROWER>
+# Ammunition name for use on weapon status panel: FLAMETHROWER
+"Napalm"
+
+# <TEXTSTRING_AMMO_SHORTNAME_SADAR_TOW>
+# Ammunition name for use on weapon status panel: SADAR_TOW
+# SADAR is an acronym for Shoulder-launched Active-homing Disposable Anti-tank Rocket
+"M83A2 SADAR"
+
+# <TEXTSTRING_AMMO_SHORTNAME_GRENADE>
+# Ammunition name for use on weapon status panel: GRENADE (placeholder)
+"Grenade"
+
+# <TEXTSTRING_AMMO_SHORTNAME_MINIGUN>
+# Ammunition name for use on weapon status panel: MINIGUN (placeholder)
+"Minigun"
+
+# <TEXTSTRING_AMMO_SHORTNAME_PULSE_GRENADE>
+# Ammunition name for use on weapon status panel: PULSE_GRENADE
+"Pulse grenade"
+
+# <TEXTSTRING_AMMO_SHORTNAME_MARINE_PISTOL>
+# Ammunition name for use on weapon status panel: MARINE_PISTOL_PC
+"Pistol ammo"
+
+# <TEXTSTRING_AMMO_SHORTNAME_SKEETER>
+# Ammunition name for use on weapon status panel: FRISBEE
+"Skeeter"
+
+# <TEXTSTRING_AMMO_SHORTNAME_FLARE_GRENADE>
+# Ammunition name for use on weapon status panel: FLARE_GRENADE (placeholder)
+"Flare"
+
+# <TEXTSTRING_AMMO_SHORTNAME_FRAGMENTATION_GRENADE>
+# Ammunition name for use on weapon status panel: FRAGMENTATION_GRENADE (placeholder)
+"Frag"
+
+# <TEXTSTRING_AMMO_SHORTNAME_PROXIMITY_GRENADE>
+# Ammunition name for use on weapon status panel: PROXIMITY_GRENADE (placeholder)
+"Prox Mine"
+
+# No names have been assigned for predator or alien
+# ammunition types yet...
+
+# Messages to give feedback when different grenade types are selected
+# (added 20/11/97 by DHM)
+
+# <TEXTSTRING_SELECTEDGRENADE_STANDARD>
+"Standard Grenades Selected"
+
+# <TEXTSTRING_SELECTEDGRENADE_FLARE>
+"Flare Grenades Selected"
+
+# <TEXTSTRING_SELECTEDGRENADE_PROXIMITY>
+"Proximity Grenades Selected"
+
+# <TEXTSTRING_SELECTEDGRENADE_FRAGMENTATION>
+"Fragmentation Grenades Selected"
+
+# Names for the different status panels available in the Marine game
+# (added 20/11/97 by DHM)
+
+# Feedback strings
+
+# <TEXTSTRING_ROUNDS>
+# String to appear on HUD for ammo readout - rounds remaining
+"Rounds"
+
+# <TEXTSTRING_MAGAZINES>
+# String to appear on HUD for ammo readout - magazines remaining
+"Magazines"
+
+# <TEXTSTRING_MAGAZINES_FLAMETHROWER>
+# String to appear on HUD for ammo readout - magazines remaining for flame thrower
+"Cannisters"
+
+# <TEXTSTRING_FILENAME>
+"Filename"
+
+# <TEXTSTRING_CONFIGFILENAME_HELP>
+"Type in the filename (without extension) that you would like to use for this configuration."
+
+
+# <TEXTSTRING_DESCRIPTION>
+"Description"
+
+# <TEXTSTRING_CONFIGDESCRIPTION_HELP>
+"Type in a description for this configuration. This description will appear when you select a configuration to load."
+
+# <TEXTSTRING_SAVEFILE>
+"Save"
+
+# <TEXTSTRING_CONFIGSAVEFILE_HELP>
+"Press ENTER to save this configuration. (Press ESCAPE to cancel)."
+
+# Here starts all my game stats screen stuff - CDF 14/4/99
+
+# <TEXTSTRING_GAMESTATS_LEVELCOMPLETED>
+"Level Completed"
+
+# <TEXTSTRING_GAMESTATS_LEVELNOTCOMPLETED>
+"Level Not Completed"
+
+# <TEXTSTRING_GAMESTATS_YOUR>
+"Current:"
+
+# <TEXTSTRING_GAMESTATS_BEST>
+"Best:"
+
+# <TEXTSTRING_GAMESTATS_TARGET>
+"Target:"
+
+# <TEXTSTRING_GAMESTATS_TIMEELAPSED>
+"Time Elapsed:"
+
+# <TEXTSTRING_GAMESTATS_TIMECLOAKED>
+"Time Cloaked:"
+
+# <TEXTSTRING_GAMESTATS_KILLED>
+"Killed:"
+
+# <TEXTSTRING_GAMESTATS_TROPHIESCOLLECTED>
+"Trophies Collected:"
+
+# <TEXTSTRING_GAMESTATS_LIVEHEADBITES>
+"Live Head Bites:"
+
+# <TEXTSTRING_GAMESTATS_DEADHEADBITES>
+"Dead Head Bites:"
+
+# <TEXTSTRING_GAMESTATS_AVERAGESPEED>
+"Average Speed:"
+
+# <TEXTSTRING_GAMESTATS_PREFERREDVISIONMODE>
+"Preferred Vision Mode:"
+
+# <TEXTSTRING_GAMESTATS_HEALTHDAMAGETAKEN>
+"Health Damage Taken:"
+
+# <TEXTSTRING_GAMESTATS_ARMOURDAMAGETAKEN>
+"Armor Damage Taken:"
+
+# <TEXTSTRING_GAMESTATS_HEADSHOTS>
+"Head Shots:"
+
+# <TEXTSTRING_GAMESTATS_PREFERREDWEAPON>
+"Preferred Weapon:"
+
+# <TEXTSTRING_GAMESTATS_TOTALSHOTSFIRED>
+"Total Shots Fired:"
+
+# <TEXTSTRING_GAMESTATS_ACCURACY>
+"Accuracy:"
+
+# <TEXTSTRING_GAMESTATS_SPOTTED>
+"Spotted:"
+
+# <TEXTSTRING_GAMESTATS_FIELDCHARGEUSED>
+"Field Charge Used:"
+
+# <TEXTSTRING_GAMESTATS_CHEATMODEENABLED>
+"Cheat Mode Enabled!"
+
+# <TEXTSTRING_GAMESTATS_FACEHUGGER>
+"Facehugger"
+
+# <TEXTSTRING_GAMESTATS_XENOMORPH>
+"Xenomorph"
+
+# <TEXTSTRING_GAMESTATS_PRAETORIAN>
+"Praetorian"
+
+# <TEXTSTRING_GAMESTATS_QUEEN>
+"Queen"
+
+# <TEXTSTRING_GAMESTATS_XENOBORG>
+"Xenoborg"
+
+# <TEXTSTRING_GAMESTATS_PREDALIEN>
+"Predalien"
+
+# <TEXTSTRING_GAMESTATS_PREDATOR>
+"Predator"
+
+# <TEXTSTRING_GAMESTATS_MARINE>
+"Marine"
+
+# <TEXTSTRING_GAMESTATS_CIVILIAN>
+"Civilian"
+
+# <TEXTSTRING_GAMESTATS_ANDROID>
+"Android"
+
+# Now the plurals - I guess they might be different in other languages.
+# <TEXTSTRING_GAMESTATS_FACEHUGGER_PL>
+"Facehuggers"
+
+# <TEXTSTRING_GAMESTATS_XENOMORPH_PL>
+"Xenomorphs"
+
+# <TEXTSTRING_GAMESTATS_PRAETORIAN_PL>
+"Praetorians"
+
+# <TEXTSTRING_GAMESTATS_QUEEN_PL>
+"Queens"
+
+# <TEXTSTRING_GAMESTATS_XENOBORG_PL>
+"Xenoborgs"
+
+# <TEXTSTRING_GAMESTATS_PREDALIEN_PL>
+"Predaliens"
+
+# <TEXTSTRING_GAMESTATS_PREDATOR_PL>
+"Predators"
+
+# <TEXTSTRING_GAMESTATS_MARINE_PL>
+"Marines"
+
+# <TEXTSTRING_GAMESTATS_CIVILIAN_PL>
+"Civilians"
+
+# <TEXTSTRING_GAMESTATS_ANDROID_PL>
+"Androids"
+
+# Now vision mode names.
+# <TEXTSTRING_GAMESTATS_VM_NORMAL>
+"Normal"
+
+# <TEXTSTRING_GAMESTATS_VM_NAVSENSE>
+"Navigation Sense"
+
+# <TEXTSTRING_GAMESTATS_VM_INTENSIFIER>
+"Image Intensifier"
+
+# <TEXTSTRING_GAMESTATS_VM_THERMAL>
+"Thermal"
+
+# <TEXTSTRING_GAMESTATS_VM_ELECTRICAL>
+"Electrical"
+
+# <TEXTSTRING_GAMESTATS_VM_PREDTECH>
+"PredTech"
+
+# <TEXTSTRING_MPLAYER_TEXT_1>
+"Play AvP free on Mplayer.com"
+
+# <TEXTSTRING_MPLAYER_TEXT_2>
+"Change Me!"
+
+# <TEXTSTRING_MPLAYER_TEXT_3>
+"Change Me!"
+
+# <TEXTSTRING_MPLAYER_TEXT_4>
+"Change Me!"
+
+# <TEXTSTRING_MPLAYER_TEXT_5>
+"Change Me!"
+
+# <TEXTSTRING_NOAMMOFORWEAPON>
+"No ammo for weapon"
+
+# <TEXTSTRING_PREVIOUSGAME_FILENAME>
+"Previous Game"
+
+# <TEXTSTRING_NOTENOUGHMEMORY>
+"Your 3D hardware does not have enough memory to run in this resolution or bit-depth. Please select a lower setting."
+
+# <TEXTSTRING_MPCONFIG1_FILENAME>
+"Alien Tag"
+
+# <TEXTSTRING_MPCONFIG2_FILENAME>
+"Frantic Cooperative"
+
+# <TEXTSTRING_MPCONFIG3_FILENAME>
+"Last Man Standing"
+
+# <TEXTSTRING_MPCONFIG4_FILENAME>
+"Marine Cooperative"
+
+# <TEXTSTRING_MPCONFIG5_FILENAME>
+"Murder In The Dark"
+
+# <TEXTSTRING_MPCONFIG6_FILENAME>
+"Predator Tag"
+
+# <TEXTSTRING_MPCONFIG7_FILENAME>
+"Straight Deathmatch"
+
+
+# <TEXTSTRING_MPCONFIG1_DESCRIPTION>
+"All players are Marines with one Alien. Only the Alien may score. The Marine who kills the Alien takes its place."
+
+# <TEXTSTRING_MPCONFIG2_DESCRIPTION>
+"A fast moving cooperative game in a tight environment. You must score frags before any powerups respawn."
+
+# <TEXTSTRING_MPCONFIG3_DESCRIPTION>
+"A match lasting as many games as there are players with participants switching sides during each game. As a Marine you must survive longest to score highest. As an Alien you must stop Marines scoring."
+
+# <TEXTSTRING_MPCONFIG4_DESCRIPTION>
+"The marines have been dropped by an EEV. To survive they must reach the fortified base at the end of the canyons."
+
+# <TEXTSTRING_MPCONFIG5_DESCRIPTION>
+"All players play as Marines in a completely dark environment. No proxmines are permitted. This is an atmospheric deathmatch popular at Rebellion."
+
+# <TEXTSTRING_MPCONFIG6_DESCRIPTION>
+"All players are Marines with one Predator. Only the Predator can score points. The Marine that kills the Predator takes its place."
+
+# <TEXTSTRING_MPCONFIG7_DESCRIPTION>
+"Straight deathmatch in any DM level."
+
+# <TEXTSTRING_MULTIPLAYER_JOININGGAME>
+"Joining Game"
+
+# <TEXTSTRING_MULTIPLAYER_WAITSTART>
+"Waiting for host to start"
+
+# <TEXTSTRING_MULTIPLAYER_WAITDESC>
+"Waiting for game description"
+
+# <TEXTSTRING_MULTIPLAYER_WAITINCOMPATABLE>
+"Error : Host's version of AvP is incompatable"
+
+# <TEXTSTRING_MULTIPLAYER_WAITNOLEVEL>
+"Error : You don't have the chosen level"
+
+# <TEXTSTRING_MULTIPLAYER_WAIT_HELP>
+"Attempting to join multiplayer game. Press ESCAPE to abort."
+
+# <TEXTSTRING_MULTIPLAYER_ERROR>
+"Error setting up game"
+
+# <TEXTSTRING_MULTIPLAYER_ERROR_HELP>
+"There was a problem setting up the multiplayer game."
+
+# <TEXTSTRING_MULTIPLAYER_SEARCHINGFORSESSIONS>
+"Looking for sessions , please wait."
+
+# additions after language localisation lock :) KJL
+
+# <TEXTSTRING_TRACKERBALL_ENABLED>
+"Trackball Enabled"
+
+# <TEXTSTRING_TRACKERBALL_ENABLED_HELP>
+"Enable trackball support on joysticks such as the Mad Catzª Panther XL."
+
+# <TEXTSTRING_TRACKERBALL_FLIPVERTICALAXIS>
+"Invert Trackball Vertical Axis"
+
+# <TEXTSTRING_TRACKERBALL_FLIPVERTICALAXIS_HELP>
+"Reverses the vertical axis of the trackball, so that moving the ball forwards will cause your character to look down."
+
+# <TEXTSTRING_TRACKERBALL_HORIZONTAL_SENSITIVITY>
+"Trackball Horizontal Sensitivity"
+
+# <TEXTSTRING_TRACKERBALL_VERTICAL_SENSITIVITY>
+"Trackball Vertical Sensitivity"
+
+# <TEXTSTRING_KEYS_JOYSTICKBUTTON_11>
+"JOYBUTTON11"
+
+# <TEXTSTRING_KEYS_JOYSTICKBUTTON_12>
+"JOYBUTTON12"
+
+# <TEXTSTRING_KEYS_JOYSTICKBUTTON_13>
+"JOYBUTTON13"
+
+# <TEXTSTRING_KEYS_JOYSTICKBUTTON_14>
+"JOYBUTTON14"
+
+# <TEXTSTRING_KEYS_JOYSTICKBUTTON_15>
+"JOYBUTTON15"
+
+# <TEXTSTRING_KEYS_JOYSTICKBUTTON_16>
+"JOYBUTTON16"
+
+# <TEXTSTRING_COMPLETEDLEVEL_PRESSAKEY>
+"Press ESCAPE to restart level, or any other key to continue."
+
+# <TEXTSTRING_AVOPTIONS_CDVOLUME>
+"CD Volume"
+
+# <TEXTSTRING_AVOPTIONS_CDVOLUME_HELP>
+"Adjust the volume of music played from the CD."
+
+# <TEXTSTRING_EXTRAPOLATEMOVEMENT>
+"Extrapolate Movement"
+
+# <TEXTSTRING_EXTRAPOLATEMOVEMENT_HELP>
+"When enabled, other players' movement in multiplayer will look smoother, at the possible cost of accuracy."
+
+# <TEXTSTRING_SESSIONFULL>
+"(Full)"
+
+# <TEXTSTRING_FOXINTERACTIVE>
+"Fox Interactive"
+
+# <TEXTSTRING_PRESENTS>
+"Presents"
+
+# <TEXTSTRING_DELETECONFIGURATION>
+"Delete Configuration"
+
+# <TEXTSTRING_DELETECONFIGURATION_HELP>
+"Select yes to delete this configuration. Deleting a configuration will destroy it permanently."
+
+# <TEXTSTRING_LOADMULTIPLAYERCONFIG_HELP>
+"Press ENTER to load the selected configuration. Press BACKSPACE to delete a configuration. Press ESCAPE to return to the previous menu without doing anything."
+
+# <TEXTSTRING_LOADGAME>
+"Load Game"
+
+# <TEXTSTRING_LOADGAME_HELP>
+"Load a previously saved single player game."
+
+# <TEXTSTRING_SAVEGAME>
+"Save Game"
+
+# <TEXTSTRING_LOADGAME_INSTRUCTIONS>
+"Select a slot from which to load."
+
+# <TEXTSTRING_SAVEGAME_INSTRUCTIONS>
+"Select a slot to which to save."
+
+# <TEXTSTRING_SAVEGAME_EMPTYSLOT>
+"Empty Save Slot"
+
+# <TEXTSTRING_SAVEGAME_ERRORSAVING>
+"Error: game has not been saved."
+
+# <TEXTSTRING_SAVEGAME_ERRORLOADING>
+"Error: save file is corrupt."
+
+# <TEXTSTRING_SAVEGAME_NOSAVESLEFT>
+"No saves left."
+
+# <TEXTSTRING_SAVEGAME_GAMESAVED>
+"Game saved successfully."
+
+# <TEXTSTRING_SAVEGAME_GAMELOADED>
+"Game loaded successfully."
+
+# <TEXTSTRING_SAVEGAME_NOTALLOWED>
+"No save in cheat/debug mode."
+
+# <TEXTSTRING_SAVEGAME_SAVESLEFT>
+"Saves left"
+
+# <TEXTSTRING_AUTOWEAPONCHANGE>
+"Auto Weapon Change"
+
+# <TEXTSTRING_AUTOWEAPONCHANGE_HELP>
+"Do you want to change weapons when you pick up one that you don't already have?"
+
+# <TEXTSTRING_MAINMENU_SUBTITLE>
+"Gold Edition"
+
+# <TEXTSTRING_BRIEFING_PREDATOR_PISTOL>
+"Predator Pistol"
+
+# <TEXTSTRING_BRIEFING_UNAVAILABLE_WEAPONS>
+"Unavailable weapons :"
+
+# <TEXTSTRING_NEW_LEVEL>
+"New"
+
+# <TEXTSTRING_CUSTOM_LEVEL>
+"Custom"
+
+# <TEXTSTRING_MULTIPLAYER_OPERATETORESPAWN>
+"Press operate to respawn"
+
+# <TEXTSTRING_MULTIPLAYER_OPERATETOOBSERVE>
+"Press operate to observe remaining players"
+
+@ This line signifies end of file. Do not delete!
+																			 
