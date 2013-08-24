@@ -1,0 +1,1 @@
+NewWolf_ARM.exe +set r_mode 4 +set r_colorbits 32 +set r_fullscreen 0

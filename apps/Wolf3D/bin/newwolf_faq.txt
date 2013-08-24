@@ -1,0 +1,106 @@
+NewWolf Frequently asked Questions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+http://wolfgl.narod.ru
+
+1. What is NewWolf?
+
+  NewWolf is a free unofficial conversion of Wolfenstein 3D game.
+It uses OpenGL library for rendering and DirectX library
+for sound and music.
+
+2. What is Wolfenstein 3D after all?
+
+  Quoting Wolfenstein 3D FAQ by Adam Williamson:
+"Wolfenstein-3D is a 3-dimensional action game from iD Software."
+It was released in 1992. It was developed for MS DOS, but official
+ports to Mac followed. There was Nintendo version also.
+
+3. What do I need to play NewWolf?
+
+  First you will need 32-bit Windows operating system (95/98/Me/NT/2000/XP).
+You'll also need:
+	Video card with hardware OpenGL support.
+	DirectX compatible Audio card (for sound and music).
+  32Mb RAM for Win 95/98, 64Mb RAM for Win Me/NT, 128-256 for Win 2000/XP.
+  Some version of original Wolfenstein.
+
+4. I do not have original Wolfenstein. Where can I get it?
+
+  You may go to the local store & buy it. You may download demo (shareware)
+version from NewWolf official site http://wolfgl.narod.ru
+
+5. I have original Wolfenstein but NewWolf doesn't work with it.
+
+  You may have an older version of Wolfenstein 3D. You need version 1.4 in order
+to play NewWolf.
+Since NewWolf v0.65 you can use Wolf3D 1.1, 1.2 and 1.4.
+
+6. How can I find my version number?
+
+  You can find out which version of Wolf3D you have, by running
+wolf3d.exe [original exe, shipped with your Wolf3D]. In the very first
+screen [where it tells you free memory & wether you have a Sound Card/
+Mouse/Joistick] look to the lower left corner. There will be v#.#
+It is Wolf3D version.
+
+7. How to change screen resolution?
+
+  Simmilar to Quake engine games change r_mode, r_fullscreen and r_colorbits values
+through the console and restart NewWolf.
+
+7.a From command line:
+In short all you need is to run NewWolf is such a way:
+NewWolf.exe +set r_mode X +set r_colorbits Y +set r_fullscreen Z
+X: video mode:
+
+mode 0: 320x240
+mode 1: 400x300
+mode 2: 512x384
+mode 3: 640x480
+mode 4: 800x600
+mode 5: 960x720
+mode 6: 1024x768
+mode 7: 1152x864
+mode 8: 1280x960
+mode 9: 1600x1200
+mode 10: 2048x1536
+mode 11: 320x200
+mode 12: 640x400
+mode 13: 1280x1024
+
+Y: colordepth (can be 16 or 32)
+Z: 0 - run in window, 1 - fullscreen
+
+Yes, the principle is the same as in Quake games; you can even change those values using console and restart NewWolf.
+The settings are saved, so wouldn't need to run it like this all the time (nothing bad though)
+
+8. How to run wolf3d/sod form one installation dir?
+
+1) when you'll run it like this:
+newwolf.exe +set datadir d:\games\wolf3d
+newwolf.exe +set datadir d:\games\spear
+It would look for wolf data files in specified dir (can be relative with "." and "..") and would quit with an error if data not found. It would allow to run NewWolf from outside wolf data tree. (Savegames, configs, etc would be in one place (basewgl by default) though, but it also can be overriden with +set game <dir name> parameter.
+
+2) when you'll run it with the following param:
+newwolf.exe +set gametype sod
+newwolf.exe +set gametype wl6
+It would search for the specified game type in datadir (current dir by default).
+
+9. How to change mouse speed?
+
+  During game press [~] to get console down.
+Then type 'sensitivity x' to change mouse speed to value x.
+You can find out current mouse speed by typing 'sensitivity'.
+
+10. Is source code available?
+
+  Yes, it is distributed under GPL license.
+
+11. Will there be network support?
+ 
+  Yes, but I don't know when.
+
+12. I have a problem. What to do?
+
+  Send me an e-mail to DarkOne@mail.navigators.lv
+Also send me (if present) condump.txt file from Basewgl subdirectory
