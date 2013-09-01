@@ -1,0 +1,235 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.75 [en] (X11; U; Linux 2.2.17-21mdksmp i686) [Netscape]">
+   <meta name="Author" content="Mark B. Allan and the Reptile Labour Project">
+   <title>[ chromium  B.S.U. ] - F.A.Q.</title>
+</head>
+<body text="#E0E0E0" bgcolor="#463C64" link="#C0C0FF" vlink="#8080C0" alink="#FFFFFF">
+
+<center><b><font face="Helvetica"><font color="#C0C0FF"><font size=+2>F&nbsp;
+.&nbsp; A&nbsp; .&nbsp; Q&nbsp; .</font></font></font></b>
+<br><b><font face="Helvetica"><font color="#281E46"><font size=+2>&nbsp;
+F&nbsp; .&nbsp; A&nbsp; .&nbsp; Q&nbsp; .</font></font></font></b></center>
+
+<blockquote>
+<blockquote>
+<ol>
+<li>
+<font face="Helvetica"><a href="#q1">I keep getting killed. Why is is so
+difficult?</a></font></li>
+
+<li>
+<font face="Helvetica"><a href="#q2">Can I listen to my own music?</a></font></li>
+
+<li>
+<font face="Helvetica"><a href="#q4">How well will it work with my video
+card?</a></font></li>
+
+<li>
+<font face="Helvetica"><a href="#q5">The game runs very slowly. Why?</a></font></li>
+
+<li>
+<font face="Helvetica"><a href="#q6">I have a Voodoo3, and can run Quake,
+etc., but Chromium exits with an error message.</a></font></li>
+
+<li>
+<font face="Helvetica"><a href="#q7">How do I set up hardware acceleration
+in Linux?</a></font></li>
+
+<li>
+<font face="Helvetica"><a href="#q8">I am using the Linux NVIDIA drivers,
+but things aren't working properly. Can you help?</a></font></li>
+
+<li>
+<font face="Helvetica"><a href="#q9">Chromium crashes if I try to run it
+on Windows NT. Why?</a></font></li>
+
+<li>
+<font face="Helvetica"><a href="#q10">I cannot adjust the music or sound
+volume on Windows. Why?</a></font></li>
+
+<br>&nbsp;</ol>
+</blockquote>
+<a NAME="q1"></a>
+<br><b><font face="Helvetica">Q: I keep getting killed. Why is is so difficult?</font></b>
+<br><font face="Helvetica"><b>A: </b>Quitcher whinin', you ninny! It's
+supposed to be hard! Seriously, Chromium B.S.U. is intended to be a 15
+minute adrenaline rush/mental cleanser. Frequent doses of explosions (even
+your own) can be very therapeutic.</font>
+<p><a NAME="q2"></a>
+<br><b><font face="Helvetica">Q: Can I listen to my own music?</font></b>
+<br><font face="Helvetica"><b>A: </b>Yes! Chromium supports 3 different
+types of background music:</font>
+<ul>
+<li>
+<font face="Helvetica">default WAV loop</font></li>
+
+<li>
+<font face="Helvetica">CD tracks. If CDROM playback is enabled, track 1
+on the CD will be played for level 1, track 2 for level 2, etc.</font></li>
+
+<li>
+<font face="Helvetica">User-selectable PlayList (Linux only). Depending
+on how the OpenAL library was configured, WAV, MP3 and/or Ogg/Vorbis tracks
+can be used for background music.</font></li>
+
+<li>
+<font face="Helvetica"><b>NOTE:</b> For Playlist and CDROM, you can skip
+to the next song during a game by pressing the "N" key.</font></li>
+</ul>
+
+<p><br><a NAME="q4"></a>
+<br><b><font face="Helvetica">Q: How well will it work with my video card?</font></b>
+<br><font face="Helvetica"><b>A: </b>This is a loaded question, but in
+general, Chromium should run well on a wide range of OpenGL hardware. Chromium
+is intended to run at 50fps, and has been tested successfully on machines
+ranging from a 266MHz laptop with a 4MB RagePro chip to a dual 800 with
+a GeForce2.</font>
+<p><a NAME="q5"></a>
+<br><b><font face="Helvetica">Q: The game runs <u>very</u> slowly. Why?</font></b>
+<br><font face="Helvetica"><b>A: </b>Chromium absolutely requires hardware
+acceleration - it will not run at acceptable speeds with software OpenGL.
+If the OpenGL 'Vendor' string printed out during start-up is 'Brian Paul',
+you're definitely running in software. See <a href="#q7">question 7</a>.</font>
+<p><a NAME="q6"></a>
+<br><b><font face="Helvetica">Q: I have a Voodoo3, and can run Quake, etc.
+But Chromium exits with the error message about the X server not being
+configured for GLX. Why?</font></b>
+<br><font face="Helvetica"><b>A: </b>By default, SDL wants a GLX enabled
+X server. Chromium runs fine with the XFree4/DRI Voodoo drivers, but the
+old fullscreen Glide/Mesa hack for the XFree3.3.x is not recognized as
+valid. Some people have been able to run Chromium with this setup, some
+have not. I believe there is a configure option when building SDL that
+will allow use of the XFree3.3.x/Glide/Mesa.</font>
+<p><a NAME="q7"></a>
+<br><b><font face="Helvetica">Q: How do I set up hardware acceleration
+in Linux?</font></b>
+<br><font face="Helvetica"><b>A: </b>There are several options, depending
+on what video card you have (roughly in order of installation difficulty):</font>
+<ul>
+<li>
+<font face="Helvetica"><a href="http://utah-glx.sourceforge.net/">Utah
+GLX + XFree3.3.x</a> - ATI RagePro, Matrox G200/400, and some others. Installation
+is usually painless.</font></li>
+
+<li>
+<font face="Helvetica"><a href="http://www.nvidia.com/Products/OpenLinuxDwn.nsf/xfree86_40downloadmain?OpenPage">NVIDIA
+GLX + XFree4</a> - NVIDIA cards. If you <b><font color="#E0E0E0">follow
+the install instructions carefully</font></b>, you are far less likely
+to have problems.</font></li>
+
+<li>
+<font face="Helvetica"><a href="http://dri.sourceforge.net/">DRI + XFree4</a>
+- 3dfx, ATI, Matrox, et. al. Some distributions are shipping DRI enabled
+XF4 drivers, so installation is a non-issue. 3dfx also provides fairly
+pain-free installation <a href="http://linux.3dfx.com/open_source/drivers.htm">RPMs
+for their Voodoo line</a>. However, installing from source is a major ordeal,
+so I wouldn't recommend it unless you know what you're doing.</font></li>
+</ul>
+<a NAME="q8"></a>
+<br><b><font face="Helvetica">Q: I am using the Linux NVIDIA drivers, but
+things aren't working properly. Can you help?</font></b>
+<br><font face="Helvetica"><b>A: </b>Most of the problems associated with
+the NVIDIA drivers can be attributed to an improper install. Unfortunately,
+most distributions are not following the <a href="http://oss.sgi.com/projects/ogl-sample/ABI">Linux
+OpenGL ABI</a> very well (if at all). This makes it virtually impossible
+for 3rd party vendors to provide easy-to-install drivers. First, carefully
+read the <a href="ftp://ftp1.detonator.nvidia.com/pub/drivers/english/XFree86_40/NVIDIA_Linux.html">NVIDIA
+Linux FAQ</a>, then verify the following:</font>
+<ul>
+<li>
+<font face="Helvetica">Do a 'locate libGL.so'. Verify that every libGL.so*
+on your system is the NVIDIA lib (in /usr/lib) or a symbolic link to the
+NVIDIA lib.</font></li>
+
+<li>
+<font face="Helvetica">In /usr/X11R6/lib/modules/extensions/, there should
+<u>not</u>
+be a libGLcore.a or a libglx.a file (although there will be libglx.so*
+files)</font></li>
+
+<li>
+<font face="Helvetica">Mandrake 7.2 has added yet another wrinkle to NVIDIA
+installation hassles with their libGLwrapper. Go to /usr/X11R6/lib and
+get rid of libGLwrapper.so* (and libGL.so* files if they are there, although
+you'll want to leave libGLU.so* alone).</font></li>
+
+<li>
+<font face="Helvetica">If you are still having problems, disable AGP in
+your XF86Config.</font></li>
+
+<li>
+<font face="Helvetica">This stuff (exept the new Mandrake libGLwrapper)
+is all covered in the NVIDIA FAQ.</font></li>
+
+<li>
+<font face="Helvetica">You can go to the #nvidia channel at irc.openprojects.net
+if you need additional help.</font></li>
+</ul>
+<a NAME="q9"></a>
+<br><b><font face="Helvetica">Q: Chromium crashes if I try to run it on
+Windows NT. Why?</font></b>
+<br><font face="Helvetica"><b>A: </b>The Windows <a href="http://www.openal.org">OpenAL</a>
+implementation still needs a lot of work. At the current time, Windows
+NT is not well (if at all) supported by OpenAL, although Windows 95, 98
+and 2000 seem to work OK. You can play Chromium on NT with sound disabled
+by using the '-na' command line option. (edit the START.BAT file, and add
+-na after chromium)</font>
+<p><a NAME="q10"></a>
+<br><b><font face="Helvetica">Q: I cannot adjust the music or sound volume
+on Windows. Why?</font></b>
+<br><font face="Helvetica"><b>A: </b>The Windows <a href="http://www.openal.org">OpenAL</a>
+implementation still needs a lot of work. Hopefully this will be fixed
+in the near future.</font>
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<blockquote>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;</blockquote>
+
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;</blockquote>
+
+</body>
+</html>

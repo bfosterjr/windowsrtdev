@@ -1,0 +1,19 @@
+Chromium B.S.U.
+
+Please read the INSTALL file. 
+
+Chromium B.S.U. is distributed under terms of the Artistic License. See
+the LICENSE file for details.
+
+--------------------------------------------------
+Chromium B.S.U. command line options
+--------------------------------------------------
+   -f/--fullscreen     : run in fullscreen mode
+   -w/--window         : run in windowed mode
+   -v/--vidmode <mode> : mode 0 =  512 x  384
+                       :      1 =  640 x  480
+                       :      2 =  800 x  600
+                       :      3 = 1024 x  768
+                       :      4 = 1280 x 1024
+  -na/--noaudio        : do not initialize audio
+--------------------------------------------------
