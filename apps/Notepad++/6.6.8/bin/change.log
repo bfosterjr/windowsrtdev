@@ -1,0 +1,21 @@
+Notepad++ v6.6.8 new feature and bug fixes:
+
+1.  Settings on cloud - Google Drive.
+2.  Fix Settings on cloud - OneDrive detection error.
+3.  Make internal docking dialogs apply the selected theme's background and foreground colours.
+4.  Fix the bug that "backslash is escape char for SQL" setting is not saved correctly.
+5.  Fix the bug that user cannot disable "backslash is SQL escape char" without restarting.
+6.  Fix DocMap's syntax highlighting doesn't update while current doc apply a new syntax highlighting.
+7.  Add 2 new plugins APIs: NPPM_GETEDITORDEFAULTBACKGROUNDCOLOR & NPPM_GETEDITORDEFAULTFOREGROUNDCOLOR
+8.  Add new notification NPPN_SNAPSHOTDIRTYFILELOADED to notify plugins that a snapshot dirty file is loaded on startup.
+
+
+Included plugins:
+
+1.  DSpellCheck v1.2.12
+2.  NppFTP 0.24.1
+3.  NppExport v0.2.8
+4.  Plugin Manager 1.0.8
+5.  Converter 3.0
+6.  Mime Tool 1.9
+
