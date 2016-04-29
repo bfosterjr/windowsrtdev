@@ -22,7 +22,7 @@ def main():
             fname = os.path.join(directory, file).lower()
             if fname.endswith(".exe") or fname.endswith(".dll") or fname.endswith(".sys"):
                 signcmd = [args.signtool,'sign','/v', '/sm', '/s', 'Root', '/n',  args.certname,
-                           '/tr', 'http://www.startssl.com/timestamp','/ph', '/fd', 'sha256',
+                           '/tr', 'http://time.certum.pl','/ph', '/fd', 'sha256',
                            fname]
                 subprocess.call(signcmd)
 
