@@ -1,0 +1,1 @@
+b2 -j8 -a toolset=msvc-12.0 address-model=32 architecture=arm link=static threading=multi runtime-link=shared --build-type=minimal stage --stagedir=stage/arm define=_ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 
